@@ -1,0 +1,38 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "test.file",
+			"runtimeExecutable": "${env:NVM_BIN}/node",
+			"runtimeArgs": [
+				"--inspect-brk",
+				"${workspaceFolder}/node_modules/.bin/jest",
+				"${relativeFile}",
+				"--no-cache"
+			],
+			"port": 9229,
+			"cwd": "${fileDirname}",
+			"console": "integratedTerminal",
+			"internalConsoleOptions": "neverOpen"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "test.all",
+			"runtimeExecutable": "${env:NVM_BIN}/node",
+			"runtimeArgs": [
+				"--inspect-brk",
+				"${workspaceFolder}/node_modules/.bin/jest"
+			],
+			"port": 9229,
+			"cwd": "${fileDirname}",
+			"console": "integratedTerminal",
+			"internalConsoleOptions": "neverOpen"
+		}
+	]
+}
