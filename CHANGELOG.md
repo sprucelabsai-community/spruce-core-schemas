@@ -1,3 +1,5 @@
+## [10.31.94](https://github.com/sprucelabsai/spruce-core-schemas/compare/v10.31.93...v10.31.94) (2020-10-06)
+
 <<<<<<< HEAD
 # Change Log
 =======
