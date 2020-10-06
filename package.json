@@ -38,7 +38,7 @@
 	},
 	"dependencies": {
 		"@sprucelabs/error": "^2.2.429",
-		"@sprucelabs/schema": "^13.0.6"
+		"@sprucelabs/schema": "^13.0.7"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.11.6",
