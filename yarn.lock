@@ -1172,10 +1172,10 @@
   resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.272.tgz#0b91e0b6e11ae4b1a0047f073917eaf93948a6a2"
   integrity sha512-Bihl/hfZFQcvx8vsd3r2HP5vJMu88q9a0Ar43jSHy/uRYER2T6SXx25AE8Ng3uNi6Z/3MNDqE5UiC2rO+4AXUQ==
 
-"@sprucelabs/schema@^13.0.23":
-  version "13.0.23"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.23.tgz#ffbd43ed175e1e0f021a1eb4b95472590f7cc8c3"
-  integrity sha512-GaZlra91NaxYi6uwilzNBt0MwHWZv1OUpK14UfZCD5U83kMY6IicvycFFh2Edd5Te4iPTqJ9uXUtVvKyPs3otA==
+"@sprucelabs/schema@^13.0.24":
+  version "13.0.24"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.24.tgz#60f6cc1d4bbaacffd36e5848083a3971ba9ab173"
+  integrity sha512-wPlwVk4WzHKFcUxP+ErJv9pdnjjFqIgv/p7/Sdz6+yuawrXeVzQJ7zJ5Ue0QEm5QeS4S8qEiCFZaq0W+uaFf9Q==
   dependencies:
     "@sprucelabs/error" "^2.2.431"
     "@sprucelabs/log" "^10.2.272"
