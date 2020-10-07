@@ -11,7 +11,7 @@
 		"build/**/*",
 		"tsconfig.json"
 	],
-	"description": "Schemas provided by the Spruce platform to all skills.",
+	"description": "The schemas that Mercury and all skills use. 🤝",
 	"keywords": [
 		"node",
 		"sprucelabs"
