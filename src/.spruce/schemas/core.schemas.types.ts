@@ -7,6 +7,7 @@ import * as SpruceSchema from '@sprucelabs/schema'
 
 
 
+
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
@@ -31,6 +32,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export type AclEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IAclSchema>
 
 }
+
 
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
@@ -116,6 +118,56 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 }
 
 
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	/** A company or team. Comprises of many people and locations. */
+	export interface IOrganization {
+		
+			/** Id. */
+			'id'?: string| undefined | null
+			/** Name. */
+			'name': string
+			/** Slug. */
+			'slug': string
+	}
+
+	export interface IOrganizationSchema extends SpruceSchema.ISchema {
+		id: 'organization',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: 'Organization',
+		description: 'A company or team. Comprises of many people and locations.',
+		    fields: {
+		            /** Id. */
+		            'id': {
+		                label: 'Id',
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** Name. */
+		            'name': {
+		                label: 'Name',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Slug. */
+		            'slug': {
+		                label: 'Slug',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type OrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IOrganizationSchema>
+
+}
+
+
+
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** A position at a company. The answer to the question; What is your job? */
@@ -188,6 +240,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export type JobEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IJobSchema>
 
 }
+
 
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
@@ -265,6 +318,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export type PersonEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonSchema>
 
 }
+
 
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
@@ -359,6 +413,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 }
 
 
+
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** Various sizes that a profile image comes in. */
@@ -417,6 +472,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 }
 
 
+
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
@@ -450,6 +506,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export type SkillCreatorEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ISkillCreatorSchema>
 
 }
+
 
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
