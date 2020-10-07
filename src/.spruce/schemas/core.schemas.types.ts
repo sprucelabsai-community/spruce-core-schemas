@@ -125,7 +125,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface IOrganization {
 		
 			/** Id. */
-			'id'?: string| undefined | null
+			'id': string
 			/** Name. */
 			'name': string
 			/** Slug. */
@@ -143,6 +143,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'id': {
 		                label: 'Id',
 		                type: 'id',
+		                isRequired: true,
 		                options: undefined
 		            },
 		            /** Name. */

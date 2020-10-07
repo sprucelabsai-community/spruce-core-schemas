@@ -1,3 +1,4 @@
+
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -20,6 +21,7 @@ const skillCreatorSchema: SpruceSchemas.Spruce.v2020_07_22.ISkillCreatorSchema  
 	            },
 	    }
 }
+
 
 
 export default skillCreatorSchema

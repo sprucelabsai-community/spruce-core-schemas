@@ -1,3 +1,4 @@
+
 import { SpruceSchemas } from '../../core.schemas.types'
 
 import aclSchema from '#spruce/schemas/spruce/v2020_07_22/acl.schema'
@@ -51,6 +52,7 @@ const jobSchema: SpruceSchemas.Spruce.v2020_07_22.IJobSchema  = {
 	            },
 	    }
 }
+
 
 
 export default jobSchema

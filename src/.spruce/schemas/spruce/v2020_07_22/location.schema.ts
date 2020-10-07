@@ -1,3 +1,4 @@
+
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -58,6 +59,7 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.ILocationSchema  = {
 	            },
 	    }
 }
+
 
 
 export default locationSchema

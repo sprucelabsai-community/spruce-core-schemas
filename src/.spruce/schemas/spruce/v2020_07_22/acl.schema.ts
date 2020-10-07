@@ -1,3 +1,4 @@
+
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -14,6 +15,7 @@ const aclSchema: SpruceSchemas.Spruce.v2020_07_22.IAclSchema  = {
 	    isArray: true,
 	    options: undefined
 	}}
+
 
 
 export default aclSchema

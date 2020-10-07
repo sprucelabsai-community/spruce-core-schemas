@@ -1,3 +1,4 @@
+
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -39,6 +40,7 @@ const profileImageSchema: SpruceSchemas.Spruce.v2020_07_22.IProfileImageSchema  
 	            },
 	    }
 }
+
 
 
 export default profileImageSchema
