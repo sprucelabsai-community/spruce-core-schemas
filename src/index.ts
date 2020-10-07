@@ -7,3 +7,4 @@ export { default as personLocationSchema } from '#spruce/schemas/spruce/v2020_07
 export { default as profileImageSchema } from '#spruce/schemas/spruce/v2020_07_22/profileImage.schema'
 export { default as skillSchema } from '#spruce/schemas/spruce/v2020_07_22/skill.schema'
 export { default as skillCreatorSchema } from '#spruce/schemas/spruce/v2020_07_22/skillCreator.schema'
+export { default as organizationSchema } from '#spruce/schemas/spruce/v2020_07_22/organization.schema'
