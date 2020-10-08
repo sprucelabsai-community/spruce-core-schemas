@@ -1162,22 +1162,22 @@
     tsconfig-paths "^3.9.0"
     yargs "^16.0.3"
 
-"@sprucelabs/error@^2.2.438":
-  version "2.2.438"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.438.tgz#182902c8457f2a04fc7a275692d5dfe3cecee3c2"
-  integrity sha512-PXrwKpxH59kgT6hH6b4rqybbt9epEPH2Ej/rUgs4PT4EWBOX5os7jpNwzmTVXjO81ZjEsKx/CoJppm9BIQs4Gw==
+"@sprucelabs/error@^2.2.439":
+  version "2.2.439"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.439.tgz#f05b168eadd05bb4fbd1fc9d6bced93775061e8a"
+  integrity sha512-sVEmJW6k1qDiGkiaoAOhdIt+KySruLMaQnqt8DTyM4MyZ/43lshSRPB4d9iSexHiKSrEV2icVstA+zFwm3dOIQ==
 
 "@sprucelabs/log@^10.2.274":
   version "10.2.274"
   resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.274.tgz#130438ff05e6b1d4c6a47df0e6da05b6da69964d"
   integrity sha512-/9nykvr3GesMfV8Al1ZhFYBt5J+92LdB4N3RBXKAKulKKBngi0/U0Ga/KdHgM1ALupE5AYSTiYRkh841gruyrw==
 
-"@sprucelabs/schema@^13.0.54":
-  version "13.0.54"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.54.tgz#99273e2bc066599deabcfd9a97769e882d6e453e"
-  integrity sha512-u6SpxClKMB9tB9Rykz28RvftpofXhBFLXD1DFNYdQhQvVz6HgdP6H22xEbTu4BLhphPGpDNa25BGV7sPMF/1Yw==
+"@sprucelabs/schema@^13.0.55":
+  version "13.0.55"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.55.tgz#dda430718bc9f4e9f5c5d7f5f5b965a0864c9f47"
+  integrity sha512-jbXopu4qH7AJdjMVRo1/OJC9AkBoH3CiA6Rnzsm8Ji4lAThreZdHuDQjiKdAp9jxQJe3zyIjdR+PdzEpRwn/uA==
   dependencies:
-    "@sprucelabs/error" "^2.2.438"
+    "@sprucelabs/error" "^2.2.439"
     "@sprucelabs/log" "^10.2.274"
     google-libphonenumber "^3.2.13"
     libphonenumber-js "^1.8.3"
@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
 
-"@types/node@>= 8", "@types/node@^14.11.5":
-  version "14.11.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.5.tgz#fecad41c041cae7f2404ad4b2d0742fdb628b305"
-  integrity sha512-jVFzDV6NTbrLMxm4xDSIW/gKnk8rQLF9wAzLWIOg+5nU6ACrIMndeBdXci0FGtqJbP9tQvm6V39eshc96TO2wQ==
+"@types/node@>= 8", "@types/node@^14.11.6":
+  version "14.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.6.tgz#a332341dc32dd896d55c6c1a64a3105701bccd67"
+  integrity sha512-1/AVlPLmRzzTDc+T28H3AaA12Be1X74mqYDaecFFCo5r5aw3Lqj+PAqAE06nefV33otTl5JLfiIp5HgRrpu4SA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
