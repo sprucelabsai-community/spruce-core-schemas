@@ -185,6 +185,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'organizationId': string
 			/** Person. */
 			'personId': string
+			
+			'dateCreated': number
+			
+			'dateDeleted'?: number| undefined | null
 	}
 
 	export interface IPersonOrganizationSchema extends SpruceSchema.ISchema {
@@ -220,6 +224,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Person',
 		                type: 'id',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateDeleted': {
+		                type: 'number',
 		                options: undefined
 		            },
 		    }
