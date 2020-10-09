@@ -1,3 +1,10 @@
+# [11.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v10.32.54...v11.0.0) (2020-10-09)
+
+
+### Breaking Changes
+
+* added personOrg, role, dropped job ([4777c0e](https://github.com/sprucelabsai/spruce-core-schemas/commit/4777c0e))
+
 ## [10.32.54](https://github.com/sprucelabsai/spruce-core-schemas/compare/v10.32.53...v10.32.54) (2020-10-09)
 
 ## [10.32.53](https://github.com/sprucelabsai/spruce-core-schemas/compare/v10.32.52...v10.32.53) (2020-10-09)
