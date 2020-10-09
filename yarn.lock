@@ -1162,23 +1162,23 @@
     tsconfig-paths "^3.9.0"
     yargs "^16.0.3"
 
-"@sprucelabs/error@^2.2.449":
-  version "2.2.450"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.450.tgz#7f4f1c5dc11042c9c11092aff391e98148a5cec7"
-  integrity sha512-wdp0GqqHPk61m4uI4M+l4yHwvYXpzqywHTNJv8aHKQ4YpoM2MJTAAIDEF7j6Kj29fta2+/SgftwhZkNhmrLlzA==
+"@sprucelabs/error@^2.2.451":
+  version "2.2.451"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.451.tgz#2b640a67cfa36370c1060b3159d2befb843da10a"
+  integrity sha512-nWhAGYmAuplL14WS16g29PBzYzSyUssA4ePfsOpzlyDDrJRkQvh6p7HiTAab4a/WJHjDUT2Ophpyp9Czsx1OVg==
 
-"@sprucelabs/log@^10.2.281":
-  version "10.2.282"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.282.tgz#c593f4a5b4f6c33cd454c1779d14199233ab256a"
-  integrity sha512-VS+U8m9FklKXgWPoQQ31PB9Drrum8ElRAfW56Um95uGJwbRWhlzi6E2HRfEGGZfKszH+qJZXcIdvI4HB0jji9A==
+"@sprucelabs/log@^10.2.283":
+  version "10.2.283"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.283.tgz#b4223be9f34e2e1e41a7f272eaf05c963fe8f4d6"
+  integrity sha512-y/ZcaONLM3yrZr2ogPGSLdf6de/CjYXePg6rOw8pE4gX9zYNq8PMTsoTUCORK3IQhefOBxfVjkoSxs39nejWWw==
 
-"@sprucelabs/schema@^13.0.82":
-  version "13.0.82"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.82.tgz#71fb56c01079a3f58d4342ff71f235b8512fc864"
-  integrity sha512-Er0VrsMdiSJk9ar6Hvt1y2IUHnZIT0Oy2uCoH7j02gDu6DAMfigg050fnpZr2u9RupACQrvjsqsMK55uoh1X/w==
+"@sprucelabs/schema@^13.0.83":
+  version "13.0.83"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.83.tgz#da56fec145b8dd70271c804864a0b31a2d3a54a1"
+  integrity sha512-zLv34pSW+gRpNM9/bAvTJsHuORG0T+rX7BZ4pb3Hfqku5VxrNdK5z7Q/+q8xYu2WN9q9ea6/WIcGKcXeHpMNXA==
   dependencies:
-    "@sprucelabs/error" "^2.2.449"
-    "@sprucelabs/log" "^10.2.281"
+    "@sprucelabs/error" "^2.2.451"
+    "@sprucelabs/log" "^10.2.283"
     google-libphonenumber "^3.2.13"
     libphonenumber-js "^1.8.4"
     mime-db "^1.45.0"
@@ -7175,9 +7175,9 @@ tsconfig-paths@^3.9.0:
     strip-bom "^3.0.0"
 
 tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.0.tgz#d624983f3e2c5e0b55307c3dd6c86acd737622c6"
-  integrity sha512-+Zw5lu0D9tvBMjGP8LpvMb0u2WW2QV3y+D8mO6J+cNzCYIN4sVy43Bf9vl92nqFahutN0I8zHa7cc4vihIshnw==
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tsutils@^3.17.1:
   version "3.17.1"
