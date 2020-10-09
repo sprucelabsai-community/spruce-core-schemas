@@ -27,6 +27,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'timezone'?: ("etc/gmt+12" | "pacific/midway" | "pacific/honolulu" | "us/alaska" | "america/los_Angeles" | "america/tijuana" | "us/arizona" | "america/chihuahua" | "us/mountain" | "america/managua" | "us/central" | "america/mexico_City" | "Canada/Saskatchewan" | "america/bogota" | "us/eastern" | "us/east-indiana" | "Canada/atlantic" | "america/caracas" | "america/manaus" | "america/Santiago" | "Canada/Newfoundland" | "america/Sao_Paulo" | "america/argentina/buenos_Aires" | "america/godthab" | "america/montevideo" | "america/Noronha" | "atlantic/cape_Verde" | "atlantic/azores" | "africa/casablanca" | "etc/gmt" | "europe/amsterdam" | "europe/belgrade" | "europe/brussels" | "europe/Sarajevo" | "africa/lagos" | "asia/amman" | "europe/athens" | "asia/beirut" | "africa/cairo" | "africa/Harare" | "europe/Helsinki" | "asia/Jerusalem" | "europe/minsk" | "africa/Windhoek" | "asia/Kuwait" | "europe/moscow" | "africa/Nairobi" | "asia/tbilisi" | "asia/tehran" | "asia/muscat" | "asia/baku" | "asia/Yerevan" | "asia/Kabul" | "asia/Yekaterinburg" | "asia/Karachi" | "asia/calcutta" | "asia/calcutta" | "asia/Katmandu" | "asia/almaty" | "asia/Dhaka" | "asia/Rangoon" | "asia/bangkok" | "asia/Krasnoyarsk" | "asia/Hong_Kong" | "asia/Kuala_Lumpur" | "asia/Irkutsk" | "Australia/Perth" | "asia/taipei" | "asia/tokyo" | "asia/Seoul" | "asia/Yakutsk" | "Australia/adelaide" | "Australia/Darwin" | "Australia/brisbane" | "Australia/canberra" | "Australia/Hobart" | "pacific/guam" | "asia/Vladivostok" | "asia/magadan" | "pacific/auckland" | "pacific/Fiji" | "pacific/tongatapu")| undefined | null
 			/** Address. */
 			'address': SpruceSchema.IAddressFieldValue
+			
+			'dateCreated': number
+			
+			'dateDeleted'?: number| undefined | null
 	}
 
 	export interface ILocationSchema extends SpruceSchema.ISchema {
@@ -83,6 +87,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isRequired: true,
 		                options: undefined
 		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateDeleted': {
+		                type: 'number',
+		                options: undefined
+		            },
 		    }
 	}
 
@@ -103,6 +118,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'name': string
 			/** Slug. */
 			'slug': string
+			
+			'dateCreated': number
+			
+			'dateDeleted'?: number| undefined | null
 	}
 
 	export interface IOrganizationSchema extends SpruceSchema.ISchema {
@@ -131,6 +150,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Slug',
 		                type: 'text',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateDeleted': {
+		                type: 'number',
 		                options: undefined
 		            },
 		    }
@@ -277,6 +307,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'phone'?: string| undefined | null
 			/** Profile photos. */
 			'profileImages'?: SpruceSchemas.Spruce.v2020_07_22.IProfileImage| undefined | null
+			
+			'dateCreated': number
+			
+			'dateScrambled'?: number| undefined | null
 	}
 
 	export interface IPersonSchema extends SpruceSchema.ISchema {
@@ -329,6 +363,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'schema',
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.IProfileImageSchema,}
 		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateScrambled': {
+		                type: 'number',
+		                options: undefined
+		            },
 		    }
 	}
 
@@ -349,6 +394,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'slug': string
 			/** Name. */
 			'name': string
+			
+			'dateCreated': number
+			
+			'dateDeleted'?: number| undefined | null
 	}
 
 	export interface IRoleSchema extends SpruceSchema.ISchema {
@@ -377,6 +426,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Name',
 		                type: 'text',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateDeleted': {
+		                type: 'number',
 		                options: undefined
 		            },
 		    }
@@ -441,6 +501,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'slug': string
 			/** Creators. The people or skills who created and own this skill. */
 			'creators': SpruceSchemas.Spruce.v2020_07_22.ISkillCreator[]
+			
+			'dateCreated': number
+			
+			'dateDeleted'?: number| undefined | null
 	}
 
 	export interface ISkillSchema extends SpruceSchema.ISchema {
@@ -494,6 +558,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                hint: 'The people or skills who created and own this skill.',
 		                isArray: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ISkillCreatorSchema,}
+		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateDeleted': {
+		                type: 'number',
+		                options: undefined
 		            },
 		    }
 	}
