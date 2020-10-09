@@ -10,33 +10,6 @@ import * as SpruceSchema from '@sprucelabs/schema'
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	
-	export interface IAcl {
-			/** Permissions grouped by slug. */
-			[slug:string]: string[]| undefined | null
-	}
-
-	export interface IAclSchema extends SpruceSchema.ISchema {
-		id: 'acl',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: 'Access control list',
-		dynamicFieldSignature: { 
-		    label: 'Permissions grouped by slug',
-		    type: 'text',
-		    keyName: 'slug',
-		    isArray: true,
-		    options: undefined
-		}	}
-
-	export type AclEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IAclSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
 	/** A physical location where people meet. An organization has at least one of them. */
 	export interface ILocation {
 		
@@ -171,74 +144,117 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	/** A position at a company. The answer to the question; What is your job? */
-	export interface IJob {
+	
+	export interface IPersonOrganization {
 		
 			/** Id. */
-			'id'?: string| undefined | null
-			/** Is default. Is this job one that comes with every org? Mapped to roles (owner, groupManager, manager, guest). */
-			'isDefault': string
+			'id': string
 			/** Name. */
-			'name': string
-			/** Role. */
-			'role': ("owner" | "groupManager" | "manager" | "teammate" | "guest")
-			/** On work permissions. */
-			'inStoreAcls'?: SpruceSchemas.Spruce.v2020_07_22.IAcl| undefined | null
-			/** Off work permissions. */
-			'acls'?: SpruceSchemas.Spruce.v2020_07_22.IAcl| undefined | null
+			'roleIds': string[]
+			/** Organization. */
+			'organizationId': string
+			/** Person. */
+			'personId': string
 	}
 
-	export interface IJobSchema extends SpruceSchema.ISchema {
-		id: 'job',
+	export interface IPersonOrganizationSchema extends SpruceSchema.ISchema {
+		id: 'personOrganization',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
-		name: 'Job',
-		description: 'A position at a company. The answer to the question; What is your job?',
+		name: 'Person <-> organization relationship',
 		    fields: {
 		            /** Id. */
 		            'id': {
 		                label: 'Id',
 		                type: 'id',
-		                options: undefined
-		            },
-		            /** Is default. Is this job one that comes with every org? Mapped to roles (owner, groupManager, manager, guest). */
-		            'isDefault': {
-		                label: 'Is default',
-		                type: 'text',
 		                isRequired: true,
-		                hint: 'Is this job one that comes with every org? Mapped to roles (owner, groupManager, manager, guest).',
 		                options: undefined
 		            },
 		            /** Name. */
-		            'name': {
+		            'roleIds': {
 		                label: 'Name',
-		                type: 'text',
+		                type: 'id',
+		                isRequired: true,
+		                isArray: true,
+		                options: undefined
+		            },
+		            /** Organization. */
+		            'organizationId': {
+		                label: 'Organization',
+		                type: 'id',
 		                isRequired: true,
 		                options: undefined
 		            },
-		            /** Role. */
-		            'role': {
-		                label: 'Role',
-		                type: 'select',
+		            /** Person. */
+		            'personId': {
+		                label: 'Person',
+		                type: 'id',
 		                isRequired: true,
-		                options: {choices: [{"value":"owner","label":"Owner"},{"value":"groupManager","label":"District/region manager"},{"value":"manager","label":"Manager"},{"value":"teammate","label":"Teammate"},{"value":"guest","label":"Guest"}],}
-		            },
-		            /** On work permissions. */
-		            'inStoreAcls': {
-		                label: 'On work permissions',
-		                type: 'schema',
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.IAclSchema,}
-		            },
-		            /** Off work permissions. */
-		            'acls': {
-		                label: 'Off work permissions',
-		                type: 'schema',
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.IAclSchema,}
+		                options: undefined
 		            },
 		    }
 	}
 
-	export type JobEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IJobSchema>
+	export type PersonOrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonOrganizationSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	/** Various sizes that a profile image comes in. */
+	export interface IProfileImage {
+		
+			/** 60x60. */
+			'profile60': string
+			/** 150x150. */
+			'profile150': string
+			/** 60x60. */
+			'profile60@2x': string
+			/** 150x150. */
+			'profile150@2x': string
+	}
+
+	export interface IProfileImageSchema extends SpruceSchema.ISchema {
+		id: 'profileImage',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: 'Profile Image Sizes',
+		description: 'Various sizes that a profile image comes in.',
+		    fields: {
+		            /** 60x60. */
+		            'profile60': {
+		                label: '60x60',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** 150x150. */
+		            'profile150': {
+		                label: '150x150',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** 60x60. */
+		            'profile60@2x': {
+		                label: '60x60',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** 150x150. */
+		            'profile150@2x': {
+		                label: '150x150',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type ProfileImageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IProfileImageSchema>
 
 }
 
@@ -324,143 +340,41 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	/** A person&#x27;s visit to a location (business or home). */
-	export interface IPersonLocation {
+	/** Everyone in Spruce breaks into 5 roles. Owner, District/Regional Manager, Manager, Teammate, and Guest. */
+	export interface IRole {
 		
 			/** Id. */
-			'id'?: string| undefined | null
+			'id': string
+			/** Slug. */
+			'slug': string
 			/** Name. */
-			'roles': ("owner" | "groupManager" | "manager" | "teammate" | "guest")
-			/** Status. */
-			'status'?: string| undefined | null
-			/** Total visits. */
-			'visits': number
-			/** Last visit. */
-			'lastRecordedVisit'?: SpruceSchema.IDateTimeFieldValue| undefined | null
-			/** Job. */
-			'job': SpruceSchemas.Spruce.v2020_07_22.IJob
-			/** Location. */
-			'location': SpruceSchemas.Spruce.v2020_07_22.ILocation
-			/** Person. */
-			'person': SpruceSchemas.Spruce.v2020_07_22.IPerson
+			'name': string
 	}
 
-	export interface IPersonLocationSchema extends SpruceSchema.ISchema {
-		id: 'personLocation',
+	export interface IRoleSchema extends SpruceSchema.ISchema {
+		id: 'role',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
-		name: 'Person location',
-		description: 'A person\'s visit to a location (business or home).',
+		name: 'Role',
+		description: 'Everyone in Spruce breaks into 5 roles. Owner, District/Regional Manager, Manager, Teammate, and Guest.',
 		    fields: {
 		            /** Id. */
 		            'id': {
 		                label: 'Id',
 		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Slug. */
+		            'slug': {
+		                label: 'Slug',
+		                type: 'text',
+		                isRequired: true,
 		                options: undefined
 		            },
 		            /** Name. */
-		            'roles': {
+		            'name': {
 		                label: 'Name',
-		                type: 'select',
-		                isRequired: true,
-		                isArray: true,
-		                options: {choices: [{"value":"owner","label":"Owner"},{"value":"groupManager","label":"District/region manager"},{"value":"manager","label":"Manager"},{"value":"teammate","label":"Teammate"},{"value":"guest","label":"Guest"}],}
-		            },
-		            /** Status. */
-		            'status': {
-		                label: 'Status',
-		                type: 'text',
-		                options: undefined
-		            },
-		            /** Total visits. */
-		            'visits': {
-		                label: 'Total visits',
-		                type: 'number',
-		                isRequired: true,
-		                options: {choices: [{"value":"owner","label":"Owner"},{"value":"groupManager","label":"District/region manager"},{"value":"manager","label":"Manager"},{"value":"teammate","label":"Teammate"},{"value":"guest","label":"Guest"}],}
-		            },
-		            /** Last visit. */
-		            'lastRecordedVisit': {
-		                label: 'Last visit',
-		                type: 'dateTime',
-		                options: undefined
-		            },
-		            /** Job. */
-		            'job': {
-		                label: 'Job',
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.IJobSchema,}
-		            },
-		            /** Location. */
-		            'location': {
-		                label: 'Location',
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ILocationSchema,}
-		            },
-		            /** Person. */
-		            'person': {
-		                label: 'Person',
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.IPersonSchema,}
-		            },
-		    }
-	}
-
-	export type PersonLocationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonLocationSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
-	/** Various sizes that a profile image comes in. */
-	export interface IProfileImage {
-		
-			/** 60x60. */
-			'profile60': string
-			/** 150x150. */
-			'profile150': string
-			/** 60x60. */
-			'profile60@2x': string
-			/** 150x150. */
-			'profile150@2x': string
-	}
-
-	export interface IProfileImageSchema extends SpruceSchema.ISchema {
-		id: 'profileImage',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: 'Profile Image Sizes',
-		description: 'Various sizes that a profile image comes in.',
-		    fields: {
-		            /** 60x60. */
-		            'profile60': {
-		                label: '60x60',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** 150x150. */
-		            'profile150': {
-		                label: '150x150',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** 60x60. */
-		            'profile60@2x': {
-		                label: '60x60',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** 150x150. */
-		            'profile150@2x': {
-		                label: '150x150',
 		                type: 'text',
 		                isRequired: true,
 		                options: undefined
@@ -468,7 +382,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type ProfileImageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IProfileImageSchema>
+	export type RoleEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IRoleSchema>
 
 }
 
