@@ -8,7 +8,7 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Role',
-	description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. All permissions can have defaults tied to these bases that the role will fallback to unless overridden.',
+	description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
 	    fields: {
 	            /** Id. */
 	            'id': {
@@ -24,10 +24,11 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	                isRequired: true,
 	                options: undefined
 	            },
-	            /** Bale. */
+	            /** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
 	            'base': {
-	                label: 'Bale',
+	                label: 'Base',
 	                type: 'select',
+	                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
 	                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"}],}
 	            },
 	            /** Slug. */

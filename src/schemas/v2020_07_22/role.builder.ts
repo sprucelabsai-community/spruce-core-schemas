@@ -4,7 +4,7 @@ export default buildSchema({
 	id: 'role',
 	name: 'Role',
 	description:
-		'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. All permissions can have defaults tied to these bases that the role will fallback to unless overridden.',
+		'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
 	fields: {
 		id: {
 			label: 'Id',
@@ -17,8 +17,10 @@ export default buildSchema({
 			isRequired: true,
 		},
 		base: {
-			label: 'Bale',
+			label: 'Base',
 			type: 'select',
+			hint:
+				'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
 			options: {
 				choices: [
 					{ label: 'Owner', value: 'owner' },
