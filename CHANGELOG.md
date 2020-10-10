@@ -1,3 +1,26 @@
+## [11.1.8](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.7...v11.1.8) (2020-10-10)
+
+## [11.1.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.6...v11.1.7) (2020-10-10)
+
+## [11.1.6](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.5...v11.1.6) (2020-10-10)
+
+## [11.1.5](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.4...v11.1.5) (2020-10-10)
+
+## [11.1.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.3...v11.1.4) (2020-10-10)
+
+## [11.1.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.2...v11.1.3) (2020-10-10)
+
+## [11.1.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.1...v11.1.2) (2020-10-10)
+
+## [11.1.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.0...v11.1.1) (2020-10-10)
+
+# [11.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.0.12...v11.1.0) (2020-10-10)
+
+
+### Features
+
+* role has base ([af2c1ae](https://github.com/sprucelabsai/spruce-core-schemas/commit/af2c1ae))
+
 ## [11.0.12](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.0.11...v11.0.12) (2020-10-10)
 
 ## [11.0.11](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.0.10...v11.0.11) (2020-10-10)
