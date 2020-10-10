@@ -10,26 +10,28 @@ export default buildSchema({
 			isRequired: true,
 		},
 		roleIds: {
-			label: 'Name',
+			label: 'Role ids',
 			type: 'id',
 			isRequired: true,
 			isArray: true,
 		},
 		organizationId: {
-			label: 'Organization',
+			label: 'Organization id',
 			type: 'id',
 			isRequired: true,
 		},
 		personId: {
-			label: 'Person',
+			label: 'Person id',
 			type: 'id',
 			isRequired: true,
 		},
 		dateCreated: {
+			label: 'Date created',
 			type: 'number',
 			isRequired: true,
 		},
 		dateDeleted: {
+			label: 'Date deleted',
 			type: 'number',
 		},
 	},

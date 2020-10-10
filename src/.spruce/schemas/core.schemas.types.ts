@@ -179,15 +179,15 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		
 			/** Id. */
 			'id': string
-			/** Name. */
+			/** Role ids. */
 			'roleIds': string[]
-			/** Organization. */
+			/** Organization id. */
 			'organizationId': string
-			/** Person. */
+			/** Person id. */
 			'personId': string
-			
+			/** Date created. */
 			'dateCreated': number
-			
+			/** Date deleted. */
 			'dateDeleted'?: number| undefined | null
 	}
 
@@ -204,36 +204,38 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isRequired: true,
 		                options: undefined
 		            },
-		            /** Name. */
+		            /** Role ids. */
 		            'roleIds': {
-		                label: 'Name',
+		                label: 'Role ids',
 		                type: 'id',
 		                isRequired: true,
 		                isArray: true,
 		                options: undefined
 		            },
-		            /** Organization. */
+		            /** Organization id. */
 		            'organizationId': {
-		                label: 'Organization',
+		                label: 'Organization id',
 		                type: 'id',
 		                isRequired: true,
 		                options: undefined
 		            },
-		            /** Person. */
+		            /** Person id. */
 		            'personId': {
-		                label: 'Person',
+		                label: 'Person id',
 		                type: 'id',
 		                isRequired: true,
 		                options: undefined
 		            },
-		            /** . */
+		            /** Date created. */
 		            'dateCreated': {
+		                label: 'Date created',
 		                type: 'number',
 		                isRequired: true,
 		                options: undefined
 		            },
-		            /** . */
+		            /** Date deleted. */
 		            'dateDeleted': {
+		                label: 'Date deleted',
 		                type: 'number',
 		                options: undefined
 		            },
