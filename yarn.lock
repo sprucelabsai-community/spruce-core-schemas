@@ -1162,23 +1162,23 @@
     tsconfig-paths "^3.9.0"
     yargs "^16.0.3"
 
-"@sprucelabs/error@^2.2.462":
-  version "2.2.462"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.462.tgz#75be05aa1508fb1c789c1827e172a4fbd6b8cfbe"
-  integrity sha512-LDy1AFMzZPBTXcVAqCFCIZGqpixs8/wXiZKH2xPWye5ecrB/hjSBZVUgHbvPPSG9M0dsGc2m+WW/P7rRq3bM6Q==
+"@sprucelabs/error@^2.2.463":
+  version "2.2.463"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.463.tgz#458f754d3bc01745eab7157a32ff7273c8a1ab7e"
+  integrity sha512-lh6E3uRinpDjRybNoqYoQccmJI5t/bp5zMUJtfI/xttH4Bb5sN7vG+yC9Zn8i1vvMaO4Z7Rz/rGy6Uesc2TiHw==
 
-"@sprucelabs/log@^10.2.287":
-  version "10.2.287"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.287.tgz#1afbeed5d7259f1992c529f4d07ee327e960a1df"
-  integrity sha512-Wxc4MuJdYDSMItKvq48pN7ObuRpk3/dUGHszQd7REvbiEcGAwVVJIsfYPs8D2WA5LXPi6Tsy/6xEsX9mzAY/Lw==
+"@sprucelabs/log@^10.2.288":
+  version "10.2.288"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.288.tgz#22b0ec2b19a7f11ee37fd68865756fe079885fc1"
+  integrity sha512-FeMliUprRUjjqWsoO1Z2gcfPfd4kP2IEz+eD55D63YoEdp+jKiz3L0/EWEA+Ndck3+Czo+56I+k8VS8pO9CClw==
 
-"@sprucelabs/schema@^13.0.123":
-  version "13.0.123"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.123.tgz#43720951461379e4900a5379eef0c61936a5e19f"
-  integrity sha512-lT4WUlcjPw25n0RaydphvtLf4lScafmwhwPyUGpED6bG5lOJkLeRSvwKGBN1lARf8cGLk3XUPR/v05pB795HAA==
+"@sprucelabs/schema@^13.0.124":
+  version "13.0.124"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.124.tgz#b08eeb737853dfe7bd85f8dfd1c75eaee56422aa"
+  integrity sha512-Wja/K23od3KA1t1+EfuprH12kMVVgZPLrUAv97uq02/pUFLnF5CslHzhg3i8bi6b/jHBK/3ku0xq+J+U006biA==
   dependencies:
-    "@sprucelabs/error" "^2.2.462"
-    "@sprucelabs/log" "^10.2.287"
+    "@sprucelabs/error" "^2.2.463"
+    "@sprucelabs/log" "^10.2.288"
     google-libphonenumber "^3.2.13"
     libphonenumber-js "^1.8.4"
     mime-db "^1.45.0"
@@ -5118,9 +5118,9 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 normalize-url@^5.0.0:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.2.1.tgz#492a22a8443e604b13cef4b3a97983d66f08bf65"
-  integrity sha512-bFT2ilr7p37ZPEQ9LO9HP/tdFIAE7Q4UoeojXNKeLjs0vXxZetM+C2K9jdbVS7b6ut66CflVLgk1yqHJVrXmiw==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.3.0.tgz#8959b3cdaa295b61592c1f245dded34b117618dd"
+  integrity sha512-9/nOVLYYe/dO/eJeQUNaGUF4m4Z5E7cb9oNTKabH+bNf19mqj60txTcveQxL0GlcWLXCxkOu2/LwL8oW0idIDA==
 
 npm-audit-report@^1.3.3:
   version "1.3.3"
