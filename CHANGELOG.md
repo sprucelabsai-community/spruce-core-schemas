@@ -1,3 +1,59 @@
+## [11.1.36](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.35...v11.1.36) (2020-10-11)
+
+## [11.1.35](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.34...v11.1.35) (2020-10-11)
+
+## [11.1.34](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.33...v11.1.34) (2020-10-11)
+
+## [11.1.33](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.32...v11.1.33) (2020-10-11)
+
+## [11.1.32](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.31...v11.1.32) (2020-10-11)
+
+## [11.1.31](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.30...v11.1.31) (2020-10-11)
+
+## [11.1.30](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.29...v11.1.30) (2020-10-11)
+
+## [11.1.29](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.28...v11.1.29) (2020-10-11)
+
+## [11.1.28](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.27...v11.1.28) (2020-10-11)
+
+## [11.1.27](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.26...v11.1.27) (2020-10-11)
+
+## [11.1.26](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.25...v11.1.26) (2020-10-11)
+
+## [11.1.25](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.24...v11.1.25) (2020-10-11)
+
+## [11.1.24](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.23...v11.1.24) (2020-10-11)
+
+## [11.1.23](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.22...v11.1.23) (2020-10-11)
+
+## [11.1.22](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.21...v11.1.22) (2020-10-11)
+
+## [11.1.21](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.20...v11.1.21) (2020-10-11)
+
+## [11.1.20](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.19...v11.1.20) (2020-10-10)
+
+## [11.1.19](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.18...v11.1.19) (2020-10-10)
+
+## [11.1.18](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.17...v11.1.18) (2020-10-10)
+
+## [11.1.17](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.16...v11.1.17) (2020-10-10)
+
+## [11.1.16](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.15...v11.1.16) (2020-10-10)
+
+## [11.1.15](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.14...v11.1.15) (2020-10-10)
+
+## [11.1.14](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.13...v11.1.14) (2020-10-10)
+
+## [11.1.13](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.12...v11.1.13) (2020-10-10)
+
+## [11.1.12](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.11...v11.1.12) (2020-10-10)
+
+## [11.1.11](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.10...v11.1.11) (2020-10-10)
+
+## [11.1.10](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.9...v11.1.10) (2020-10-10)
+
+## [11.1.9](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.8...v11.1.9) (2020-10-10)
+
 ## [11.1.8](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.7...v11.1.8) (2020-10-10)
 
 ## [11.1.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.6...v11.1.7) (2020-10-10)
