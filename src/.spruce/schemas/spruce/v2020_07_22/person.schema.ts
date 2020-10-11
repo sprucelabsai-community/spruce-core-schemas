@@ -1,4 +1,4 @@
-
+import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
 import profileImageSchema from '#spruce/schemas/spruce/v2020_07_22/profileImage.schema'
@@ -67,6 +67,6 @@ const personSchema: SpruceSchemas.Spruce.v2020_07_22.IPersonSchema  = {
 	    }
 }
 
-
+SchemaRegistry.getInstance().trackSchema(personSchema)
 
 export default personSchema

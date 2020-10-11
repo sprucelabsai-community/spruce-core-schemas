@@ -1,4 +1,4 @@
-
+import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -58,6 +58,6 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	    }
 }
 
-
+SchemaRegistry.getInstance().trackSchema(roleSchema)
 
 export default roleSchema

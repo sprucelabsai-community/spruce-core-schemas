@@ -1,4 +1,4 @@
-
+import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -54,6 +54,6 @@ const personOrganizationSchema: SpruceSchemas.Spruce.v2020_07_22.IPersonOrganiza
 	    }
 }
 
-
+SchemaRegistry.getInstance().trackSchema(personOrganizationSchema)
 
 export default personOrganizationSchema

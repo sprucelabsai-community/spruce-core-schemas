@@ -1,4 +1,4 @@
-
+import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
 
@@ -45,6 +45,6 @@ const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.IOrganizationSchema  
 	    }
 }
 
-
+SchemaRegistry.getInstance().trackSchema(organizationSchema)
 
 export default organizationSchema
