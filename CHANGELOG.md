@@ -1,3 +1,5 @@
+## [11.1.35](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.34...v11.1.35) (2020-10-11)
+
 ## [11.1.34](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.33...v11.1.34) (2020-10-11)
 
 ## [11.1.33](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.32...v11.1.33) (2020-10-11)
