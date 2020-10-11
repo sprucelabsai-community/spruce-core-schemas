@@ -1163,9 +1163,9 @@
     yargs "^16.0.3"
 
 "@sprucelabs/error@^2.2.465":
-  version "2.2.465"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.465.tgz#16419135aa3033e77990506c1a5e1326b8807892"
-  integrity sha512-n0meeUH9L6dEQp/oT4TF2MnNxtDnS3pHw0+hgqSqa2bRrVu+3oDFeOClq02CwdFcRvf2KvupFh9b5UU1jLxcGA==
+  version "2.2.466"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.466.tgz#f3c23db2feed7266c3e970be46d69c7bbc3271b3"
+  integrity sha512-qHSleImo8wRJpdVknLOwpIZ25sd6qPt+rhLG1eec4CzcmrgEzV5/WJU6rgrmQi+6RParhF+GGMZgM7/IvDhhuA==
 
 "@sprucelabs/log@^10.2.289":
   version "10.2.289"
