@@ -1,3 +1,10 @@
+# [12.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.36...v12.0.0) (2020-10-11)
+
+
+### Breaking Changes
+
+* core schemas register themselves ([9a5b8c1](https://github.com/sprucelabsai/spruce-core-schemas/commit/9a5b8c1))
+
 ## [11.1.36](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.35...v11.1.36) (2020-10-11)
 
 ## [11.1.35](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.34...v11.1.35) (2020-10-11)
