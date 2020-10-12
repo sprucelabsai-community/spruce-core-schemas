@@ -31,11 +31,6 @@ export default buildSchema({
 				],
 			},
 		},
-		slug: {
-			label: 'Slug',
-			type: 'text',
-			isRequired: true,
-		},
 		description: {
 			label: 'Description',
 			type: 'text',

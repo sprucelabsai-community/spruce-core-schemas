@@ -31,13 +31,6 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
 	                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"}],}
 	            },
-	            /** Slug. */
-	            'slug': {
-	                label: 'Slug',
-	                type: 'text',
-	                isRequired: true,
-	                options: undefined
-	            },
 	            /** Description. */
 	            'description': {
 	                label: 'Description',
