@@ -1,3 +1,10 @@
+# [14.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v13.0.0...v14.0.0) (2020-10-12)
+
+
+### Breaking Changes
+
+* no slug on role ([11e47ad](https://github.com/sprucelabsai/spruce-core-schemas/commit/11e47ad))
+
 # [13.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.12...v13.0.0) (2020-10-12)
 
 
