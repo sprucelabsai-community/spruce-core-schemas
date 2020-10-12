@@ -1,3 +1,10 @@
+# [13.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.12...v13.0.0) (2020-10-12)
+
+
+### Breaking Changes
+
+* no anon ([9f21f5c](https://github.com/sprucelabsai/spruce-core-schemas/commit/9f21f5c))
+
 ## [12.0.12](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.11...v12.0.12) (2020-10-12)
 
 ## [12.0.11](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.10...v12.0.11) (2020-10-12)
