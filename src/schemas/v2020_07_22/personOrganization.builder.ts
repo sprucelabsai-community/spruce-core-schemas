@@ -9,12 +9,6 @@ export default buildSchema({
 			type: 'id',
 			isRequired: true,
 		},
-		roleIds: {
-			label: 'Role ids',
-			type: 'id',
-			isRequired: true,
-			isArray: true,
-		},
 		organizationId: {
 			label: 'Organization id',
 			type: 'id',

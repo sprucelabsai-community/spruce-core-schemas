@@ -16,14 +16,6 @@ const personOrganizationSchema: SpruceSchemas.Spruce.v2020_07_22.IPersonOrganiza
 	                isRequired: true,
 	                options: undefined
 	            },
-	            /** Role ids. */
-	            'roleIds': {
-	                label: 'Role ids',
-	                type: 'id',
-	                isRequired: true,
-	                isArray: true,
-	                options: undefined
-	            },
 	            /** Organization id. */
 	            'organizationId': {
 	                label: 'Organization id',

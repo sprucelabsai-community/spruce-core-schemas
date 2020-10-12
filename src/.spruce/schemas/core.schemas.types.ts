@@ -179,8 +179,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		
 			/** Id. */
 			'id': string
-			/** Role ids. */
-			'roleIds': string[]
 			/** Organization id. */
 			'organizationId': string
 			/** Person id. */
@@ -202,14 +200,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Id',
 		                type: 'id',
 		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Role ids. */
-		            'roleIds': {
-		                label: 'Role ids',
-		                type: 'id',
-		                isRequired: true,
-		                isArray: true,
 		                options: undefined
 		            },
 		            /** Organization id. */
