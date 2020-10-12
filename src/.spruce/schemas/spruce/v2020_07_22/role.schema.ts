@@ -48,6 +48,11 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	                type: 'number',
 	                options: undefined
 	            },
+	            /** . */
+	            'organizationId': {
+	                type: 'id',
+	                options: undefined
+	            },
 	    }
 }
 
