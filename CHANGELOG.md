@@ -1,3 +1,34 @@
+## [12.0.12](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.11...v12.0.12) (2020-10-12)
+
+## [12.0.11](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.10...v12.0.11) (2020-10-12)
+
+## [12.0.10](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.9...v12.0.10) (2020-10-12)
+
+## [12.0.9](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.8...v12.0.9) (2020-10-12)
+
+## [12.0.8](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.7...v12.0.8) (2020-10-11)
+
+## [12.0.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.6...v12.0.7) (2020-10-11)
+
+## [12.0.6](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.5...v12.0.6) (2020-10-11)
+
+## [12.0.5](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.4...v12.0.5) (2020-10-11)
+
+## [12.0.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.3...v12.0.4) (2020-10-11)
+
+## [12.0.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.2...v12.0.3) (2020-10-11)
+
+## [12.0.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.1...v12.0.2) (2020-10-11)
+
+## [12.0.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v12.0.0...v12.0.1) (2020-10-11)
+
+# [12.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.36...v12.0.0) (2020-10-11)
+
+
+### Breaking Changes
+
+* core schemas register themselves ([9a5b8c1](https://github.com/sprucelabsai/spruce-core-schemas/commit/9a5b8c1))
+
 ## [11.1.36](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.35...v11.1.36) (2020-10-11)
 
 ## [11.1.35](https://github.com/sprucelabsai/spruce-core-schemas/compare/v11.1.34...v11.1.35) (2020-10-11)

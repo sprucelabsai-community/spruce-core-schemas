@@ -1162,23 +1162,23 @@
     tsconfig-paths "^3.9.0"
     yargs "^16.0.3"
 
-"@sprucelabs/error@^2.2.462":
-  version "2.2.462"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.462.tgz#75be05aa1508fb1c789c1827e172a4fbd6b8cfbe"
-  integrity sha512-LDy1AFMzZPBTXcVAqCFCIZGqpixs8/wXiZKH2xPWye5ecrB/hjSBZVUgHbvPPSG9M0dsGc2m+WW/P7rRq3bM6Q==
+"@sprucelabs/error@^2.2.470":
+  version "2.2.470"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/error/-/error-2.2.470.tgz#7b152c5686d7bca730147eaeaade4d48ac6d44fc"
+  integrity sha512-A8DuPqvfYg2ZmxGdVlNOtCPGCKgy81VoSV7NgBlokHtDjbyjrQYZ7stibZrCZyl1A6Xk3A2r1ZCcPs+Y9VTduA==
 
-"@sprucelabs/log@^10.2.287":
-  version "10.2.287"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.287.tgz#1afbeed5d7259f1992c529f4d07ee327e960a1df"
-  integrity sha512-Wxc4MuJdYDSMItKvq48pN7ObuRpk3/dUGHszQd7REvbiEcGAwVVJIsfYPs8D2WA5LXPi6Tsy/6xEsX9mzAY/Lw==
+"@sprucelabs/log@^10.2.291":
+  version "10.2.291"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/log/-/log-10.2.291.tgz#e3300bcdf85e2867b82a1089a41e3d79691a1007"
+  integrity sha512-qnin03ln8nRp0cEM4/RjKbI3BJFM226fr6uebHrfkIjw+G1HlQoUk/NqrySvS8+T5SFvuc9m0xe3Xdhk27Ffbw==
 
-"@sprucelabs/schema@^13.0.123":
-  version "13.0.123"
-  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.123.tgz#43720951461379e4900a5379eef0c61936a5e19f"
-  integrity sha512-lT4WUlcjPw25n0RaydphvtLf4lScafmwhwPyUGpED6bG5lOJkLeRSvwKGBN1lARf8cGLk3XUPR/v05pB795HAA==
+"@sprucelabs/schema@^13.0.130":
+  version "13.0.130"
+  resolved "https://registry.yarnpkg.com/@sprucelabs/schema/-/schema-13.0.130.tgz#6a743eb10ab06f8083de1c2c3d2970705fda372a"
+  integrity sha512-rvmSvUuIlIad1zBrrswZ2V0CHrU0dMVF0ynBQSZEXbh97zA+TyDX5/+OXX/BHm4bLM1Pizqu62OxH66MY2DmQQ==
   dependencies:
-    "@sprucelabs/error" "^2.2.462"
-    "@sprucelabs/log" "^10.2.287"
+    "@sprucelabs/error" "^2.2.470"
+    "@sprucelabs/log" "^10.2.291"
     google-libphonenumber "^3.2.13"
     libphonenumber-js "^1.8.4"
     mime-db "^1.45.0"
@@ -1872,9 +1872,9 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001135:
-  version "1.0.30001147"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001147.tgz#84d27e5b691a8da66e16887b34c78dacf3935f00"
-  integrity sha512-CPyN875geYk46eIqPl5jlmotCr5YZC2KxIVfb4z0FrNfLxPM+MyodWD2irJGDG8vUUE1fmg3De9vt8uaC6Nf6w==
+  version "1.0.30001148"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001148.tgz#dc97c7ed918ab33bf8706ddd5e387287e015d637"
+  integrity sha512-E66qcd0KMKZHNJQt9hiLZGE3J4zuTqE1OnU53miEVtylFbwOEmeA5OsRu90noZful+XGSQOni1aT2tiqu/9yYw==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -5118,9 +5118,9 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 normalize-url@^5.0.0:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.2.1.tgz#492a22a8443e604b13cef4b3a97983d66f08bf65"
-  integrity sha512-bFT2ilr7p37ZPEQ9LO9HP/tdFIAE7Q4UoeojXNKeLjs0vXxZetM+C2K9jdbVS7b6ut66CflVLgk1yqHJVrXmiw==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.3.0.tgz#8959b3cdaa295b61592c1f245dded34b117618dd"
+  integrity sha512-9/nOVLYYe/dO/eJeQUNaGUF4m4Z5E7cb9oNTKabH+bNf19mqj60txTcveQxL0GlcWLXCxkOu2/LwL8oW0idIDA==
 
 npm-audit-report@^1.3.3:
   version "1.3.3"
@@ -6426,9 +6426,9 @@ sax@>=0.6.0:
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 semantic-release@^17.1.2:
-  version "17.1.2"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.1.2.tgz#7d77555185722012b34e3ca74e4d13f813daf3cd"
-  integrity sha512-szYBXm10QjQO5Tb1S2PSkvOBW3MajWJat5EWtx+MzaVT/jquuxf9o+Zn8FC1j157xvJ5p9r1d/MZGslgs7oQQg==
+  version "17.2.1"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.2.1.tgz#739bad395219110cc30d1ef7029fa2e03e3b4b72"
+  integrity sha512-+xbLWsT9NoibeMMJw4te0pbY4q/Z1gt/vzhB0z9RRNGVyqCgQiK5NUJ11eW6etSyPZ9QFeAMnqO2dzscWUTy2w==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
