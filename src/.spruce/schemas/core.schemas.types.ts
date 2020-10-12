@@ -417,6 +417,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'dateCreated': number
 			
 			'dateDeleted'?: number| undefined | null
+			
+			'organizationId'?: string| undefined | null
 	}
 
 	export interface IRoleSchema extends SpruceSchema.ISchema {
@@ -462,6 +464,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'dateDeleted': {
 		                type: 'number',
+		                options: undefined
+		            },
+		            /** . */
+		            'organizationId': {
+		                type: 'id',
 		                options: undefined
 		            },
 		    }
