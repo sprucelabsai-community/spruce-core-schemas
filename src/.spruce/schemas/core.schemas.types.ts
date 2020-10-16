@@ -174,72 +174,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	
-	export interface IPersonOrganization {
-		
-			/** Id. */
-			'id': string
-			/** Organization id. */
-			'organizationId': string
-			/** Person id. */
-			'personId': string
-			/** Date created. */
-			'dateCreated': number
-			/** Date deleted. */
-			'dateDeleted'?: number| undefined | null
-	}
-
-	export interface IPersonOrganizationSchema extends SpruceSchema.ISchema {
-		id: 'personOrganization',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: 'Person <-> organization relationship',
-		    fields: {
-		            /** Id. */
-		            'id': {
-		                label: 'Id',
-		                type: 'id',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Organization id. */
-		            'organizationId': {
-		                label: 'Organization id',
-		                type: 'id',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Person id. */
-		            'personId': {
-		                label: 'Person id',
-		                type: 'id',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Date created. */
-		            'dateCreated': {
-		                label: 'Date created',
-		                type: 'number',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Date deleted. */
-		            'dateDeleted': {
-		                label: 'Date deleted',
-		                type: 'number',
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type PersonOrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonOrganizationSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
 	/** Various sizes that a profile image comes in. */
 	export interface IProfileImage {
 		
@@ -392,6 +326,72 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
+	
+	export interface IPersonOrganization {
+		
+			/** Id. */
+			'id': string
+			/** Organization id. */
+			'organizationId': string
+			/** Person id. */
+			'personId': string
+			/** Date created. */
+			'dateCreated': number
+			/** Date deleted. */
+			'dateDeleted'?: number| undefined | null
+	}
+
+	export interface IPersonOrganizationSchema extends SpruceSchema.ISchema {
+		id: 'personOrganization',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: 'Person <-> organization relationship',
+		    fields: {
+		            /** Id. */
+		            'id': {
+		                label: 'Id',
+		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Organization id. */
+		            'organizationId': {
+		                label: 'Organization id',
+		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Person id. */
+		            'personId': {
+		                label: 'Person id',
+		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Date created. */
+		            'dateCreated': {
+		                label: 'Date created',
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Date deleted. */
+		            'dateDeleted': {
+		                label: 'Date deleted',
+		                type: 'number',
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type PersonOrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonOrganizationSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
 	/** Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. */
 	export interface IRole {
 		
@@ -408,7 +408,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'dateDeleted'?: number| undefined | null
 			
-			'organizationId'?: string| undefined | null
+			'organizationId': string
 	}
 
 	export interface IRoleSchema extends SpruceSchema.ISchema {
@@ -459,6 +459,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'organizationId': {
 		                type: 'id',
+		                isRequired: true,
 		                options: undefined
 		            },
 		    }

@@ -51,6 +51,7 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	            /** . */
 	            'organizationId': {
 	                type: 'id',
+	                isRequired: true,
 	                options: undefined
 	            },
 	    }

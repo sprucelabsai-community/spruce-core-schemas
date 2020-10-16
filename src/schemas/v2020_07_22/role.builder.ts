@@ -44,6 +44,7 @@ export default buildSchema({
 		},
 		organizationId: {
 			type: 'id',
+			isRequired: true,
 		},
 	},
 })
