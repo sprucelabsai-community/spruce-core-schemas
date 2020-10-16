@@ -1,3 +1,10 @@
+# [17.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v16.0.0...v17.0.0) (2020-10-16)
+
+
+### Breaking Changes
+
+* revert ([697f7bc](https://github.com/sprucelabsai/spruce-core-schemas/commit/697f7bc))
+
 # [16.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v15.0.1...v16.0.0) (2020-10-16)
 
 
