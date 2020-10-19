@@ -53,6 +53,13 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
 	                type: 'id',
 	                options: undefined
 	            },
+	            /** Public. Should I let people that are not part of this organization this role? */
+	            'isPublic': {
+	                label: 'Public',
+	                type: 'boolean',
+	                hint: 'Should I let people that are not part of this organization this role?',
+	                options: undefined
+	            },
 	    }
 }
 
