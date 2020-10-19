@@ -45,5 +45,11 @@ export default buildSchema({
 		organizationId: {
 			type: 'id',
 		},
+		isPublic: {
+			type: 'boolean',
+			label: 'Public',
+			hint:
+				'Should I let people that are not part of this organization this role?',
+		},
 	},
 })
