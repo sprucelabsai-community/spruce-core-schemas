@@ -28,6 +28,7 @@ export default buildSchema({
 					{ label: 'Manager', value: 'manager' },
 					{ label: 'Teammate', value: 'teammate' },
 					{ label: 'Guest', value: 'guest' },
+					{ label: 'Anonymous', value: 'anonymous' },
 				],
 			},
 		},
