@@ -1,3 +1,10 @@
+# [19.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v18.0.0...v19.0.0) (2020-10-20)
+
+
+### Breaking Changes
+
+* org id on location ([ed2dc35](https://github.com/sprucelabsai/spruce-core-schemas/commit/ed2dc35))
+
 # [18.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v17.1.1...v18.0.0) (2020-10-20)
 
 
