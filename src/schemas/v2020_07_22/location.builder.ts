@@ -9,6 +9,7 @@ export default buildSchema({
 		id: {
 			label: 'Id',
 			type: 'id',
+			isRequired: true,
 		},
 		name: {
 			label: 'Name',

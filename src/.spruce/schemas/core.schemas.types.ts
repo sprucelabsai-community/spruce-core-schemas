@@ -517,7 +517,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface ILocation {
 		
 			/** Id. */
-			'id'?: string| undefined | null
+			'id': string
 			/** Name. */
 			'name': string
 			/** Store number. You can use other symbols, like # or dashes. #123 or 32-US-5 */
@@ -551,6 +551,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'id': {
 		                label: 'Id',
 		                type: 'id',
+		                isRequired: true,
 		                options: undefined
 		            },
 		            /** Name. */
