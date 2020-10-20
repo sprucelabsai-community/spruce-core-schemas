@@ -28,6 +28,7 @@ export default buildSchema({
 					{ label: 'Manager', value: 'manager' },
 					{ label: 'Teammate', value: 'teammate' },
 					{ label: 'Guest', value: 'guest' },
+					{ label: 'Anonymous', value: 'anonymous' },
 				],
 			},
 		},
@@ -44,6 +45,12 @@ export default buildSchema({
 		},
 		organizationId: {
 			type: 'id',
+		},
+		isPublic: {
+			type: 'boolean',
+			label: 'Public',
+			hint:
+				'Should I let people that are not part of this organization this role?',
 		},
 	},
 })

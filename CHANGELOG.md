@@ -1,3 +1,23 @@
+## [17.1.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v17.1.0...v17.1.1) (2020-10-20)
+
+# [17.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v17.0.2...v17.1.0) (2020-10-19)
+
+
+### Features
+
+* add new base anonymous role ([f235e9d](https://github.com/sprucelabsai/spruce-core-schemas/commit/f235e9d))
+
+## [17.0.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v17.0.1...v17.0.2) (2020-10-19)
+
+## [17.0.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v17.0.0...v17.0.1) (2020-10-19)
+
+# [17.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v16.0.0...v17.0.0) (2020-10-16)
+
+
+### Breaking Changes
+
+* revert ([697f7bc](https://github.com/sprucelabsai/spruce-core-schemas/commit/697f7bc))
+
 # [16.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v15.0.1...v16.0.0) (2020-10-16)
 
 
