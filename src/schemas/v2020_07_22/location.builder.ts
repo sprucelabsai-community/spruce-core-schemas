@@ -266,5 +266,9 @@ export default buildSchema({
 		dateDeleted: {
 			type: 'number',
 		},
+		organizationId: {
+			type: 'id',
+			isRequired: true,
+		},
 	},
 })

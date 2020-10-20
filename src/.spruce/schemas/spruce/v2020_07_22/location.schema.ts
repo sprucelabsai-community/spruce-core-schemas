@@ -75,6 +75,12 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.ILocationSchema  = {
 	                type: 'number',
 	                options: undefined
 	            },
+	            /** . */
+	            'organizationId': {
+	                type: 'id',
+	                isRequired: true,
+	                options: undefined
+	            },
 	    }
 }
 
