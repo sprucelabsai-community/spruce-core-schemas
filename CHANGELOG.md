@@ -1,3 +1,10 @@
+# [20.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v19.0.0...v20.0.0) (2020-10-20)
+
+
+### Breaking Changes
+
+* location id is required ([ee721f6](https://github.com/sprucelabsai/spruce-core-schemas/commit/ee721f6))
+
 # [19.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v18.0.0...v19.0.0) (2020-10-20)
 
 
