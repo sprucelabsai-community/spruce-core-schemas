@@ -30,6 +30,13 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.ILocationSchema  = {
 	                hint: 'You can use other symbols, like # or dashes. #123 or 32-US-5',
 	                options: undefined
 	            },
+	            /** Slug. */
+	            'slug': {
+	                label: 'Slug',
+	                type: 'text',
+	                isRequired: true,
+	                options: undefined
+	            },
 	            /** Public. Is this location viewable by guests? */
 	            'isPublic': {
 	                label: 'Public',

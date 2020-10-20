@@ -20,6 +20,11 @@ export default buildSchema({
 			type: 'text',
 			hint: 'You can use other symbols, like # or dashes. #123 or 32-US-5',
 		},
+		slug: {
+			label: 'Slug',
+			type: 'text',
+			isRequired: true,
+		},
 		isPublic: {
 			label: 'Public',
 			type: 'boolean',
