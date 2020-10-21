@@ -1,3 +1,10 @@
+# [20.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v20.0.1...v20.1.0) (2020-10-21)
+
+
+### Features
+
+* personLocation schema ([03ec3d0](https://github.com/sprucelabsai/spruce-core-schemas/commit/03ec3d0))
+
 ## [20.0.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v20.0.0...v20.0.1) (2020-10-21)
 
 # [20.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v19.0.0...v20.0.0) (2020-10-20)
