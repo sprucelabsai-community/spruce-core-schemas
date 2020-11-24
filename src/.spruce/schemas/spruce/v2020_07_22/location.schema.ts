@@ -3,7 +3,7 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 
 
-const locationSchema: SpruceSchemas.Spruce.v2020_07_22.ILocationSchema  = {
+const locationSchema: SpruceSchemas.Spruce.v2020_07_22.LocationSchema  = {
 	id: 'location',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',

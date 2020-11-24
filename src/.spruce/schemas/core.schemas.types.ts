@@ -11,7 +11,7 @@ import * as SpruceSchema from '@sprucelabs/schema'
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** A physical location where people meet. An organization has at least one of them. */
-	export interface ILocation {
+	export interface Location {
 		
 			/** Id. */
 			'id': string
@@ -28,7 +28,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Timezone. */
 			'timezone'?: ("etc/gmt+12" | "pacific/midway" | "pacific/honolulu" | "us/alaska" | "america/los_Angeles" | "america/tijuana" | "us/arizona" | "america/chihuahua" | "us/mountain" | "america/managua" | "us/central" | "america/mexico_City" | "Canada/Saskatchewan" | "america/bogota" | "us/eastern" | "us/east-indiana" | "Canada/atlantic" | "america/caracas" | "america/manaus" | "america/Santiago" | "Canada/Newfoundland" | "america/Sao_Paulo" | "america/argentina/buenos_Aires" | "america/godthab" | "america/montevideo" | "america/Noronha" | "atlantic/cape_Verde" | "atlantic/azores" | "africa/casablanca" | "etc/gmt" | "europe/amsterdam" | "europe/belgrade" | "europe/brussels" | "europe/Sarajevo" | "africa/lagos" | "asia/amman" | "europe/athens" | "asia/beirut" | "africa/cairo" | "africa/Harare" | "europe/Helsinki" | "asia/Jerusalem" | "europe/minsk" | "africa/Windhoek" | "asia/Kuwait" | "europe/moscow" | "africa/Nairobi" | "asia/tbilisi" | "asia/tehran" | "asia/muscat" | "asia/baku" | "asia/Yerevan" | "asia/Kabul" | "asia/Yekaterinburg" | "asia/Karachi" | "asia/calcutta" | "asia/calcutta" | "asia/Katmandu" | "asia/almaty" | "asia/Dhaka" | "asia/Rangoon" | "asia/bangkok" | "asia/Krasnoyarsk" | "asia/Hong_Kong" | "asia/Kuala_Lumpur" | "asia/Irkutsk" | "Australia/Perth" | "asia/taipei" | "asia/tokyo" | "asia/Seoul" | "asia/Yakutsk" | "Australia/adelaide" | "Australia/Darwin" | "Australia/brisbane" | "Australia/canberra" | "Australia/Hobart" | "pacific/guam" | "asia/Vladivostok" | "asia/magadan" | "pacific/auckland" | "pacific/Fiji" | "pacific/tongatapu")| undefined | null
 			/** Address. */
-			'address': SpruceSchema.IAddressFieldValue
+			'address': SpruceSchema.AddressFieldValue
 			
 			'dateCreated': number
 			
@@ -37,7 +37,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'organizationId': string
 	}
 
-	export interface ILocationSchema extends SpruceSchema.ISchema {
+	export interface LocationSchema extends SpruceSchema.Schema {
 		id: 'location',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -119,7 +119,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type LocationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ILocationSchema>
+	export type LocationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.LocationSchema>
 
 }
 
@@ -128,7 +128,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** A company or team. Comprises of many people and locations. */
-	export interface IOrganization {
+	export interface Organization {
 		
 			/** Id. */
 			'id': string
@@ -142,7 +142,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'dateDeleted'?: number| undefined | null
 	}
 
-	export interface IOrganizationSchema extends SpruceSchema.ISchema {
+	export interface OrganizationSchema extends SpruceSchema.Schema {
 		id: 'organization',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -184,7 +184,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type OrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IOrganizationSchema>
+	export type OrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.OrganizationSchema>
 
 }
 
@@ -193,7 +193,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** Various sizes that a profile image comes in. */
-	export interface IProfileImage {
+	export interface ProfileImage {
 		
 			/** 60x60. */
 			'profile60': string
@@ -205,7 +205,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'profile150@2x': string
 	}
 
-	export interface IProfileImageSchema extends SpruceSchema.ISchema {
+	export interface ProfileImageSchema extends SpruceSchema.Schema {
 		id: 'profileImage',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -243,7 +243,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type ProfileImageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IProfileImageSchema>
+	export type ProfileImageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ProfileImageSchema>
 
 }
 
@@ -252,7 +252,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** A human being. */
-	export interface IPerson {
+	export interface Person {
 		
 			/** Id. */
 			'id': string
@@ -265,14 +265,14 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Phone. A number that can be texted */
 			'phone'?: string| undefined | null
 			/** Profile photos. */
-			'profileImages'?: SpruceSchemas.Spruce.v2020_07_22.IProfileImage| undefined | null
+			'profileImages'?: SpruceSchemas.Spruce.v2020_07_22.ProfileImage| undefined | null
 			
 			'dateCreated': number
 			
 			'dateScrambled'?: number| undefined | null
 	}
 
-	export interface IPersonSchema extends SpruceSchema.ISchema {
+	export interface PersonSchema extends SpruceSchema.Schema {
 		id: 'person',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -320,7 +320,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'profileImages': {
 		                label: 'Profile photos',
 		                type: 'schema',
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.IProfileImageSchema,}
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ProfileImageSchema,}
 		            },
 		            /** . */
 		            'dateCreated': {
@@ -336,7 +336,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type PersonEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonSchema>
+	export type PersonEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.PersonSchema>
 
 }
 
@@ -345,7 +345,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
-	export interface IPersonOrganization {
+	export interface PersonOrganization {
 		
 			/** Id. */
 			'id': string
@@ -359,7 +359,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'dateDeleted'?: number| undefined | null
 	}
 
-	export interface IPersonOrganizationSchema extends SpruceSchema.ISchema {
+	export interface PersonOrganizationSchema extends SpruceSchema.Schema {
 		id: 'personOrganization',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -402,7 +402,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type PersonOrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonOrganizationSchema>
+	export type PersonOrganizationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.PersonOrganizationSchema>
 
 }
 
@@ -411,7 +411,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. */
-	export interface IRole {
+	export interface Role {
 		
 			/** Id. */
 			'id': string
@@ -431,7 +431,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'isPublic'?: boolean| undefined | null
 	}
 
-	export interface IRoleSchema extends SpruceSchema.ISchema {
+	export interface RoleSchema extends SpruceSchema.Schema {
 		id: 'role',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -491,7 +491,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type RoleEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IRoleSchema>
+	export type RoleEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.RoleSchema>
 
 }
 
@@ -500,7 +500,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
-	export interface ISkillCreator {
+	export interface SkillCreator {
 		
 			
 			'skillId'?: string| undefined | null
@@ -508,7 +508,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'personId'?: string| undefined | null
 	}
 
-	export interface ISkillCreatorSchema extends SpruceSchema.ISchema {
+	export interface SkillCreatorSchema extends SpruceSchema.Schema {
 		id: 'skillCreator',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -527,7 +527,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type SkillCreatorEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ISkillCreatorSchema>
+	export type SkillCreatorEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SkillCreatorSchema>
 
 }
 
@@ -536,7 +536,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	/** An ability Sprucebot has learned. */
-	export interface ISkill {
+	export interface Skill {
 		
 			/** Id. */
 			'id': string
@@ -549,14 +549,14 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Slug. */
 			'slug': string
 			/** Creators. The people or skills who created and own this skill. */
-			'creators': SpruceSchemas.Spruce.v2020_07_22.ISkillCreator[]
+			'creators': SpruceSchemas.Spruce.v2020_07_22.SkillCreator[]
 			
 			'dateCreated': number
 			
 			'dateDeleted'?: number| undefined | null
 	}
 
-	export interface ISkillSchema extends SpruceSchema.ISchema {
+	export interface SkillSchema extends SpruceSchema.Schema {
 		id: 'skill',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -606,7 +606,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isRequired: true,
 		                hint: 'The people or skills who created and own this skill.',
 		                isArray: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ISkillCreatorSchema,}
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.SkillCreatorSchema,}
 		            },
 		            /** . */
 		            'dateCreated': {
@@ -622,7 +622,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type SkillEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ISkillSchema>
+	export type SkillEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SkillSchema>
 
 }
 
@@ -631,7 +631,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
-	export interface IPersonLocation {
+	export interface PersonLocation {
 		
 			/** Id. */
 			'id': string
@@ -645,7 +645,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'dateDeleted'?: number| undefined | null
 	}
 
-	export interface IPersonLocationSchema extends SpruceSchema.ISchema {
+	export interface PersonLocationSchema extends SpruceSchema.Schema {
 		id: 'personLocation',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
@@ -688,7 +688,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type PersonLocationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.IPersonLocationSchema>
+	export type PersonLocationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.PersonLocationSchema>
 
 }
 

@@ -3,7 +3,7 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 
 
-const roleSchema: SpruceSchemas.Spruce.v2020_07_22.IRoleSchema  = {
+const roleSchema: SpruceSchemas.Spruce.v2020_07_22.RoleSchema  = {
 	id: 'role',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',

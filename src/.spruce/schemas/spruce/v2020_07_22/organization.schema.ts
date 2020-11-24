@@ -3,7 +3,7 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 
 
-const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.IOrganizationSchema  = {
+const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.OrganizationSchema  = {
 	id: 'organization',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
