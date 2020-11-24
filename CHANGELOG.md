@@ -1,3 +1,10 @@
+# [22.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v21.0.4...v22.0.0) (2020-11-24)
+
+
+### Breaking Changes
+
+* remove I from schema interfaces ([1ab9ed3](https://github.com/sprucelabsai/spruce-core-schemas/commit/1ab9ed3))
+
 ## [21.0.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v21.0.3...v21.0.4) (2020-11-23)
 
 ## [21.0.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v21.0.2...v21.0.3) (2020-11-20)
