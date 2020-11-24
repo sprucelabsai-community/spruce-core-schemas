@@ -3,7 +3,7 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 
 
-const skillCreatorSchema: SpruceSchemas.Spruce.v2020_07_22.ISkillCreatorSchema  = {
+const skillCreatorSchema: SpruceSchemas.Spruce.v2020_07_22.SkillCreatorSchema  = {
 	id: 'skillCreator',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',

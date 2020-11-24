@@ -3,7 +3,7 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 import profileImageSchema from '#spruce/schemas/spruce/v2020_07_22/profileImage.schema'
 
-const personSchema: SpruceSchemas.Spruce.v2020_07_22.IPersonSchema  = {
+const personSchema: SpruceSchemas.Spruce.v2020_07_22.PersonSchema  = {
 	id: 'person',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
