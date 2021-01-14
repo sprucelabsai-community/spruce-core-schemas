@@ -29,7 +29,7 @@
 		"clean": "rm -rf build/ ; true",
 		"clean.all": "rm -rf build/ && rm -rf node_modules/ && rm -f yarn.lock",
 		"lint": "eslint '**/*.ts' && tsc -p . --noEmit",
-		"lint.fix": "eslint --fix '**/*.ts'",
+		"fix.lint": "eslint --fix '**/*.ts'",
 		"watch.build": "concurrently 'yarn run build.babel --watch' 'tsc --emitDeclarationOnly -w'",
 		"watch.lint": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'",
 		"release": "semantic-release",

@@ -5,25 +5,12 @@ import messageTargetSchema from '#spruce/schemas/spruce/v2020_07_22/messageTarge
 import messageSourceSchema from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
 import fullMessageChoicesSchema from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
 
-const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
-	id: 'message',
+const createMessageSchema: SpruceSchemas.Spruce.v2020_07_22.CreateMessageSchema  = {
+	id: 'createMessage',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: '',
-	description: 'A discrete communication between two humans or a human and a machine.',
 	    fields: {
-	            /** . */
-	            'id': {
-	                type: 'id',
-	                isRequired: true,
-	                options: undefined
-	            },
-	            /** . */
-	            'dateCreated': {
-	                type: 'number',
-	                isRequired: true,
-	                options: undefined
-	            },
 	            /** . */
 	            'dateSent': {
 	                type: 'number',
@@ -87,6 +74,6 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	    }
 }
 
-SchemaRegistry.getInstance().trackSchema(messageSchema)
+SchemaRegistry.getInstance().trackSchema(createMessageSchema)
 
-export default messageSchema
+export default createMessageSchema

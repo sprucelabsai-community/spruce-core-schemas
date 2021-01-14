@@ -11,6 +11,108 @@ import * as SpruceSchema from '@sprucelabs/schema'
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
+	export interface CreateMessage {
+		
+			
+			'dateSent'?: number| undefined | null
+			
+			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
+			
+			'source': SpruceSchemas.Spruce.v2020_07_22.MessageSource
+			
+			'errors'?: string[]| undefined | null
+			
+			'classification': ("auth" | "transactional" | "promotional" | "incoming")
+			
+			'status'?: ("pending" | "processing" | "sent" | "failed")| undefined | null
+			
+			'body': string
+			
+			'context'?: (Record<string, any>)| undefined | null
+			
+			'topicId'?: string| undefined | null
+			
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoices[]| undefined | null
+	}
+
+	export interface CreateMessageSchema extends SpruceSchema.Schema {
+		id: 'createMessage',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		    fields: {
+		            /** . */
+		            'dateSent': {
+		                type: 'number',
+		                options: undefined
+		            },
+		            /** . */
+		            'target': {
+		                type: 'schema',
+		                isRequired: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
+		            },
+		            /** . */
+		            'source': {
+		                type: 'schema',
+		                isRequired: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageSourceSchema,}
+		            },
+		            /** . */
+		            'errors': {
+		                type: 'text',
+		                isPrivate: true,
+		                isArray: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'classification': {
+		                type: 'select',
+		                isRequired: true,
+		                options: {choices: [{"value":"auth","label":"Auth"},{"value":"transactional","label":"transactional"},{"value":"promotional","label":"Promotional"},{"value":"incoming","label":"incoming"}],}
+		            },
+		            /** . */
+		            'status': {
+		                type: 'select',
+		                isPrivate: true,
+		                defaultValue: "pending",
+		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"}],}
+		            },
+		            /** . */
+		            'body': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'context': {
+		                type: 'raw',
+		                isPrivate: true,
+		                options: {valueType: `Record<string, any>`,}
+		            },
+		            /** . */
+		            'topicId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'choices': {
+		                type: 'schema',
+		                isArray: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoicesSchema,}
+		            },
+		    }
+	}
+
+	export type CreateMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.CreateMessageSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
 	export interface SkillCreator {
 		
 			
@@ -731,7 +833,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	
+	/** A discrete communication between two humans or a human and a machine. */
 	export interface Message {
 		
 			
@@ -765,6 +867,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
+		description: 'A discrete communication between two humans or a human and a machine.',
 		    fields: {
 		            /** . */
 		            'id': {

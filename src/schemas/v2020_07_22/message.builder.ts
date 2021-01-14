@@ -37,6 +37,8 @@ export const messageSourceSchema = buildSchema({
 
 export default buildSchema({
 	id: 'message',
+	description:
+		'A discrete communication between two humans or a human and a machine.',
 	fields: {
 		id: {
 			type: 'id',
