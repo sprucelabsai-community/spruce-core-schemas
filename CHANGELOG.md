@@ -1,3 +1,10 @@
+# [22.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.0.23...v22.1.0) (2021-01-14)
+
+
+### Features
+
+* message schema and tasks ([6d4fd2d](https://github.com/sprucelabsai/spruce-core-schemas/commit/6d4fd2d))
+
 ## [22.0.23](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.0.22...v22.0.23) (2021-01-11)
 
 ## [22.0.22](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.0.21...v22.0.22) (2021-01-04)
