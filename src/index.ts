@@ -11,4 +11,4 @@ export { default as roleSchema } from '#spruce/schemas/spruce/v2020_07_22/role.s
 export { default as messageSchema } from '#spruce/schemas/spruce/v2020_07_22/message.schema'
 export { default as messageSourceSchema } from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
 export { default as messageTargetSchema } from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
-export { default as createMessageSchema } from '#spruce/schemas/spruce/v2020_07_22//createMessage.schema'
+export { default as sendMessageSchema } from '#spruce/schemas/spruce/v2020_07_22//sendMessage.schema'

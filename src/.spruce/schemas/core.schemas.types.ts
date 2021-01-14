@@ -11,7 +11,7 @@ import * as SpruceSchema from '@sprucelabs/schema'
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
-	export interface CreateMessage {
+	export interface SendMessage {
 		
 			
 			'dateSent'?: number| undefined | null
@@ -35,8 +35,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoices[]| undefined | null
 	}
 
-	export interface CreateMessageSchema extends SpruceSchema.Schema {
-		id: 'createMessage',
+	export interface SendMessageSchema extends SpruceSchema.Schema {
+		id: 'sendMessage',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
@@ -104,7 +104,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type CreateMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.CreateMessageSchema>
+	export type SendMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema>
 
 }
 

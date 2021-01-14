@@ -5,8 +5,8 @@ import messageTargetSchema from '#spruce/schemas/spruce/v2020_07_22/messageTarge
 import messageSourceSchema from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
 import fullMessageChoicesSchema from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
 
-const createMessageSchema: SpruceSchemas.Spruce.v2020_07_22.CreateMessageSchema  = {
-	id: 'createMessage',
+const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
+	id: 'sendMessage',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: '',
@@ -74,6 +74,6 @@ const createMessageSchema: SpruceSchemas.Spruce.v2020_07_22.CreateMessageSchema 
 	    }
 }
 
-SchemaRegistry.getInstance().trackSchema(createMessageSchema)
+SchemaRegistry.getInstance().trackSchema(sendMessageSchema)
 
-export default createMessageSchema
+export default sendMessageSchema
