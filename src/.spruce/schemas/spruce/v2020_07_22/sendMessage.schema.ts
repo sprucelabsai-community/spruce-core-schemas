@@ -2,7 +2,6 @@ import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
 import messageTargetSchema from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
-import messageSourceSchema from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
 import fullMessageChoicesSchema from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
 
 const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
@@ -21,12 +20,6 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	                type: 'schema',
 	                isRequired: true,
 	                options: {schema: messageTargetSchema,}
-	            },
-	            /** . */
-	            'source': {
-	                type: 'schema',
-	                isRequired: true,
-	                options: {schema: messageSourceSchema,}
 	            },
 	            /** . */
 	            'errors': {

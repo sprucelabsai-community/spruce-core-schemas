@@ -18,8 +18,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
 			
-			'source': SpruceSchemas.Spruce.v2020_07_22.MessageSource
-			
 			'errors'?: string[]| undefined | null
 			
 			'classification': ("auth" | "transactional" | "promotional" | "incoming")
@@ -51,12 +49,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'schema',
 		                isRequired: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
-		            },
-		            /** . */
-		            'source': {
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageSourceSchema,}
 		            },
 		            /** . */
 		            'errors': {
