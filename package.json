@@ -21,23 +21,24 @@
 		"url": "https://github.com/sprucelabsai/spruce-cli/issues"
 	},
 	"scripts": {
-		"build": "yarn build.babel && yarn build.types && yarn build.resolve-paths",
+		"build": "yarn build.babel && yarn build.types && yarn resolve-paths",
 		"build.types": "tsc --emitDeclarationOnly && echo PASS",
 		"build.babel": "babel src --out-dir build --extensions \".ts,.tsx\" --source-maps --copy-files",
-		"build.watch": "concurrently 'yarn run build.babel --watch' \"chokidar 'src/**/*' -c 'yarn build.types'\"",
-		"build.resolve-paths": "resolve-path-aliases --target build --patterns **/*.js,**/*.d.ts",
-		"rebuild": "yarn clean && yarn && yarn build",
-		"clean": "rm -rf node_modules ; rm -rf build/ ; true",
+		"resolve-paths": "resolve-path-aliases --target build --patterns **/*.js,**/*.d.ts",
+		"rebuild": "rm yarn.lock | true && yarn clean.all && yarn && yarn build",
+		"clean": "rm -rf build/ ; true",
+		"clean.all": "rm -rf build/ && rm -rf node_modules/ && rm -f yarn.lock",
 		"lint": "eslint '**/*.ts' && tsc -p . --noEmit",
 		"lint.fix": "eslint --fix '**/*.ts'",
-		"lint.watch": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'",
+		"watch.build": "concurrently 'yarn run build.babel --watch' 'tsc --emitDeclarationOnly -w'",
+		"watch.lint": "chokidar 'src/**/*' '../spruce-templates/src/**' -c 'yarn lint.tsc'",
 		"release": "semantic-release",
 		"upgrade.packages": "yarn upgrade --latest && rm yarn.lock | true && yarn | true && yarn lint.fix | true",
 		"upgrade.packages.all": "yarn install && yarn upgrade.packages",
 		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@sprucelabs/schema": "^19.0.0"
+		"@sprucelabs/schema": "latest"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.11.6",
@@ -47,13 +48,13 @@
 		"@babel/plugin-transform-runtime": "^7.11.5",
 		"@babel/preset-env": "^7.11.5",
 		"@babel/preset-typescript": "^7.10.4",
-		"@sprucelabs/babel-plugin-schema": ">=3.1.2",
-		"@sprucelabs/semantic-release": ">=4.0.6",
+		"@sprucelabs/babel-plugin-schema": "latest",
+		"@sprucelabs/semantic-release": "latest",
 		"@types/node": "^14.11.8",
 		"babel-plugin-module-resolver": "^4.0.0",
 		"chokidar-cli": "^2.1.0",
 		"concurrently": "^5.3.0",
-		"conventional-changelog-sprucelabs": "^1.1.2",
+		"conventional-changelog-sprucelabs": "latest",
 		"eslint": "^7.11.0",
 		"eslint-config-spruce": "10.9.131",
 		"prettier": "^2.1.2",
