@@ -12,3 +12,4 @@ export { default as messageSchema } from '#spruce/schemas/spruce/v2020_07_22/mes
 export { default as messageSourceSchema } from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
 export { default as messageTargetSchema } from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
 export { default as sendMessageSchema } from '#spruce/schemas/spruce/v2020_07_22/sendMessage.schema'
+export { default as fullMessageChoices } from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
