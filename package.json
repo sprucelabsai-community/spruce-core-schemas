@@ -38,6 +38,7 @@
 		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
+		"@babel/runtime": "^7.12.5",
 		"@sprucelabs/schema": "latest"
 	},
 	"devDependencies": {
