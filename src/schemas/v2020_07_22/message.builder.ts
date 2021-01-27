@@ -116,6 +116,10 @@ export default buildSchema({
 						value: 'failed',
 						label: 'Failed',
 					} as const,
+					{
+						value: 'ignored',
+						label: 'Ignored',
+					} as const,
 				],
 			},
 		},
