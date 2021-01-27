@@ -1,3 +1,10 @@
+# [22.2.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.1.12...v22.2.0) (2021-01-27)
+
+
+### Features
+
+* ignored message status ([aff006a](https://github.com/sprucelabsai/spruce-core-schemas/commit/aff006a))
+
 ## [22.1.12](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.1.11...v22.1.12) (2021-01-25)
 
 ## [22.1.11](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.1.10...v22.1.11) (2021-01-20)
