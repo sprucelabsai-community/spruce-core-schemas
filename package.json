@@ -38,17 +38,17 @@
 		"upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build && yarn test"
 	},
 	"dependencies": {
-		"@babel/runtime": "^7.12.5",
+		"@babel/runtime": "^7.12.13",
 		"@sprucelabs/schema": "latest"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.12.10",
-		"@babel/core": "^7.12.10",
-		"@babel/plugin-proposal-class-properties": "^7.12.1",
-		"@babel/plugin-proposal-decorators": "^7.12.12",
-		"@babel/plugin-transform-runtime": "^7.12.10",
-		"@babel/preset-env": "^7.12.11",
-		"@babel/preset-typescript": "^7.12.7",
+		"@babel/cli": "^7.12.13",
+		"@babel/core": "^7.12.13",
+		"@babel/plugin-proposal-class-properties": "^7.12.13",
+		"@babel/plugin-proposal-decorators": "^7.12.13",
+		"@babel/plugin-transform-runtime": "^7.12.13",
+		"@babel/preset-env": "^7.12.13",
+		"@babel/preset-typescript": "^7.12.13",
 		"@sprucelabs/babel-plugin-schema": "latest",
 		"@sprucelabs/semantic-release": "latest",
 		"@types/node": "^14.14.22",
