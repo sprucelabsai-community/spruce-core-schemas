@@ -623,95 +623,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	/** Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. */
-	export interface Role {
-		
-			/** Id. */
-			'id': string
-			/** Name. */
-			'name': string
-			/** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
-			'base'?: ("owner" | "groupManager" | "manager" | "teammate" | "guest" | "anonymous")| undefined | null
-			/** Description. */
-			'description'?: string| undefined | null
-			
-			'dateCreated': number
-			
-			'dateDeleted'?: number| undefined | null
-			
-			'organizationId'?: string| undefined | null
-			/** Public. Should I let people that are not part of this organization this role? */
-			'isPublic'?: boolean| undefined | null
-	}
-
-	export interface RoleSchema extends SpruceSchema.Schema {
-		id: 'role',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: 'Role',
-		description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
-		    fields: {
-		            /** Id. */
-		            'id': {
-		                label: 'Id',
-		                type: 'id',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Name. */
-		            'name': {
-		                label: 'Name',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
-		            'base': {
-		                label: 'Base',
-		                type: 'select',
-		                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
-		                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"}],}
-		            },
-		            /** Description. */
-		            'description': {
-		                label: 'Description',
-		                type: 'text',
-		                options: undefined
-		            },
-		            /** . */
-		            'dateCreated': {
-		                type: 'number',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'dateDeleted': {
-		                type: 'number',
-		                options: undefined
-		            },
-		            /** . */
-		            'organizationId': {
-		                type: 'id',
-		                options: undefined
-		            },
-		            /** Public. Should I let people that are not part of this organization this role? */
-		            'isPublic': {
-		                label: 'Public',
-		                type: 'boolean',
-		                hint: 'Should I let people that are not part of this organization this role?',
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type RoleEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.RoleSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
 	/** Various sizes that a profile image comes in. */
 	export interface ProfileImage {
 		
@@ -923,6 +834,95 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	}
 
 	export type PersonLocationEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.PersonLocationSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	/** Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. */
+	export interface Role {
+		
+			/** Id. */
+			'id': string
+			/** Name. */
+			'name': string
+			/** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
+			'base'?: ("owner" | "groupManager" | "manager" | "teammate" | "guest" | "anonymous")| undefined | null
+			/** Description. */
+			'description'?: string| undefined | null
+			
+			'dateCreated': number
+			
+			'dateDeleted'?: number| undefined | null
+			
+			'organizationId'?: string| undefined | null
+			/** Public. Should I let people that are not part of this organization this role? */
+			'isPublic'?: boolean| undefined | null
+	}
+
+	export interface RoleSchema extends SpruceSchema.Schema {
+		id: 'role',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: 'Role',
+		description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
+		    fields: {
+		            /** Id. */
+		            'id': {
+		                label: 'Id',
+		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Name. */
+		            'name': {
+		                label: 'Name',
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
+		            'base': {
+		                label: 'Base',
+		                type: 'select',
+		                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
+		                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"}],}
+		            },
+		            /** Description. */
+		            'description': {
+		                label: 'Description',
+		                type: 'text',
+		                options: undefined
+		            },
+		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateDeleted': {
+		                type: 'number',
+		                options: undefined
+		            },
+		            /** . */
+		            'organizationId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** Public. Should I let people that are not part of this organization this role? */
+		            'isPublic': {
+		                label: 'Public',
+		                type: 'boolean',
+		                hint: 'Should I let people that are not part of this organization this role?',
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type RoleEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.RoleSchema>
 
 }
 
