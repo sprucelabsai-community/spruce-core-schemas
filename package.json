@@ -42,13 +42,13 @@
 		"@sprucelabs/schema": "latest"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.12.13",
-		"@babel/core": "^7.12.13",
+		"@babel/cli": "^7.12.16",
+		"@babel/core": "^7.12.16",
 		"@babel/plugin-proposal-class-properties": "^7.12.13",
 		"@babel/plugin-proposal-decorators": "^7.12.13",
 		"@babel/plugin-transform-runtime": "^7.12.15",
-		"@babel/preset-env": "^7.12.13",
-		"@babel/preset-typescript": "^7.12.13",
+		"@babel/preset-env": "^7.12.16",
+		"@babel/preset-typescript": "^7.12.16",
 		"@sprucelabs/babel-plugin-schema": "latest",
 		"@sprucelabs/semantic-release": "latest",
 		"@types/node": "^14.14.26",
