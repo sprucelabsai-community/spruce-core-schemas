@@ -51,7 +51,7 @@
 		"@babel/preset-typescript": "^7.12.17",
 		"@sprucelabs/babel-plugin-schema": "latest",
 		"@sprucelabs/semantic-release": "latest",
-		"@types/node": "^14.14.29",
+		"@types/node": "^14.14.30",
 		"babel-plugin-module-resolver": "^4.1.0",
 		"chokidar-cli": "^2.1.0",
 		"concurrently": "^5.3.0",
