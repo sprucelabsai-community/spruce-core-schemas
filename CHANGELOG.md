@@ -1,3 +1,10 @@
+## [22.2.31](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.30...v22.2.31) (2021-02-26)
+
+
+### Bug Fixes
+
+* don't copy .spruce .ts files to build folder ([e977c93](https://github.com/sprucelabsai/spruce-core-schemas/commit/e977c93))
+
 ## [22.2.30](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.29...v22.2.30) (2021-02-26)
 
 ## [22.2.29](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.28...v22.2.29) (2021-02-26)
