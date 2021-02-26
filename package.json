@@ -31,7 +31,7 @@
 	},
 	"scripts": {
 		"build": "yarn build.tsc && yarn build.dist && yarn resolve-paths",
-		"build.copy-files": "mkdir -p build/__tests__ && cp -r ./src/.spruce build/",
+		"build.copy-files": "mkdir -p build/.spruce && cp -r ./src/.spruce/settings.json build/.spruce/settings.json",
 		"build.dist": "tsc --project tsconfig.dist.json",
 		"build.tsc": "yarn build.copy-files && tsc",
 		"clean": "rm -rf build/",
