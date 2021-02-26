@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "22.2.27",
+	"version": "22.2.28",
 	"files": [
 		"build/**/*",
 		"tsconfig.json"
@@ -11,14 +11,14 @@
 	"main": "./build/index.js",
 	"types": "./build/index.d.ts",
 	"exports": {
-        ".": {
-            "node": "./build/index.js",
-            "require": "./build/index.js",
-            "import": "./build/esm/index.js",
-            "default": "./build/esm/index.js"
-        }
-    },
-    "module": "./build/esm/index.js",
+		".": {
+			"node": "./build/index.js",
+			"require": "./build/index.js",
+			"import": "./build/esm/index.js",
+			"default": "./build/esm/index.js"
+		}
+	},
+	"module": "./build/esm/index.js",
 	"license": "MIT",
 	"description": "The schemas that Mercury and all skills use. 🤝",
 	"keywords": [
