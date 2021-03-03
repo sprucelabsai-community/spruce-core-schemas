@@ -19,6 +19,7 @@
 		}
 	},
 	"module": "./build/esm/index.js",
+	"sideEffects": false,
 	"license": "MIT",
 	"description": "The schemas that Mercury and all skills use. 🤝",
 	"keywords": [
