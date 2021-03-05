@@ -1,3 +1,10 @@
+## [22.2.38](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.37...v22.2.38) (2021-03-05)
+
+
+### Bug Fixes
+
+* resolve-path-aliases for esm properly ([7f88b14](https://github.com/sprucelabsai/spruce-core-schemas/commit/7f88b14))
+
 ## [22.2.37](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.36...v22.2.37) (2021-03-04)
 
 ## [22.2.36](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.35...v22.2.36) (2021-03-04)
