@@ -723,6 +723,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'skillId'?: string| undefined | null
 			
+			'roleId'?: string| undefined | null
+			
 			'isCore'?: boolean| undefined | null
 	}
 
@@ -749,6 +751,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'skillId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'roleId': {
 		                type: 'id',
 		                options: undefined
 		            },
@@ -780,6 +787,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'skillId'?: string| undefined | null
 			
+			'roleId'?: string| undefined | null
+			
 			'phone'?: string| undefined | null
 	}
 
@@ -806,6 +815,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'skillId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'roleId': {
 		                type: 'id',
 		                options: undefined
 		            },

@@ -30,6 +30,11 @@ const messageSourceSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSourceSchema 
 	                options: undefined
 	            },
 	            /** . */
+	            'roleId': {
+	                type: 'id',
+	                options: undefined
+	            },
+	            /** . */
 	            'isCore': {
 	                type: 'boolean',
 	                options: undefined

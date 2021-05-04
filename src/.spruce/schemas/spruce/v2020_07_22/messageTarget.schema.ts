@@ -30,6 +30,11 @@ const messageTargetSchema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema 
 	                options: undefined
 	            },
 	            /** . */
+	            'roleId': {
+	                type: 'id',
+	                options: undefined
+	            },
+	            /** . */
 	            'phone': {
 	                type: 'phone',
 	                options: undefined

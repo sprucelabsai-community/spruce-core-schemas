@@ -13,6 +13,9 @@ const eventTargetFields = {
 	skillId: {
 		type: 'id',
 	},
+	roleId: {
+		type: 'id',
+	},
 } as const
 
 export const messageTargetSchema = buildSchema({

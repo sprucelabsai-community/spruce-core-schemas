@@ -13,6 +13,9 @@
 	"module": "./build/esm/index.js",
 	"sideEffects": false,
 	"license": "MIT",
+	"skill": {
+		"namespace": "spruce"
+	},
 	"description": "The schemas that Mercury and all skills use. 🤝",
 	"keywords": [
 		"node",
@@ -35,6 +38,7 @@
 		"clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
 		"fix.lint": "eslint --fix '**/*.ts'",
 		"lint": "eslint '**/*.ts' && tsc -p . --noEmit",
+		"sync.schemas": "spruce sync.schemas --fetchCoreSchemas false",
 		"rebuild": "yarn clean.all && yarn && yarn build.dev",
 		"release": "semantic-release",
 		"upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock && yarn ; yarn fix.lint ; true",
