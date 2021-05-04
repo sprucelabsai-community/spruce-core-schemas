@@ -1,3 +1,10 @@
+# [22.3.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.61...v22.3.0) (2021-05-04)
+
+
+### Features
+
+* role's can be targeted!! ([2ca6512](https://github.com/sprucelabsai/spruce-core-schemas/commit/2ca6512))
+
 ## [22.2.61](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.60...v22.2.61) (2021-05-01)
 
 ## [22.2.60](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.59...v22.2.60) (2021-04-30)
