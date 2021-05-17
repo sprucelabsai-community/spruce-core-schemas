@@ -19,8 +19,7 @@ export default buildSchema({
 		base: {
 			label: 'Base',
 			type: 'select',
-			hint:
-				'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
+			hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
 			options: {
 				choices: [
 					{ label: 'Owner', value: 'owner' },
@@ -49,8 +48,7 @@ export default buildSchema({
 		isPublic: {
 			type: 'boolean',
 			label: 'Public',
-			hint:
-				'Should I let people that are not part of this organization this role?',
+			hint: 'Should I let people that are not part of this organization this role?',
 		},
 	},
 })

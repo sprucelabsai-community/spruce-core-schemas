@@ -1,3 +1,22 @@
+## [22.3.6](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.5...v22.3.6) (2021-05-14)
+
+## [22.3.5](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.4...v22.3.5) (2021-05-12)
+
+## [22.3.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.3...v22.3.4) (2021-05-09)
+
+## [22.3.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.2...v22.3.3) (2021-05-08)
+
+## [22.3.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.1...v22.3.2) (2021-05-08)
+
+## [22.3.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.0...v22.3.1) (2021-05-04)
+
+# [22.3.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.61...v22.3.0) (2021-05-04)
+
+
+### Features
+
+* role's can be targeted!! ([2ca6512](https://github.com/sprucelabsai/spruce-core-schemas/commit/2ca6512))
+
 ## [22.2.61](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.60...v22.2.61) (2021-05-01)
 
 ## [22.2.60](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.2.59...v22.2.60) (2021-04-30)
