@@ -58,7 +58,7 @@
 		"@sprucelabs/semantic-release": "latest",
 		"@types/node": "^15.6.0",
 		"chokidar-cli": "^2.1.0",
-		"concurrently": "^6.1.0",
+		"concurrently": "^6.2.0",
 		"conventional-changelog-sprucelabs": "latest",
 		"eslint": "^7.27.0",
 		"eslint-config-spruce": "latest",
