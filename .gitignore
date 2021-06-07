@@ -17,6 +17,7 @@ mercury.min.*
 package-lock.json
 
 tmp/
+.eslintcache
 
 !src/templates/directories/skill/.spruce
 !src/templates/directories/skill/.spruce/settings.json

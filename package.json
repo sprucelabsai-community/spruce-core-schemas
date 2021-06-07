@@ -40,7 +40,7 @@
 		"clean": "rm -rf build/",
 		"clean.all": "rm -rf node_modules/ yarn.lock ; yarn clean",
 		"fix.lint": "eslint --fix '**/*.ts'",
-		"lint": "eslint '**/*.ts' && tsc -p . --noEmit",
+		"lint": "eslint --cache '**/*.ts' && tsc -p . --noEmit",
 		"rebuild": "yarn clean.all && yarn && yarn build.dev",
 		"release": "semantic-release",
 		"upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock && yarn ; yarn fix.lint ; true",
