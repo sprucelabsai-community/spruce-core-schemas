@@ -8,6 +8,7 @@ const personLocationSchema: SpruceSchemas.Spruce.v2020_07_22.PersonLocationSchem
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Person <-> location relationship',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	    fields: {
 	            /** Id. */
 	            'id': {

@@ -1,13 +1,14 @@
 import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
-import skillCreatorSchema from '#spruce/schemas/spruce/v2020_07_22/skillCreator.schema'
+import skillCreatorSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/skillCreator.schema'
 
 const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	id: 'skill',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Skill',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	description: 'An ability Sprucebot has learned.',
 	    fields: {
 	            /** Id. */
@@ -53,7 +54,7 @@ const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	                isRequired: true,
 	                hint: 'The people or skills who created and own this skill.',
 	                isArray: true,
-	                options: {schema: skillCreatorSchema,}
+	                options: {schema: skillCreatorSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'dateCreated': {

@@ -16,7 +16,7 @@
 	"skill": {
 		"namespace": "spruce",
 		"commandOverrides": {
-			"sync.schemas": "--fetchCoreSchemas false"
+			"sync.schemas": "--shouldFetchCoreSchemas false --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
 		}
 	},
 	"description": "The schemas that Mercury and all skills use. 🤝",

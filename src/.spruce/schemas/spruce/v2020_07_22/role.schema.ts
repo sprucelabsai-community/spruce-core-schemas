@@ -8,6 +8,7 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.RoleSchema  = {
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Role',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
 	    fields: {
 	            /** Id. */

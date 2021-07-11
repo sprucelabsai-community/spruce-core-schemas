@@ -1,15 +1,16 @@
 import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
-import messageTargetSchema from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
-import messageSourceSchema from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
-import fullMessageChoicesSchema from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
+import messageTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
+import messageSourceSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
+import fullMessageChoicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
 
 const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	id: 'message',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: '',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	description: 'A discrete communication between two humans or a human and a machine.',
 	    fields: {
 	            /** . */
@@ -33,13 +34,13 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	            'target': {
 	                type: 'schema',
 	                isRequired: true,
-	                options: {schema: messageTargetSchema,}
+	                options: {schema: messageTargetSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'source': {
 	                type: 'schema',
 	                isRequired: true,
-	                options: {schema: messageSourceSchema,}
+	                options: {schema: messageSourceSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'errors': {
@@ -82,7 +83,7 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,
-	                options: {schema: fullMessageChoicesSchema,}
+	                options: {schema: fullMessageChoicesSchema_v2020_07_22,}
 	            },
 	    }
 }

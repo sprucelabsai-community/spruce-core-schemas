@@ -72,6 +72,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Skill',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'An ability Sprucebot has learned.',
 		    fields: {
 		            /** Id. */
@@ -169,6 +170,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** . */
 		            'dateSent': {
@@ -261,6 +263,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Role',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
 		    fields: {
 		            /** Id. */
@@ -344,6 +347,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Person <-> organization relationship',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** Id. */
 		            'id': {
@@ -410,6 +414,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Person <-> location relationship',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** Id. */
 		            'id': {
@@ -541,6 +546,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Person',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'A human being.',
 		    fields: {
 		            /** Id. */
@@ -628,6 +634,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Organization',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'A company or team. Comprises of many people and locations.',
 		    fields: {
 		            /** Id. */
@@ -873,6 +880,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'A discrete communication between two humans or a human and a machine.',
 		    fields: {
 		            /** . */
@@ -990,6 +998,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Location',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'A physical location where people meet. An organization has at least one of them.',
 		    fields: {
 		            /** Id. */

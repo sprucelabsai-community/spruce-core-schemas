@@ -8,6 +8,7 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.LocationSchema  = {
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Location',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	description: 'A physical location where people meet. An organization has at least one of them.',
 	    fields: {
 	            /** Id. */

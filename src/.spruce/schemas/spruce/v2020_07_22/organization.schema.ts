@@ -8,6 +8,7 @@ const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.OrganizationSchema  =
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Organization',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	description: 'A company or team. Comprises of many people and locations.',
 	    fields: {
 	            /** Id. */

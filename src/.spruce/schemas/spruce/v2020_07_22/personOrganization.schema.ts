@@ -8,6 +8,7 @@ const personOrganizationSchema: SpruceSchemas.Spruce.v2020_07_22.PersonOrganizat
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Person <-> organization relationship',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	    fields: {
 	            /** Id. */
 	            'id': {

@@ -1,14 +1,15 @@
 import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
-import messageTargetSchema from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
-import fullMessageChoicesSchema from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
+import messageTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
+import fullMessageChoicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
 
 const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	id: 'sendMessage',
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: '',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	    fields: {
 	            /** . */
 	            'dateSent': {
@@ -19,7 +20,7 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	            'target': {
 	                type: 'schema',
 	                isRequired: true,
-	                options: {schema: messageTargetSchema,}
+	                options: {schema: messageTargetSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'errors': {
@@ -62,7 +63,7 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,
-	                options: {schema: fullMessageChoicesSchema,}
+	                options: {schema: fullMessageChoicesSchema_v2020_07_22,}
 	            },
 	    }
 }
