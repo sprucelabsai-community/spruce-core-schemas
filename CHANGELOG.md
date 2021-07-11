@@ -1,3 +1,10 @@
+# [22.4.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.45...v22.4.0) (2021-07-11)
+
+
+### Features
+
+* moduleToImportFromWhenRemote now exposed for use with latest cli ([a1612c5](https://github.com/sprucelabsai/spruce-core-schemas/commit/a1612c5))
+
 ## [22.3.45](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.44...v22.3.45) (2021-07-09)
 
 ## [22.3.44](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.3.43...v22.3.44) (2021-07-09)
