@@ -8,6 +8,7 @@ const fullMessageChoicesSchema: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoi
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: '',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	    fields: {
 	            /** . */
 	            'value': {

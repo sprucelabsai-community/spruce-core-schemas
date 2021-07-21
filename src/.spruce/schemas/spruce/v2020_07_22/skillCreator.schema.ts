@@ -8,6 +8,7 @@ const skillCreatorSchema: SpruceSchemas.Spruce.v2020_07_22.SkillCreatorSchema  =
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Skill creator',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	    fields: {
 	            /** . */
 	            'skillId': {

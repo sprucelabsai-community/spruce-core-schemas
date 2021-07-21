@@ -8,6 +8,7 @@ const profileImageSchema: SpruceSchemas.Spruce.v2020_07_22.ProfileImageSchema  =
 	version: 'v2020_07_22',
 	namespace: 'Spruce',
 	name: 'Profile Image Sizes',
+	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 	description: 'Various sizes that a profile image comes in.',
 	    fields: {
 	            /** 60x60. */

@@ -24,6 +24,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Skill creator',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** . */
 		            'skillId': {
@@ -237,7 +238,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	/** Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest. */
+	/** Every role in Spruce inherits from 5 bases. Anon, Logged in (person not associated with any org), Org Owner, Group Manager, Manager, Teammate, and Guest. */
 	export interface Role {
 		
 			/** Id. */
@@ -245,7 +246,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Name. */
 			'name': string
 			/** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
-			'base'?: ("owner" | "groupManager" | "manager" | "teammate" | "guest" | "anonymous")| undefined | null
+			'base'?: ("owner" | "groupManager" | "manager" | "teammate" | "guest" | "anonymous" | "loggedIn")| undefined | null
 			/** Description. */
 			'description'?: string| undefined | null
 			
@@ -264,7 +265,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		namespace: 'Spruce',
 		name: 'Role',
 		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
+		description: 'Every role in Spruce inherits from 5 bases. Anon, Logged in (person not associated with any org), Org Owner, Group Manager, Manager, Teammate, and Guest.',
 		    fields: {
 		            /** Id. */
 		            'id': {
@@ -285,7 +286,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Base',
 		                type: 'select',
 		                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
-		                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"}],}
+		                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"},{"label":"Logged in","value":"loggedIn"}],}
 		            },
 		            /** Description. */
 		            'description': {
@@ -479,6 +480,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: 'Profile Image Sizes',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		description: 'Various sizes that a profile image comes in.',
 		    fields: {
 		            /** 60x60. */
@@ -694,6 +696,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** . */
 		            'value': {
@@ -740,6 +743,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** . */
 		            'locationId': {
@@ -804,6 +808,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
 		            /** . */
 		            'locationId': {

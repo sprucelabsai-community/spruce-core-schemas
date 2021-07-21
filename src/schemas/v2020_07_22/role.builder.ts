@@ -4,7 +4,7 @@ export default buildSchema({
 	id: 'role',
 	name: 'Role',
 	description:
-		'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
+		'Every role in Spruce inherits from 5 bases. Anon, Logged in (person not associated with any org), Org Owner, Group Manager, Manager, Teammate, and Guest.',
 	fields: {
 		id: {
 			label: 'Id',
@@ -28,6 +28,7 @@ export default buildSchema({
 					{ label: 'Teammate', value: 'teammate' },
 					{ label: 'Guest', value: 'guest' },
 					{ label: 'Anonymous', value: 'anonymous' },
+					{ label: 'Logged in', value: 'loggedIn' },
 				],
 			},
 		},

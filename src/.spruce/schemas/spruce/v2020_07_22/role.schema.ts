@@ -9,7 +9,7 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.RoleSchema  = {
 	namespace: 'Spruce',
 	name: 'Role',
 	moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-	description: 'Every role in Spruce inherits from 5 bases. Owner, Group Manager, Manager, Teammate, and Guest.',
+	description: 'Every role in Spruce inherits from 5 bases. Anon, Logged in (person not associated with any org), Org Owner, Group Manager, Manager, Teammate, and Guest.',
 	    fields: {
 	            /** Id. */
 	            'id': {
@@ -30,7 +30,7 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.RoleSchema  = {
 	                label: 'Base',
 	                type: 'select',
 	                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
-	                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"}],}
+	                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Guest","value":"guest"},{"label":"Anonymous","value":"anonymous"},{"label":"Logged in","value":"loggedIn"}],}
 	            },
 	            /** Description. */
 	            'description': {
