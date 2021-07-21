@@ -1,3 +1,10 @@
+# [22.5.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.4.4...v22.5.0) (2021-07-21)
+
+
+### Features
+
+* logged in base ([a1ca905](https://github.com/sprucelabsai/spruce-core-schemas/commit/a1ca905))
+
 ## [22.4.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.4.3...v22.4.4) (2021-07-20)
 
 ## [22.4.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.4.2...v22.4.3) (2021-07-17)
