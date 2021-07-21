@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"version": "22.3.45",
+	"version": "22.4.4",
 	"files": [
 		"build/**/*",
 		"tsconfig.json"
@@ -60,11 +60,11 @@
 		"@sprucelabs/esm-postbuild": "latest",
 		"@sprucelabs/resolve-path-aliases": "latest",
 		"@sprucelabs/semantic-release": "latest",
-		"@types/node": "^16.3.1",
+		"@types/node": "^16.4.0",
 		"chokidar-cli": "^2.1.0",
 		"concurrently": "^6.2.0",
 		"conventional-changelog-sprucelabs": "latest",
-		"eslint": "^7.30.0",
+		"eslint": "^7.31.0",
 		"eslint-config-spruce": "latest",
 		"prettier": "^2.3.2",
 		"ts-node": "^10.1.0",
