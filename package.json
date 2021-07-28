@@ -61,7 +61,7 @@
 		"@sprucelabs/resolve-path-aliases": "latest",
 		"@sprucelabs/semantic-release": "latest",
 		"@types/node": "^16.4.5",
-		"chokidar-cli": "^2.1.0",
+		"chokidar-cli": "^3.0.0",
 		"concurrently": "^6.2.0",
 		"conventional-changelog-sprucelabs": "latest",
 		"eslint": "^7.31.0",
