@@ -4,5 +4,8 @@
   ],
   "installed": [
     "schema"
-  ]
+  ],
+  "scriptUpdater": {
+    "skipped": []
+  }
 }
