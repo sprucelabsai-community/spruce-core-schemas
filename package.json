@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "22.5.48",
+  "version": "22.5.49",
   "files": [
     "build/**/*",
     "tsconfig.json"
@@ -17,7 +17,10 @@
     "namespace": "spruce",
     "commandOverrides": {
       "sync.schemas": "--shouldFetchCoreSchemas false --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
-    }
+    },
+    "upgradeIgnoreList": [
+      "@sprucelabs/spruce-core-schemas"
+    ]
   },
   "description": "The schemas that Mercury and all skills use. 🤝",
   "keywords": [
@@ -47,7 +50,7 @@
     "rebuild": "yarn clean.all && yarn && yarn build.dev",
     "release": "semantic-release",
     "update.dependencies": "yarn clean.dependencies && yarn",
-    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock && yarn ; yarn fix.lint ; true",
+    "upgrade.packages": "yarn-upgrade-all && rm -f yarn.lock ; yarn ; yarn fix.lint ; true",
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
     "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
     "watch.build.dev": "tsc-watch --sourceMap --onCompilationComplete 'yarn post.watch.build'",
@@ -60,8 +63,7 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^25.3.1",
-    "@sprucelabs/spruce-core-schemas": "^22.5.49"
+    "@sprucelabs/schema": "^25.3.1"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.41",
@@ -79,15 +81,5 @@
     "tsconfig-paths": "^3.11.0",
     "typescript": "^4.4.3",
     "yarn-upgrade-all": "^0.5.4"
-  },
-  "yarn-upgrade-all": {
-    "ignore": [
-      "@sprucelabs/esm-postbuild",
-      "@sprucelabs/resolve-path-aliases",
-      "@sprucelabs/semantic-release",
-      "@sprucelabs/schema",
-      "conventional-changelog-sprucelabs",
-      "eslint-config-spruce"
-    ]
   }
 }
