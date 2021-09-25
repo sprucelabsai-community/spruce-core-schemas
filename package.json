@@ -66,10 +66,10 @@
     "@sprucelabs/schema": "^25.3.90"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.103",
+    "@sprucelabs/esm-postbuild": "^1.0.104",
     "@sprucelabs/resolve-path-aliases": "^1.0.87",
     "@sprucelabs/semantic-release": "^4.0.7",
-    "@types/node": "^16.9.6",
+    "@types/node": "^16.10.0",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^6.2.1",
     "conventional-changelog-sprucelabs": "^1.1.2",
