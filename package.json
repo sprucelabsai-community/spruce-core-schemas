@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "22.5.374",
+  "version": "22.5.375",
   "files": [
     "build/**/*",
     "tsconfig.json"
