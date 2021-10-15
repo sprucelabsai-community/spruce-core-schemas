@@ -1,3 +1,5 @@
+## [22.5.390](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.389...v22.5.390) (2021-10-15)
+
 ## [22.5.389](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.388...v22.5.389) (2021-10-15)
 
 ## [22.5.388](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.387...v22.5.388) (2021-10-15)
