@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "22.5.252",
+  "version": "22.5.440",
   "files": [
     "build/**/*",
     "tsconfig.json"
@@ -63,23 +63,24 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^25.3.184"
+    "@sprucelabs/schema": "^25.3.341",
+    "@sprucelabs/spruce-skill-utils": "^20.6.284"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.178",
-    "@sprucelabs/resolve-path-aliases": "^1.0.141",
+    "@sprucelabs/esm-postbuild": "^1.0.266",
+    "@sprucelabs/resolve-path-aliases": "^1.0.215",
     "@sprucelabs/semantic-release": "^4.0.7",
-    "@types/node": "^16.10.2",
+    "@types/node": "^16.11.1",
     "chokidar-cli": "^3.0.0",
-    "concurrently": "^6.2.2",
+    "concurrently": "^6.3.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
-    "eslint": "^7.32.0",
-    "eslint-config-spruce": "^10.10.12",
+    "eslint": "^8.0.1",
+    "eslint-config-spruce": "^10.10.15",
     "prettier": "^2.4.1",
-    "ts-node": "^10.2.1",
+    "ts-node": "^10.3.0",
     "tsc-watch": "^4.5.0",
     "tsconfig-paths": "^3.11.0",
-    "typescript": "^4.4.3",
+    "typescript": "^4.4.4",
     "yarn-upgrade-all": "^0.5.4"
   }
 }
