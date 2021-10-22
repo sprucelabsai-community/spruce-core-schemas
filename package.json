@@ -64,20 +64,20 @@
   },
   "dependencies": {
     "@sprucelabs/schema": "^25.3.373",
-    "@sprucelabs/spruce-skill-utils": "^20.6.320"
+    "@sprucelabs/spruce-skill-utils": "^20.6.321"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.271",
+    "@sprucelabs/esm-postbuild": "^1.0.272",
     "@sprucelabs/resolve-path-aliases": "^1.0.218",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@types/node": "^16.11.3",
+    "@types/node": "^16.11.4",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^6.3.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
     "eslint": "^8.0.1",
     "eslint-config-spruce": "^10.10.15",
     "prettier": "^2.4.1",
-    "ts-node": "^10.3.1",
+    "ts-node": "^10.4.0",
     "tsc-watch": "^4.5.0",
     "tsconfig-paths": "^3.11.0",
     "typescript": "^4.4.4",
