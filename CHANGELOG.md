@@ -1,3 +1,10 @@
+# [22.6.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.608...v22.6.0) (2021-11-02)
+
+
+### Features
+
+* address on org ([14a620e](https://github.com/sprucelabsai/spruce-core-schemas/commit/14a620e))
+
 ## [22.5.608](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.607...v22.5.608) (2021-10-31)
 
 ## [22.5.607](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.606...v22.5.607) (2021-10-31)
