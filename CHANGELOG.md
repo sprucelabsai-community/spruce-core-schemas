@@ -1,3 +1,33 @@
+## [22.5.608](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.607...v22.5.608) (2021-10-31)
+
+## [22.5.607](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.606...v22.5.607) (2021-10-31)
+
+## [22.5.606](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.605...v22.5.606) (2021-10-31)
+
+## [22.5.605](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.604...v22.5.605) (2021-10-31)
+
+## [22.5.604](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.603...v22.5.604) (2021-10-31)
+
+## [22.5.603](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.602...v22.5.603) (2021-10-31)
+
+## [22.5.602](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.601...v22.5.602) (2021-10-30)
+
+## [22.5.601](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.600...v22.5.601) (2021-10-30)
+
+## [22.5.600](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.599...v22.5.600) (2021-10-30)
+
+## [22.5.599](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.598...v22.5.599) (2021-10-30)
+
+## [22.5.598](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.597...v22.5.598) (2021-10-30)
+
+## [22.5.597](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.596...v22.5.597) (2021-10-30)
+
+## [22.5.596](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.595...v22.5.596) (2021-10-30)
+
+## [22.5.595](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.594...v22.5.595) (2021-10-30)
+
+## [22.5.594](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.593...v22.5.594) (2021-10-30)
+
 ## [22.5.593](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.592...v22.5.593) (2021-10-30)
 
 ## [22.5.592](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.5.591...v22.5.592) (2021-10-30)

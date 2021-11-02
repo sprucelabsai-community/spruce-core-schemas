@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "22.5.593",
+  "version": "22.5.608",
   "files": [
     "build/**/*",
     "tsconfig.json"
@@ -63,12 +63,12 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^25.3.431",
-    "@sprucelabs/spruce-skill-utils": "^22.0.0"
+    "@sprucelabs/schema": "^25.3.440",
+    "@sprucelabs/spruce-skill-utils": "^22.0.10"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.276",
-    "@sprucelabs/resolve-path-aliases": "^1.0.220",
+    "@sprucelabs/esm-postbuild": "^1.0.277",
+    "@sprucelabs/resolve-path-aliases": "^1.0.221",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/node": "^16.11.6",
     "chokidar-cli": "^3.0.0",
