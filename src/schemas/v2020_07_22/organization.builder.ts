@@ -15,6 +15,10 @@ export default buildSchema({
 			type: 'text',
 			isRequired: true,
 		},
+		address: {
+			label: 'Address',
+			type: 'address',
+		},
 		slug: {
 			label: 'Slug',
 			type: 'text',

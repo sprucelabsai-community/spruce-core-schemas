@@ -25,6 +25,12 @@ const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.OrganizationSchema  =
 	                isRequired: true,
 	                options: undefined
 	            },
+	            /** Address. */
+	            'address': {
+	                label: 'Address',
+	                type: 'address',
+	                options: undefined
+	            },
 	            /** Slug. */
 	            'slug': {
 	                label: 'Slug',

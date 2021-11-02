@@ -623,6 +623,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'id': string
 			/** Name. */
 			'name': string
+			/** Address. */
+			'address'?: SpruceSchema.AddressFieldValue| undefined | null
 			/** Slug. */
 			'slug': string
 			
@@ -651,6 +653,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Name',
 		                type: 'text',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Address. */
+		            'address': {
+		                label: 'Address',
+		                type: 'address',
 		                options: undefined
 		            },
 		            /** Slug. */
