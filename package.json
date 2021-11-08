@@ -70,7 +70,7 @@
     "@sprucelabs/esm-postbuild": "^1.0.279",
     "@sprucelabs/resolve-path-aliases": "^1.0.223",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@types/node": "^16.11.6",
+    "@types/node": "^16.11.7",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^6.3.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
