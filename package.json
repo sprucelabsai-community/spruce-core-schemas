@@ -64,11 +64,11 @@
   },
   "dependencies": {
     "@sprucelabs/schema": "^25.3.511",
-    "@sprucelabs/spruce-skill-utils": "^22.0.85"
+    "@sprucelabs/spruce-skill-utils": "^22.0.86"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.281",
-    "@sprucelabs/resolve-path-aliases": "^1.0.224",
+    "@sprucelabs/esm-postbuild": "^1.0.282",
+    "@sprucelabs/resolve-path-aliases": "^1.0.225",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/node": "^16.11.7",
     "chokidar-cli": "^3.0.0",
