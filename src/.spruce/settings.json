@@ -7,5 +7,10 @@
   ],
   "scriptUpdater": {
     "skipped": []
+  },
+  "writer": {
+    "skipped": [
+      ".eslintrc.js"
+    ]
   }
 }
