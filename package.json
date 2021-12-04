@@ -74,7 +74,7 @@
     "chokidar-cli": "^3.0.0",
     "concurrently": "^6.4.0",
     "conventional-changelog-sprucelabs": "^1.1.2",
-    "eslint": "^8.3.0",
+    "eslint": "^8.4.0",
     "eslint-config-spruce": "^10.10.16",
     "prettier": "^2.5.0",
     "ts-node": "^10.4.0",
