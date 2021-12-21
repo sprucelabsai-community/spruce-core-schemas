@@ -80,6 +80,12 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	                options: undefined
 	            },
 	            /** . */
+	            'links': {
+	                type: 'text',
+	                isArray: true,
+	                options: undefined
+	            },
+	            /** . */
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,

@@ -60,6 +60,12 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	                options: undefined
 	            },
 	            /** . */
+	            'links': {
+	                type: 'text',
+	                isArray: true,
+	                options: undefined
+	            },
+	            /** . */
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,

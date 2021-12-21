@@ -140,6 +140,10 @@ export default buildSchema({
 		topicId: {
 			type: 'id',
 		},
+		links: {
+			type: 'text',
+			isArray: true,
+		},
 		choices: {
 			type: 'schema',
 			isArray: true,

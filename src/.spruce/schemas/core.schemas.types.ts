@@ -163,6 +163,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'topicId'?: string| undefined | null
 			
+			'links'?: string[]| undefined | null
+			
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoices[]| undefined | null
 	}
 
@@ -219,6 +221,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'topicId': {
 		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'links': {
+		                type: 'text',
+		                isArray: true,
 		                options: undefined
 		            },
 		            /** . */
@@ -885,6 +893,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'topicId'?: string| undefined | null
 			
+			'links'?: string[]| undefined | null
+			
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoices[]| undefined | null
 	}
 
@@ -960,6 +970,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'topicId': {
 		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'links': {
+		                type: 'text',
+		                isArray: true,
 		                options: undefined
 		            },
 		            /** . */
