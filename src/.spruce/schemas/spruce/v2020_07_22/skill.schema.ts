@@ -39,9 +39,9 @@ const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	                type: 'text',
 	                options: undefined
 	            },
-	            /** Slug. */
+	            /** Namespace. */
 	            'slug': {
-	                label: 'Slug',
+	                label: 'Namespace',
 	                type: 'text',
 	                isRequired: true,
 	                options: undefined

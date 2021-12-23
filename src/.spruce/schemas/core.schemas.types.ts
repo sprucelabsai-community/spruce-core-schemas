@@ -58,7 +58,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'name': string
 			/** Description. */
 			'description'?: string| undefined | null
-			/** Slug. */
+			/** Namespace. */
 			'slug': string
 			/** Creators. The people or skills who created and own this skill. */
 			'creators': SpruceSchemas.Spruce.v2020_07_22.SkillCreator[]
@@ -104,9 +104,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'text',
 		                options: undefined
 		            },
-		            /** Slug. */
+		            /** Namespace. */
 		            'slug': {
-		                label: 'Slug',
+		                label: 'Namespace',
 		                type: 'text',
 		                isRequired: true,
 		                options: undefined

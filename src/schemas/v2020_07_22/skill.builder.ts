@@ -27,7 +27,7 @@ export default buildSchema({
 			isRequired: false,
 		},
 		slug: {
-			label: 'Slug',
+			label: 'Namespace',
 			type: 'text',
 			isRequired: true,
 		},
