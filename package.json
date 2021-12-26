@@ -63,8 +63,8 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^25.5.20",
-    "@sprucelabs/spruce-skill-utils": "^22.2.73"
+    "@sprucelabs/schema": "^25.5.21",
+    "@sprucelabs/spruce-skill-utils": "^22.2.74"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.313",
