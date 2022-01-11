@@ -1,3 +1,10 @@
+# [22.8.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.7.113...v22.8.0) (2022-01-11)
+
+
+### Features
+
+* Now organizations can be marked as public ([857f983](https://github.com/sprucelabsai/spruce-core-schemas/commit/857f983))
+
 ## [22.7.113](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.7.112...v22.7.113) (2022-01-11)
 
 ## [22.7.112](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.7.111...v22.7.112) (2022-01-11)
