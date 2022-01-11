@@ -24,6 +24,12 @@ export default buildSchema({
 			type: 'text',
 			isRequired: true,
 		},
+		isPublic: {
+			label: 'Public',
+			type: 'boolean',
+			hint: 'Is this organization viewable by guests?',
+			defaultValue: false,
+		},
 		dateCreated: {
 			type: 'number',
 			isRequired: true,
