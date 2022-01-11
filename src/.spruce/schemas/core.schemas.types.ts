@@ -635,6 +635,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'address'?: SpruceSchema.AddressFieldValue| undefined | null
 			/** Slug. */
 			'slug': string
+			/** Public. Is this organization viewable by guests? */
+			'isPublic'?: boolean| undefined | null
 			
 			'dateCreated': number
 			
@@ -674,6 +676,14 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Slug',
 		                type: 'text',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Public. Is this organization viewable by guests? */
+		            'isPublic': {
+		                label: 'Public',
+		                type: 'boolean',
+		                hint: 'Is this organization viewable by guests?',
+		                defaultValue: false,
 		                options: undefined
 		            },
 		            /** . */

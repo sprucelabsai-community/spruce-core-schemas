@@ -38,6 +38,14 @@ const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.OrganizationSchema  =
 	                isRequired: true,
 	                options: undefined
 	            },
+	            /** Public. Is this organization viewable by guests? */
+	            'isPublic': {
+	                label: 'Public',
+	                type: 'boolean',
+	                hint: 'Is this organization viewable by guests?',
+	                defaultValue: false,
+	                options: undefined
+	            },
 	            /** . */
 	            'dateCreated': {
 	                type: 'number',
