@@ -48,13 +48,13 @@ const organizationSchema: SpruceSchemas.Spruce.v2020_07_22.OrganizationSchema  =
 	            },
 	            /** . */
 	            'dateCreated': {
-	                type: 'number',
+	                type: 'dateTime',
 	                isRequired: true,
 	                options: undefined
 	            },
 	            /** . */
 	            'dateDeleted': {
-	                type: 'number',
+	                type: 'dateTime',
 	                options: undefined
 	            },
 	    }

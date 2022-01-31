@@ -66,11 +66,11 @@ export default buildSchema({
 			},
 		},
 		dateCreated: {
-			type: 'number',
+			type: 'dateTime',
 			isRequired: true,
 		},
 		dateScrambled: {
-			type: 'number',
+			type: 'dateTime',
 		},
 	},
 })

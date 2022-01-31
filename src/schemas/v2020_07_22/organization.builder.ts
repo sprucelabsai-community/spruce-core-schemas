@@ -31,11 +31,11 @@ export default buildSchema({
 			defaultValue: false,
 		},
 		dateCreated: {
-			type: 'number',
+			type: 'dateTime',
 			isRequired: true,
 		},
 		dateDeleted: {
-			type: 'number',
+			type: 'dateTime',
 		},
 	},
 })

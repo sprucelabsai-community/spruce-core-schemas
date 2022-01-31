@@ -56,13 +56,13 @@ const personSchema: SpruceSchemas.Spruce.v2020_07_22.PersonSchema  = {
 	            },
 	            /** . */
 	            'dateCreated': {
-	                type: 'number',
+	                type: 'dateTime',
 	                isRequired: true,
 	                options: undefined
 	            },
 	            /** . */
 	            'dateScrambled': {
-	                type: 'number',
+	                type: 'dateTime',
 	                options: undefined
 	            },
 	    }

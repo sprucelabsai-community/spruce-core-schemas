@@ -21,12 +21,12 @@ export default buildSchema({
 		},
 		dateCreated: {
 			label: 'Date created',
-			type: 'number',
+			type: 'dateTime',
 			isRequired: true,
 		},
 		dateDeleted: {
 			label: 'Date deleted',
-			type: 'number',
+			type: 'dateTime',
 		},
 	},
 })

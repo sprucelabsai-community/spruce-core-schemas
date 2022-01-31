@@ -34,14 +34,14 @@ const personLocationSchema: SpruceSchemas.Spruce.v2020_07_22.PersonLocationSchem
 	            /** Date created. */
 	            'dateCreated': {
 	                label: 'Date created',
-	                type: 'number',
+	                type: 'dateTime',
 	                isRequired: true,
 	                options: undefined
 	            },
 	            /** Date deleted. */
 	            'dateDeleted': {
 	                label: 'Date deleted',
-	                type: 'number',
+	                type: 'dateTime',
 	                options: undefined
 	            },
 	    }

@@ -63,9 +63,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Creators. The people or skills who created and own this skill. */
 			'creators': SpruceSchemas.Spruce.v2020_07_22.SkillCreator[]
 			
-			'dateCreated': number
+			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateDeleted'?: number| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
 	}
 
 	export interface SkillSchema extends SpruceSchema.Schema {
@@ -123,13 +123,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'dateCreated': {
-		                type: 'number',
+		                type: 'dateTime',
 		                isRequired: true,
 		                options: undefined
 		            },
 		            /** . */
 		            'dateDeleted': {
-		                type: 'number',
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		    }
@@ -346,9 +346,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Person id. */
 			'personId': string
 			/** Date created. */
-			'dateCreated': number
+			'dateCreated': SpruceSchema.DateTimeFieldValue
 			/** Date deleted. */
-			'dateDeleted'?: number| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
 	}
 
 	export interface PersonOrganizationSchema extends SpruceSchema.Schema {
@@ -382,14 +382,14 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** Date created. */
 		            'dateCreated': {
 		                label: 'Date created',
-		                type: 'number',
+		                type: 'dateTime',
 		                isRequired: true,
 		                options: undefined
 		            },
 		            /** Date deleted. */
 		            'dateDeleted': {
 		                label: 'Date deleted',
-		                type: 'number',
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		    }
@@ -413,9 +413,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Person id. */
 			'personId': string
 			/** Date created. */
-			'dateCreated': number
+			'dateCreated': SpruceSchema.DateTimeFieldValue
 			/** Date deleted. */
-			'dateDeleted'?: number| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
 	}
 
 	export interface PersonLocationSchema extends SpruceSchema.Schema {
@@ -449,14 +449,14 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** Date created. */
 		            'dateCreated': {
 		                label: 'Date created',
-		                type: 'number',
+		                type: 'dateTime',
 		                isRequired: true,
 		                options: undefined
 		            },
 		            /** Date deleted. */
 		            'dateDeleted': {
 		                label: 'Date deleted',
-		                type: 'number',
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		    }
@@ -546,9 +546,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Profile photos. */
 			'profileImages'?: SpruceSchemas.Spruce.v2020_07_22.ProfileImage| undefined | null
 			
-			'dateCreated': number
+			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateScrambled'?: number| undefined | null
+			'dateScrambled'?: SpruceSchema.DateTimeFieldValue| undefined | null
 	}
 
 	export interface PersonSchema extends SpruceSchema.Schema {
@@ -604,13 +604,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'dateCreated': {
-		                type: 'number',
+		                type: 'dateTime',
 		                isRequired: true,
 		                options: undefined
 		            },
 		            /** . */
 		            'dateScrambled': {
-		                type: 'number',
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		    }
@@ -638,9 +638,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Public. Is this organization viewable by guests? */
 			'isPublic'?: boolean| undefined | null
 			
-			'dateCreated': number
+			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateDeleted'?: number| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
 	}
 
 	export interface OrganizationSchema extends SpruceSchema.Schema {
@@ -688,13 +688,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'dateCreated': {
-		                type: 'number',
+		                type: 'dateTime',
 		                isRequired: true,
 		                options: undefined
 		            },
 		            /** . */
 		            'dateDeleted': {
-		                type: 'number',
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		    }
@@ -1021,13 +1021,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Main Phone. */
 			'phone'?: string| undefined | null
 			/** Timezone. */
-			'timezone'?: ("etc/gmt+12" | "pacific/midway" | "pacific/honolulu" | "us/alaska" | "america/los_Angeles" | "america/tijuana" | "us/arizona" | "america/chihuahua" | "us/mountain" | "america/managua" | "us/central" | "america/mexico_City" | "Canada/Saskatchewan" | "america/bogota" | "us/eastern" | "us/east-indiana" | "Canada/atlantic" | "america/caracas" | "america/manaus" | "america/Santiago" | "Canada/Newfoundland" | "america/Sao_Paulo" | "america/argentina/buenos_Aires" | "america/godthab" | "america/montevideo" | "america/Noronha" | "atlantic/cape_Verde" | "atlantic/azores" | "africa/casablanca" | "etc/gmt" | "europe/amsterdam" | "europe/belgrade" | "europe/brussels" | "europe/Sarajevo" | "africa/lagos" | "asia/amman" | "europe/athens" | "asia/beirut" | "africa/cairo" | "africa/Harare" | "europe/Helsinki" | "asia/Jerusalem" | "europe/minsk" | "africa/Windhoek" | "asia/Kuwait" | "europe/moscow" | "africa/Nairobi" | "asia/tbilisi" | "asia/tehran" | "asia/muscat" | "asia/baku" | "asia/Yerevan" | "asia/Kabul" | "asia/Yekaterinburg" | "asia/Karachi" | "asia/calcutta" | "asia/calcutta" | "asia/Katmandu" | "asia/almaty" | "asia/Dhaka" | "asia/Rangoon" | "asia/bangkok" | "asia/Krasnoyarsk" | "asia/Hong_Kong" | "asia/Kuala_Lumpur" | "asia/Irkutsk" | "Australia/Perth" | "asia/taipei" | "asia/tokyo" | "asia/Seoul" | "asia/Yakutsk" | "Australia/adelaide" | "Australia/Darwin" | "Australia/brisbane" | "Australia/canberra" | "Australia/Hobart" | "pacific/guam" | "asia/Vladivostok" | "asia/magadan" | "pacific/auckland" | "pacific/Fiji" | "pacific/tongatapu")| undefined | null
+			'timezone'?: ("-12" | "-11" | "-10" | "9:50" | "9" | "8" | "7" | "6" | "5" | "4:50" | "4" | "3:50" | "3" | "2" | "1" | "0" | "1" | "2" | "3" | "3:50" | "4" | "4:50" | "5" | "5:50" | "5:75" | "6" | "6:50" | "7" | "8" | "8:75" | "9" | "9:50" | "+10" | "+10:50" | "+11" | "+11:50" | "+12" | "+12:75" | "+13" | "+14")| undefined | null
 			/** Address. */
 			'address': SpruceSchema.AddressFieldValue
 			
-			'dateCreated': number
+			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateDeleted'?: number| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
 			
 			'organizationId': string
 	}
@@ -1086,7 +1086,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'timezone': {
 		                label: 'Timezone',
 		                type: 'select',
-		                options: {choices: [{"value":"etc/gmt+12","label":"International Date Line West"},{"value":"pacific/midway","label":"Midway Island, Samoa"},{"value":"pacific/honolulu","label":"Hawaii"},{"value":"us/alaska","label":"Alaska"},{"value":"america/los_Angeles","label":"Pacific Time (US & Canada)"},{"value":"america/tijuana","label":"Tijuana, Baja California"},{"value":"us/arizona","label":"Arizona"},{"value":"america/chihuahua","label":"Chihuahua, La Paz, Mazatlan"},{"value":"us/mountain","label":"Mountain Time (US & Canada)"},{"value":"america/managua","label":"Central America"},{"value":"us/central","label":"Central Time (US & Canada)"},{"value":"america/mexico_City","label":"Guadalajara, Mexico City, Monterrey"},{"value":"Canada/Saskatchewan","label":"Saskatchewan"},{"value":"america/bogota","label":"Bogota, Lima, Quito, Rio Branco"},{"value":"us/eastern","label":"Eastern Time (US & Canada)"},{"value":"us/east-indiana","label":"Indiana (East)"},{"value":"Canada/atlantic","label":"Atlantic Time (Canada)"},{"value":"america/caracas","label":"Caracas, La Paz"},{"value":"america/manaus","label":"Manaus"},{"value":"america/Santiago","label":"Santiago"},{"value":"Canada/Newfoundland","label":"Newfoundland"},{"value":"america/Sao_Paulo","label":"Brasilia"},{"value":"america/argentina/buenos_Aires","label":"Buenos Aires, Georgetown"},{"value":"america/godthab","label":"Greenland"},{"value":"america/montevideo","label":"Montevideo"},{"value":"america/Noronha","label":"Mid-Atlantic"},{"value":"atlantic/cape_Verde","label":"Cape Verde Is."},{"value":"atlantic/azores","label":"Azores"},{"value":"africa/casablanca","label":"Casablanca, Monrovia, Reykjavik"},{"value":"etc/gmt","label":"Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London"},{"value":"europe/amsterdam","label":"Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"},{"value":"europe/belgrade","label":"Belgrade, Bratislava, Budapest, Ljubljana, Prague"},{"value":"europe/brussels","label":"Brussels, Copenhagen, Madrid, Paris"},{"value":"europe/Sarajevo","label":"Sarajevo, Skopje, Warsaw, Zagreb"},{"value":"africa/lagos","label":"West Central Africa"},{"value":"asia/amman","label":"Amman"},{"value":"europe/athens","label":"Athens, Bucharest, Istanbul"},{"value":"asia/beirut","label":"Beirut"},{"value":"africa/cairo","label":"Cairo"},{"value":"africa/Harare","label":"Harare, Pretoria"},{"value":"europe/Helsinki","label":"Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"},{"value":"asia/Jerusalem","label":"Jerusalem"},{"value":"europe/minsk","label":"Minsk"},{"value":"africa/Windhoek","label":"Windhoek"},{"value":"asia/Kuwait","label":"Kuwait, Riyadh, Baghdad"},{"value":"europe/moscow","label":"Moscow, St. Petersburg, Volgograd"},{"value":"africa/Nairobi","label":"Nairobi"},{"value":"asia/tbilisi","label":"Tbilisi"},{"value":"asia/tehran","label":"Tehran"},{"value":"asia/muscat","label":"Abu Dhabi, Muscat"},{"value":"asia/baku","label":"Baku"},{"value":"asia/Yerevan","label":"Yerevan"},{"value":"asia/Kabul","label":"Kabul"},{"value":"asia/Yekaterinburg","label":"Yekaterinburg"},{"value":"asia/Karachi","label":"Islamabad, Karachi, Tashkent"},{"value":"asia/calcutta","label":"Chennai, Kolkata, Mumbai, New Delhi"},{"value":"asia/calcutta","label":"Sri Jayawardenapura"},{"value":"asia/Katmandu","label":"Kathmandu"},{"value":"asia/almaty","label":"Almaty, Novosibirsk"},{"value":"asia/Dhaka","label":"Astana, Dhaka"},{"value":"asia/Rangoon","label":"Yangon (Rangoon)"},{"value":"asia/bangkok","label":"Bangkok, Hanoi, Jakarta"},{"value":"asia/Krasnoyarsk","label":"Krasnoyarsk"},{"value":"asia/Hong_Kong","label":"Beijing, Chongqing, Hong Kong, Urumqi"},{"value":"asia/Kuala_Lumpur","label":"Kuala Lumpur, Singapore"},{"value":"asia/Irkutsk","label":"Irkutsk, Ulaan Bataar"},{"value":"Australia/Perth","label":"Perth"},{"value":"asia/taipei","label":"Taipei"},{"value":"asia/tokyo","label":"Osaka, Sapporo, Tokyo"},{"value":"asia/Seoul","label":"Seoul"},{"value":"asia/Yakutsk","label":"Yakutsk"},{"value":"Australia/adelaide","label":"Adelaide"},{"value":"Australia/Darwin","label":"Darwin"},{"value":"Australia/brisbane","label":"Brisbane"},{"value":"Australia/canberra","label":"Canberra, Melbourne, Sydney"},{"value":"Australia/Hobart","label":"Hobart"},{"value":"pacific/guam","label":"Guam, Port Moresby"},{"value":"asia/Vladivostok","label":"Vladivostok"},{"value":"asia/magadan","label":"Magadan, Solomon Is., New Caledonia"},{"value":"pacific/auckland","label":"Auckland, Wellington"},{"value":"pacific/Fiji","label":"Fiji, Kamchatka, Marshall Is."},{"value":"pacific/tongatapu","label":"Nuku'alofa"}],}
+		                options: {choices: [{"label":"(GMT -12) Eniwetok, Kwajalein","value":"-12"},{"label":"(GMT -11) Midway Island, Samoa","value":"-11"},{"label":"(GMT -10) Hawaii","value":"-10"},{"label":"(GMT -9:30) Taiohae","value":"9:50"},{"label":"(GMT -9) Alaska","value":"9"},{"label":"(GMT -8) Pacific Time (US &amp; Canada)","value":"8"},{"label":"(GMT -7) Mountain Time (US &amp; Canada)","value":"7"},{"label":"(GMT -6) Central Time (US &amp; Canada), Mexico City","value":"6"},{"label":"(GMT -5) Eastern Time (US &amp; Canada), Bogota, Lima","value":"5"},{"label":"(GMT -4:30) Caracas","value":"4:50"},{"label":"(GMT -4) Atlantic Time (Canada), Caracas, La Paz","value":"4"},{"label":"(GMT -3:30) Newfoundland","value":"3:50"},{"label":"(GMT -3) Brazil, Buenos Aires, Georgetown","value":"3"},{"label":"(GMT -2) Mid-Atlantic","value":"2"},{"label":"(GMT -1) Azores, Cape Verde Islands","value":"1"},{"label":"(GMT) Western Europe Time, London, Lisbon, Casablanca","value":"0"},{"label":"(GMT +1) Brussels, Copenhagen, Madrid, Paris","value":"1"},{"label":"(GMT +2) Kaliningrad, South Africa","value":"2"},{"label":"(GMT +3) Baghdad, Riyadh, Moscow, St. Petersburg","value":"3"},{"label":"(GMT +3:30) Tehran","value":"3:50"},{"label":"(GMT +4) Abu Dhabi, Muscat, Baku, Tbilisi","value":"4"},{"label":"(GMT +4:30) Kabul","value":"4:50"},{"label":"(GMT +5) Ekaterinburg, Islamabad, Karachi, Tashkent","value":"5"},{"label":"(GMT +5:30) Bombay, Calcutta, Madras, New Delhi","value":"5:50"},{"label":"(GMT +5:45) Kathmandu, Pokhara","value":"5:75"},{"label":"(GMT +6) Almaty, Dhaka, Colombo","value":"6"},{"label":"(GMT +6:30) Yangon, Mandalay","value":"6:50"},{"label":"(GMT +7) Bangkok, Hanoi, Jakarta","value":"7"},{"label":"(GMT +8) Beijing, Perth, Singapore, Hong Kong","value":"8"},{"label":"(GMT +8:45) Eucla","value":"8:75"},{"label":"(GMT +9) Tokyo, Seoul, Osaka, Sapporo, Yakutsk","value":"9"},{"label":"(GMT +9:30) Adelaide, Darwin","value":"9:50"},{"label":"(GMT +10) Eastern Australia, Guam, Vladivostok","value":"+10"},{"label":"(GMT +10:30) Lord Howe Island","value":"+10:50"},{"label":"(GMT +11) Magadan, Solomon Islands, New Caledonia","value":"+11"},{"label":"(GMT +11:30) Norfolk Island","value":"+11:50"},{"label":"(GMT +12) Auckland, Wellington, Fiji, Kamchatka","value":"+12"},{"label":"(GMT +12:45) Chatham Islands","value":"+12:75"},{"label":"(GMT +13) Apia, Nukualofa","value":"+13"},{"label":"(GMT +14) Line Islands, Tokelau","value":"+14"}],}
 		            },
 		            /** Address. */
 		            'address': {
@@ -1097,13 +1097,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'dateCreated': {
-		                type: 'number',
+		                type: 'dateTime',
 		                isRequired: true,
 		                options: undefined
 		            },
 		            /** . */
 		            'dateDeleted': {
-		                type: 'number',
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		            /** . */
