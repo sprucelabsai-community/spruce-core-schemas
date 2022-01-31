@@ -1,3 +1,10 @@
+# [23.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.8.94...v23.0.0) (2022-01-31)
+
+
+### Breaking Changes
+
+* upgrade ([f0d0d1f](https://github.com/sprucelabsai/spruce-core-schemas/commit/f0d0d1f))
+
 ## [22.8.94](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.8.93...v22.8.94) (2022-01-29)
 
 ## [22.8.93](https://github.com/sprucelabsai/spruce-core-schemas/compare/v22.8.92...v22.8.93) (2022-01-29)
