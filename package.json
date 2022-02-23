@@ -63,10 +63,10 @@
   },
   "dependencies": {
     "@sprucelabs/schema": "^26.0.131",
-    "@sprucelabs/spruce-skill-utils": "^24.1.80"
+    "@sprucelabs/spruce-skill-utils": "^24.1.81"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.400",
+    "@sprucelabs/esm-postbuild": "^1.0.401",
     "@sprucelabs/resolve-path-aliases": "^1.0.261",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/node": "^17.0.20",
