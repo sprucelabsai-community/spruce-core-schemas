@@ -1,4 +1,6 @@
 import { buildSchema } from '@sprucelabs/schema'
+import { ROLE_CHOICES } from '../../constants'
+
 
 export default buildSchema({
 	id: 'role',
@@ -21,15 +23,7 @@ export default buildSchema({
 			type: 'select',
 			hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
 			options: {
-				choices: [
-					{ label: 'Owner', value: 'owner' },
-					{ label: 'Group manager', value: 'groupManager' },
-					{ label: 'Manager', value: 'manager' },
-					{ label: 'Teammate', value: 'teammate' },
-					{ label: 'Guest', value: 'guest' },
-					{ label: 'Anonymous', value: 'anonymous' },
-					{ label: 'Logged in', value: 'loggedIn' },
-				],
+				choices: ROLE_CHOICES,
 			},
 		},
 		description: {

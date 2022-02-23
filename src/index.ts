@@ -13,4 +13,4 @@ export { default as messageSourceSchema } from '#spruce/schemas/spruce/v2020_07_
 export { default as messageTargetSchema } from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
 export { default as sendMessageSchema } from '#spruce/schemas/spruce/v2020_07_22/sendMessage.schema'
 export { default as fullMessageChoicesSchema } from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
-//comment added to bump push, remove when found
+export * from './constants'
