@@ -1,3 +1,12 @@
+## [23.1.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.1.0...v23.1.1) (2022-02-23)
+
+# [23.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.0.135...v23.1.0) (2022-02-23)
+
+
+### Features
+
+* role constants for employed, guest, and meta exported for better handling of role filtering on the platform ([bfa3b12](https://github.com/sprucelabsai/spruce-core-schemas/commit/bfa3b12))
+
 ## [23.0.135](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.0.134...v23.0.135) (2022-02-23)
 
 ## [23.0.134](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.0.133...v23.0.134) (2022-02-23)
