@@ -1,7 +1,6 @@
 import { buildSchema } from '@sprucelabs/schema'
 import { ROLE_CHOICES } from '../../constants'
 
-
 export default buildSchema({
 	id: 'role',
 	name: 'Role',
