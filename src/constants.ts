@@ -6,9 +6,15 @@ export const EMPLOYED_BASE_ROLES = [
 ]
 export const GUEST_BASE_ROLES = [{ name: 'Guest', slug: 'guest' }]
 
-const META_BASE_ROLES = [
+export const META_BASE_ROLES = [
 	{ name: 'Anonymous', slug: 'anonymous' },
 	{ name: 'Logged in', slug: 'loggedIn' },
+]
+
+export const BASE_ROLES = [
+	...EMPLOYED_BASE_ROLES,
+	...GUEST_BASE_ROLES,
+	...META_BASE_ROLES,
 ]
 
 const mapBaseToChoice = (br: {
@@ -19,11 +25,8 @@ const mapBaseToChoice = (br: {
 export const EMPLOYED_BASE_ROLE_CHOICES = [
 	...EMPLOYED_BASE_ROLES.map(mapBaseToChoice),
 ]
-
 export const GUEST_ROLE_CHOICES = GUEST_BASE_ROLES.map(mapBaseToChoice)
-
 export const META_BASE_ROLE_CHOICES = META_BASE_ROLES.map(mapBaseToChoice)
-
 export const ROLE_CHOICES = [
 	...EMPLOYED_BASE_ROLE_CHOICES,
 	...META_BASE_ROLE_CHOICES,
