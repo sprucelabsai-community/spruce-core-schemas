@@ -22,7 +22,7 @@ export default buildSchema({
 			type: 'select',
 			hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
 			options: {
-				choices: ROLE_CHOICES,
+				choices: ROLE_CHOICES as any,
 			},
 		},
 		description: {
