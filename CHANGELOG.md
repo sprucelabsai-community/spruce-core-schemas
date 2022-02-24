@@ -1,3 +1,10 @@
+# [24.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.8...v24.0.0) (2022-02-24)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([58c6942](https://github.com/sprucelabsai/spruce-core-schemas/commit/58c6942))
+
 ## [23.2.8](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.7...v23.2.8) (2022-02-24)
 
 ## [23.2.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.6...v23.2.7) (2022-02-24)
