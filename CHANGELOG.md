@@ -1,3 +1,10 @@
+# [25.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v24.0.0...v25.0.0) (2022-02-24)
+
+
+### Breaking Changes
+
+* schema export schemas nested under schema object ([966cd58](https://github.com/sprucelabsai/spruce-core-schemas/commit/966cd58))
+
 # [24.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.8...v24.0.0) (2022-02-24)
 
 
