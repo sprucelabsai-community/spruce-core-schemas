@@ -1,3 +1,26 @@
+# [24.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.8...v24.0.0) (2022-02-24)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([58c6942](https://github.com/sprucelabsai/spruce-core-schemas/commit/58c6942))
+
+## [23.2.8](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.7...v23.2.8) (2022-02-24)
+
+## [23.2.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.6...v23.2.7) (2022-02-24)
+
+## [23.2.6](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.5...v23.2.6) (2022-02-24)
+
+## [23.2.5](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.4...v23.2.5) (2022-02-24)
+
+## [23.2.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.3...v23.2.4) (2022-02-24)
+
+## [23.2.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.2...v23.2.3) (2022-02-24)
+
+## [23.2.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.1...v23.2.2) (2022-02-24)
+
+## [23.2.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.2.0...v23.2.1) (2022-02-23)
+
 # [23.2.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v23.1.1...v23.2.0) (2022-02-23)
 
 
