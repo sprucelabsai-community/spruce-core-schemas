@@ -62,8 +62,8 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^27.1.16",
-    "@sprucelabs/spruce-skill-utils": "^25.0.28"
+    "@sprucelabs/schema": "^27.1.17",
+    "@sprucelabs/spruce-skill-utils": "^25.0.29"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.417",
@@ -78,7 +78,7 @@
     "prettier": "^2.5.1",
     "ts-node": "^10.7.0",
     "tsc-watch": "^4.6.2",
-    "tsconfig-paths": "^3.13.0",
+    "tsconfig-paths": "^3.14.0",
     "typescript": "^4.6.2",
     "yarn-upgrade-all": "^0.6.1"
   }
