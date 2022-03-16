@@ -62,8 +62,8 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^27.1.22",
-    "@sprucelabs/spruce-skill-utils": "^25.0.34"
+    "@sprucelabs/schema": "^27.1.23",
+    "@sprucelabs/spruce-skill-utils": "^25.0.35"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.419",
@@ -75,7 +75,7 @@
     "conventional-changelog-sprucelabs": "^1.1.2",
     "eslint": "^8.11.0",
     "eslint-config-spruce": "^10.11.2",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.0",
     "ts-node": "^10.7.0",
     "tsc-watch": "^4.6.2",
     "tsconfig-paths": "^3.14.0",
