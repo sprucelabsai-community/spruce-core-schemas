@@ -19,7 +19,8 @@
       "sync.schemas": "--shouldFetchCoreSchemas false --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
     },
     "upgradeIgnoreList": [
-      "@sprucelabs/spruce-core-schemas"
+      "@sprucelabs/spruce-core-schemas",
+      "@sprucelabs/spruce-skill-utils"
     ]
   },
   "description": "The schemas that Mercury and all skills use. 🤝",
@@ -62,8 +63,7 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^27.1.26",
-    "@sprucelabs/spruce-skill-utils": "^25.0.39"
+    "@sprucelabs/schema": "^27.1.26"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^1.0.422",
