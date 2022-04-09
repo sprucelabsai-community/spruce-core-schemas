@@ -66,7 +66,7 @@
     "@sprucelabs/schema": "^27.1.46"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.439",
+    "@sprucelabs/esm-postbuild": "^1.0.440",
     "@sprucelabs/resolve-path-aliases": "^1.1.27",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@types/node": "^17.0.23",
