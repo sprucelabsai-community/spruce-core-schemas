@@ -1,3 +1,10 @@
+# [26.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v25.0.112...v26.0.0) (2022-05-06)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([fcd1c26](https://github.com/sprucelabsai/spruce-core-schemas/commit/fcd1c26))
+
 ## [25.0.112](https://github.com/sprucelabsai/spruce-core-schemas/compare/v25.0.111...v25.0.112) (2022-05-06)
 
 ## [25.0.111](https://github.com/sprucelabsai/spruce-core-schemas/compare/v25.0.110...v25.0.111) (2022-05-06)
