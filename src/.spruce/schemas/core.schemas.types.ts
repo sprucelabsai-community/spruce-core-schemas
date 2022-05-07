@@ -470,66 +470,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	/** Various sizes that a profile image comes in. */
-	export interface ProfileImage {
-		
-			/** 60x60. */
-			'profile60': string
-			/** 150x150. */
-			'profile150': string
-			/** 60x60. */
-			'profile60@2x': string
-			/** 150x150. */
-			'profile150@2x': string
-	}
-
-	export interface ProfileImageSchema extends SpruceSchema.Schema {
-		id: 'profileImage',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: 'Profile Image Sizes',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		description: 'Various sizes that a profile image comes in.',
-		    fields: {
-		            /** 60x60. */
-		            'profile60': {
-		                label: '60x60',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** 150x150. */
-		            'profile150': {
-		                label: '150x150',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** 60x60. */
-		            'profile60@2x': {
-		                label: '60x60',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** 150x150. */
-		            'profile150@2x': {
-		                label: '150x150',
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type ProfileImageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ProfileImageSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
 	/** A human being. */
 	export interface Person {
 		
@@ -543,8 +483,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'casualName': string
 			/** Phone. A number that can be texted */
 			'phone'?: string| undefined | null
-			/** Profile photos. */
-			'profileImages'?: SpruceSchemas.Spruce.v2020_07_22.ProfileImage| undefined | null
+			/** Avatar src. */
+			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
@@ -596,11 +536,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                hint: 'A number that can be texted',
 		                options: undefined
 		            },
-		            /** Profile photos. */
-		            'profileImages': {
-		                label: 'Profile photos',
-		                type: 'schema',
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ProfileImageSchema,}
+		            /** Avatar src. */
+		            'avatar': {
+		                label: 'Avatar src',
+		                type: 'image',
+		                options: {requiredSizes: ["*"],}
 		            },
 		            /** . */
 		            'dateCreated': {

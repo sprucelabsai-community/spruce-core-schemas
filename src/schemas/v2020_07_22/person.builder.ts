@@ -32,37 +32,11 @@ export default buildSchema({
 			hint: 'A number that can be texted',
 			isPrivate: true,
 		},
-		profileImages: {
-			label: 'Profile photos',
-			type: 'schema',
+		avatar: {
+			label: 'Avatar src',
+			type: 'image',
 			options: {
-				schema: {
-					id: 'profileImage',
-					name: 'Profile Image Sizes',
-					description: 'Various sizes that a profile image comes in.',
-					fields: {
-						profile60: {
-							label: '60x60',
-							type: 'text',
-							isRequired: true,
-						},
-						profile150: {
-							label: '150x150',
-							type: 'text',
-							isRequired: true,
-						},
-						'profile60@2x': {
-							label: '60x60',
-							type: 'text',
-							isRequired: true,
-						},
-						'profile150@2x': {
-							label: '150x150',
-							type: 'text',
-							isRequired: true,
-						},
-					},
-				},
+				requiredSizes: ['*'],
 			},
 		},
 		dateCreated: {
