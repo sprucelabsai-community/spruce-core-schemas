@@ -1,3 +1,10 @@
+# [27.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v26.0.2...v27.0.0) (2022-05-07)
+
+
+### Breaking Changes
+
+* drop of profile images, move to avatar with all sizes required ([e9c7f52](https://github.com/sprucelabsai/spruce-core-schemas/commit/e9c7f52))
+
 ## [26.0.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v26.0.1...v26.0.2) (2022-05-07)
 
 ## [26.0.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v26.0.0...v26.0.1) (2022-05-06)
