@@ -1,3 +1,10 @@
+# [27.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v27.0.3...v27.1.0) (2022-05-10)
+
+
+### Features
+
+* feed and feed item schemas! ([9665217](https://github.com/sprucelabsai/spruce-core-schemas/commit/9665217))
+
 ## [27.0.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v27.0.2...v27.0.3) (2022-05-10)
 
 ## [27.0.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v27.0.1...v27.0.2) (2022-05-09)
