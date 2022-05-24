@@ -3,7 +3,7 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 import messageTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
 import linkSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/link.schema'
-import choicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choices.schema'
+import choiceSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choice.schema'
 
 const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	id: 'sendMessage',
@@ -71,7 +71,7 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,
-	                options: {schema: choicesSchema_v2020_07_22,}
+	                options: {schema: choiceSchema_v2020_07_22,}
 	            },
 	    }
 }

@@ -154,7 +154,7 @@ export default buildSchema({
 			isArray: true,
 			options: {
 				schema: {
-					id: 'choices',
+					id: 'choice',
 					fields: {
 						value: {
 							type: 'text',
