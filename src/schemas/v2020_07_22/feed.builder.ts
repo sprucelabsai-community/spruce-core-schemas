@@ -1,4 +1,5 @@
 import { buildSchema } from '@sprucelabs/schema'
+import choiceBuilder from './choice.builder'
 import linkBuilder from './link.builder'
 
 const feedItemSchema = buildSchema({
@@ -45,7 +46,7 @@ const feedItemSchema = buildSchema({
 			type: 'schema',
 			isArray: true,
 			options: {
-				schemaId: { id: 'choices' },
+				schemaId: choiceBuilder,
 			},
 		},
 		links: {

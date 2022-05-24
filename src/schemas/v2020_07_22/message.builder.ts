@@ -1,4 +1,5 @@
 import { buildSchema } from '@sprucelabs/schema'
+import choiceBuilder from './choice.builder'
 import linkBuilder from './link.builder'
 
 const eventTargetFields = {
@@ -153,19 +154,7 @@ export default buildSchema({
 			type: 'schema',
 			isArray: true,
 			options: {
-				schema: {
-					id: 'choice',
-					fields: {
-						value: {
-							type: 'text',
-							isRequired: true,
-						},
-						label: {
-							type: 'text',
-							isRequired: true,
-						},
-					},
-				},
+				schema: choiceBuilder,
 			},
 		},
 	},
