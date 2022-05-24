@@ -13,7 +13,7 @@ export { default as messageTargetSchema } from '#spruce/schemas/spruce/v2020_07_
 export { default as sendMessageSchema } from '#spruce/schemas/spruce/v2020_07_22/sendMessage.schema'
 export { default as feedSchema } from '#spruce/schemas/spruce/v2020_07_22/feed.schema'
 export { default as linkSchema } from '#spruce/schemas/spruce/v2020_07_22/link.schema'
-export { default as choiceSchema } from '#spruce/schemas/spruce/v2020_07_22/choice.schema'
 export { default as feedItemSchema } from '#spruce/schemas/spruce/v2020_07_22/feedItem.schema'
+export { default as choiceSchema } from '#spruce/schemas/spruce/v2020_07_22/choice.schema'
 
 export * from './constants'
