@@ -1,3 +1,10 @@
+# [29.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v28.0.2...v29.0.0) (2022-05-24)
+
+
+### Breaking Changes
+
+* spelling change ([ef3dfe4](https://github.com/sprucelabsai/spruce-core-schemas/commit/ef3dfe4))
+
 ## [28.0.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v28.0.1...v28.0.2) (2022-05-24)
 
 ## [28.0.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v28.0.0...v28.0.1) (2022-05-24)
