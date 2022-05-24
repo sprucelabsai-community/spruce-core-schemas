@@ -14,6 +14,7 @@ export { default as sendMessageSchema } from '#spruce/schemas/spruce/v2020_07_22
 export { default as choices } from '#spruce/schemas/spruce/v2020_07_22/choices.schema'
 export { default as feedSchema } from '#spruce/schemas/spruce/v2020_07_22/feed.schema'
 export { default as linkSchema } from '#spruce/schemas/spruce/v2020_07_22/link.schema'
+export { default as choicesSchema } from '#spruce/schemas/spruce/v2020_07_22/choices.schema'
 export { default as feedItemSchema } from '#spruce/schemas/spruce/v2020_07_22/feedItem.schema'
 
 export * from './constants'
