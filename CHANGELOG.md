@@ -1,3 +1,10 @@
+# [28.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v27.1.27...v28.0.0) (2022-05-24)
+
+
+### Breaking Changes
+
+* choices and messages and the feed oh my! ([43cfe4c](https://github.com/sprucelabsai/spruce-core-schemas/commit/43cfe4c))
+
 ## [27.1.27](https://github.com/sprucelabsai/spruce-core-schemas/compare/v27.1.26...v27.1.27) (2022-05-23)
 
 ## [27.1.26](https://github.com/sprucelabsai/spruce-core-schemas/compare/v27.1.25...v27.1.26) (2022-05-23)
