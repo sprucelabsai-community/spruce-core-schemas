@@ -2,7 +2,8 @@ import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
 import messageTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
-import fullMessageChoicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
+import linkSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/link.schema'
+import choicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choices.schema'
 
 const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	id: 'sendMessage',
@@ -61,15 +62,16 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	            },
 	            /** . */
 	            'links': {
-	                type: 'text',
+	                type: 'schema',
 	                isArray: true,
-	                options: undefined
+	                minArrayLength: 0,
+	                options: {schema: linkSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,
-	                options: {schema: fullMessageChoicesSchema_v2020_07_22,}
+	                options: {schema: choicesSchema_v2020_07_22,}
 	            },
 	    }
 }

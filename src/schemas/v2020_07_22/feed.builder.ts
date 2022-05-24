@@ -1,4 +1,5 @@
 import { buildSchema } from '@sprucelabs/schema'
+import linkBuilder from './link.builder'
 
 const feedItemSchema = buildSchema({
 	id: 'feedItem',
@@ -38,6 +39,21 @@ const feedItemSchema = buildSchema({
 			type: 'image',
 			options: {
 				requiredSizes: ['*'],
+			},
+		},
+		choices: {
+			type: 'schema',
+			isArray: true,
+			options: {
+				schemaId: { id: 'choices' },
+			},
+		},
+		links: {
+			type: 'schema',
+			isArray: true,
+			minArrayLength: 0,
+			options: {
+				schema: linkBuilder,
 			},
 		},
 	},

@@ -546,148 +546,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
-	export interface FullMessageChoices {
-		
-			
-			'value': string
-			
-			'label': string
-	}
-
-	export interface FullMessageChoicesSchema extends SpruceSchema.Schema {
-		id: 'fullMessageChoices',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: '',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		    fields: {
-		            /** . */
-		            'value': {
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'label': {
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type FullMessageChoicesEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FullMessageChoicesSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
-	
-	export interface SendMessage {
-		
-			
-			'dateSent'?: number| undefined | null
-			
-			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
-			
-			'errors'?: string[]| undefined | null
-			
-			'classification': ("auth" | "transactional" | "promotional" | "incoming")
-			
-			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored")| undefined | null
-			
-			'body': string
-			
-			'context'?: (Record<string, any>)| undefined | null
-			
-			'topicId'?: string| undefined | null
-			
-			'links'?: string[]| undefined | null
-			
-			'choices'?: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoices[]| undefined | null
-	}
-
-	export interface SendMessageSchema extends SpruceSchema.Schema {
-		id: 'sendMessage',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: '',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		    fields: {
-		            /** . */
-		            'dateSent': {
-		                type: 'number',
-		                options: undefined
-		            },
-		            /** . */
-		            'target': {
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
-		            },
-		            /** . */
-		            'errors': {
-		                type: 'text',
-		                isPrivate: true,
-		                isArray: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'classification': {
-		                type: 'select',
-		                isRequired: true,
-		                options: {choices: [{"value":"auth","label":"Auth"},{"value":"transactional","label":"transactional"},{"value":"promotional","label":"Promotional"},{"value":"incoming","label":"incoming"}],}
-		            },
-		            /** . */
-		            'status': {
-		                type: 'select',
-		                isPrivate: true,
-		                defaultValue: "pending",
-		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
-		            },
-		            /** . */
-		            'body': {
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'context': {
-		                type: 'raw',
-		                isPrivate: true,
-		                options: {valueType: `Record<string, any>`,}
-		            },
-		            /** . */
-		            'topicId': {
-		                type: 'id',
-		                options: undefined
-		            },
-		            /** . */
-		            'links': {
-		                type: 'text',
-		                isArray: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'choices': {
-		                type: 'schema',
-		                isArray: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoicesSchema,}
-		            },
-		    }
-	}
-
-	export type SendMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
-	
 	export interface MessageSource {
 		
 			
@@ -817,6 +675,110 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
+	
+	export interface SendMessage {
+		
+			
+			'dateSent'?: number| undefined | null
+			
+			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
+			
+			'errors'?: string[]| undefined | null
+			
+			'classification': ("auth" | "transactional" | "promotional" | "incoming")
+			
+			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored")| undefined | null
+			
+			'body': string
+			
+			'context'?: (Record<string, any>)| undefined | null
+			
+			'topicId'?: string| undefined | null
+			
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
+			
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choices[]| undefined | null
+	}
+
+	export interface SendMessageSchema extends SpruceSchema.Schema {
+		id: 'sendMessage',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'dateSent': {
+		                type: 'number',
+		                options: undefined
+		            },
+		            /** . */
+		            'target': {
+		                type: 'schema',
+		                isRequired: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
+		            },
+		            /** . */
+		            'errors': {
+		                type: 'text',
+		                isPrivate: true,
+		                isArray: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'classification': {
+		                type: 'select',
+		                isRequired: true,
+		                options: {choices: [{"value":"auth","label":"Auth"},{"value":"transactional","label":"transactional"},{"value":"promotional","label":"Promotional"},{"value":"incoming","label":"incoming"}],}
+		            },
+		            /** . */
+		            'status': {
+		                type: 'select',
+		                isPrivate: true,
+		                defaultValue: "pending",
+		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
+		            },
+		            /** . */
+		            'body': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'context': {
+		                type: 'raw',
+		                isPrivate: true,
+		                options: {valueType: `Record<string, any>`,}
+		            },
+		            /** . */
+		            'topicId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'links': {
+		                type: 'schema',
+		                isArray: true,
+		                minArrayLength: 0,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.LinkSchema,}
+		            },
+		            /** . */
+		            'choices': {
+		                type: 'schema',
+		                isArray: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoicesSchema,}
+		            },
+		    }
+	}
+
+	export type SendMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
 	/** A discrete communication between two humans or a human and a machine. */
 	export interface Message {
 		
@@ -843,9 +805,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'topicId'?: string| undefined | null
 			
-			'links'?: string[]| undefined | null
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
 			
-			'choices'?: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoices[]| undefined | null
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choices[]| undefined | null
 	}
 
 	export interface MessageSchema extends SpruceSchema.Schema {
@@ -924,15 +886,16 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'links': {
-		                type: 'text',
+		                type: 'schema',
 		                isArray: true,
-		                options: undefined
+		                minArrayLength: 0,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.LinkSchema,}
 		            },
 		            /** . */
 		            'choices': {
 		                type: 'schema',
 		                isArray: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FullMessageChoicesSchema,}
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoicesSchema,}
 		            },
 		    }
 	}
@@ -1064,6 +1027,124 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
+	export interface Feed {
+		
+			
+			'items': SpruceSchemas.Spruce.v2020_07_22.FeedItem[]
+			
+			'shouldEnableChat'?: boolean| undefined | null
+	}
+
+	export interface FeedSchema extends SpruceSchema.Schema {
+		id: 'feed',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'items': {
+		                type: 'schema',
+		                isRequired: true,
+		                isArray: true,
+		                minArrayLength: 0,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema,}
+		            },
+		            /** . */
+		            'shouldEnableChat': {
+		                type: 'boolean',
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type FeedEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FeedSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
+	export interface Link {
+		
+			
+			'label': string
+			
+			'uri': string
+	}
+
+	export interface LinkSchema extends SpruceSchema.Schema {
+		id: 'link',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: 'Link',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'label': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'uri': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type LinkEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.LinkSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
+	export interface Choices {
+		
+			
+			'value': string
+			
+			'label': string
+	}
+
+	export interface ChoicesSchema extends SpruceSchema.Schema {
+		id: 'choices',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'value': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'label': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type ChoicesEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ChoicesSchema>
+
+}
+
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
 	export interface FeedItem {
 		
 			
@@ -1084,6 +1165,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'fromCasualName': string
 			
 			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
+			
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choices[]| undefined | null
+			
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
 	}
 
 	export interface FeedItemSchema extends SpruceSchema.Schema {
@@ -1142,50 +1227,23 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'image',
 		                options: {requiredSizes: ["*"],}
 		            },
+		            /** . */
+		            'choices': {
+		                type: 'schema',
+		                isArray: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoicesSchema,}
+		            },
+		            /** . */
+		            'links': {
+		                type: 'schema',
+		                isArray: true,
+		                minArrayLength: 0,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.LinkSchema,}
+		            },
 		    }
 	}
 
 	export type FeedItemEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema>
-
-}
-
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
-	
-	export interface Feed {
-		
-			
-			'items': SpruceSchemas.Spruce.v2020_07_22.FeedItem[]
-			
-			'shouldEnableChat'?: boolean| undefined | null
-	}
-
-	export interface FeedSchema extends SpruceSchema.Schema {
-		id: 'feed',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: '',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		    fields: {
-		            /** . */
-		            'items': {
-		                type: 'schema',
-		                isRequired: true,
-		                isArray: true,
-		                minArrayLength: 0,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema,}
-		            },
-		            /** . */
-		            'shouldEnableChat': {
-		                type: 'boolean',
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type FeedEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FeedSchema>
 
 }
 

@@ -1,4 +1,5 @@
 import { buildSchema } from '@sprucelabs/schema'
+import linkBuilder from './link.builder'
 
 const eventTargetFields = {
 	locationId: {
@@ -141,15 +142,19 @@ export default buildSchema({
 			type: 'id',
 		},
 		links: {
-			type: 'text',
+			type: 'schema',
 			isArray: true,
+			minArrayLength: 0,
+			options: {
+				schema: linkBuilder,
+			},
 		},
 		choices: {
 			type: 'schema',
 			isArray: true,
 			options: {
 				schema: {
-					id: 'fullMessageChoices',
+					id: 'choices',
 					fields: {
 						value: {
 							type: 'text',

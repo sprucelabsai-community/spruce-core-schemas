@@ -1,7 +1,8 @@
 import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
-
+import choicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choices.schema'
+import linkSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/link.schema'
 
 const feedItemSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema  = {
 	id: 'feedItem',
@@ -58,6 +59,19 @@ const feedItemSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema  = {
 	            'avatar': {
 	                type: 'image',
 	                options: {requiredSizes: ["*"],}
+	            },
+	            /** . */
+	            'choices': {
+	                type: 'schema',
+	                isArray: true,
+	                options: {schema: choicesSchema_v2020_07_22,}
+	            },
+	            /** . */
+	            'links': {
+	                type: 'schema',
+	                isArray: true,
+	                minArrayLength: 0,
+	                options: {schema: linkSchema_v2020_07_22,}
 	            },
 	    }
 }

@@ -3,7 +3,8 @@ import { SpruceSchemas } from '../../core.schemas.types'
 
 import messageTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageTarget.schema'
 import messageSourceSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/messageSource.schema'
-import fullMessageChoicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/fullMessageChoices.schema'
+import linkSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/link.schema'
+import choicesSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choices.schema'
 
 const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	id: 'message',
@@ -81,15 +82,16 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	            },
 	            /** . */
 	            'links': {
-	                type: 'text',
+	                type: 'schema',
 	                isArray: true,
-	                options: undefined
+	                minArrayLength: 0,
+	                options: {schema: linkSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,
-	                options: {schema: fullMessageChoicesSchema_v2020_07_22,}
+	                options: {schema: choicesSchema_v2020_07_22,}
 	            },
 	    }
 }
