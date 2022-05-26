@@ -1,3 +1,10 @@
+# [29.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v29.0.3...v29.1.0) (2022-05-26)
+
+
+### Features
+
+* timezone choices now available! ([a00842b](https://github.com/sprucelabsai/spruce-core-schemas/commit/a00842b))
+
 ## [29.0.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v29.0.2...v29.0.3) (2022-05-24)
 
 ## [29.0.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v29.0.1...v29.0.2) (2022-05-24)
