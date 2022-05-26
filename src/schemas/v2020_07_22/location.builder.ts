@@ -41,7 +41,7 @@ export default buildSchema({
 			label: 'Timezone',
 			type: 'select',
 			options: {
-				choices: timezoneChoices,
+				choices: timezoneChoices as any,
 			},
 		},
 		address: {
