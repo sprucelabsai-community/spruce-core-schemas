@@ -1,5 +1,5 @@
 export const timezoneChoices = [
-	{ label: 'International Date Line West', value: 'Etc/GMT+12' },
+	{ label: 'International Date Line West', value: 'UTC' },
 	{ label: 'Midway Island, Samoa', value: 'Pacific/Midway' },
 	{ label: 'Hawaii', value: 'Pacific/Honolulu' },
 	{ label: 'Alaska', value: 'America/Anchorage' },
