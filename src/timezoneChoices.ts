@@ -99,4 +99,4 @@ export const timezoneChoices = [
 	{ label: 'Auckland, Wellington', value: 'Pacific/Auckland' },
 	{ label: 'Fiji, Kamchatka, Marshall Is.', value: 'Pacific/Fiji' },
 	{ label: "Nuku'alofa", value: 'Pacific/Tongatapu' },
-]
+] as const
