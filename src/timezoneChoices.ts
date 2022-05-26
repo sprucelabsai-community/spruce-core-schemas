@@ -75,4 +75,4 @@ export const timezoneChoices = [
 	{ label: '(GMT +12:45) Chatham Islands', value: '+12:75' },
 	{ label: '(GMT +13) Apia, Nukualofa', value: '+13' },
 	{ label: '(GMT +14) Line Islands, Tokelau', value: '+14' },
-];
+]
