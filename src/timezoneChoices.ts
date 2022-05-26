@@ -1,0 +1,78 @@
+export const timezoneChoices = [
+	{ label: '(GMT -12) Eniwetok, Kwajalein', value: '-12' },
+	{ label: '(GMT -11) Midway Island, Samoa', value: '-11' },
+	{ label: '(GMT -10) Hawaii', value: '-10' },
+	{ label: '(GMT -9:30) Taiohae', value: '9:50' },
+	{ label: '(GMT -9) Alaska', value: '9' },
+	{ label: '(GMT -8) Pacific Time (US & Canada)', value: '8' },
+	{ label: '(GMT -7) Mountain Time (US & Canada)', value: '7' },
+	{
+		label: '(GMT -6) Central Time (US & Canada), Mexico City',
+		value: '6',
+	},
+	{
+		label: '(GMT -5) Eastern Time (US & Canada), Bogota, Lima',
+		value: '5',
+	},
+	{ label: '(GMT -4:30) Caracas', value: '4:50' },
+	{
+		label: '(GMT -4) Atlantic Time (Canada), Caracas, La Paz',
+		value: '4',
+	},
+	{ label: '(GMT -3:30) Newfoundland', value: '3:50' },
+	{ label: '(GMT -3) Brazil, Buenos Aires, Georgetown', value: '3' },
+	{ label: '(GMT -2) Mid-Atlantic', value: '2' },
+	{ label: '(GMT -1) Azores, Cape Verde Islands', value: '1' },
+	{
+		label: '(GMT) Western Europe Time, London, Lisbon, Casablanca',
+		value: '0',
+	},
+	{ label: '(GMT +1) Brussels, Copenhagen, Madrid, Paris', value: '1' },
+	{ label: '(GMT +2) Kaliningrad, South Africa', value: '2' },
+	{
+		label: '(GMT +3) Baghdad, Riyadh, Moscow, St. Petersburg',
+		value: '3',
+	},
+	{ label: '(GMT +3:30) Tehran', value: '3:50' },
+	{ label: '(GMT +4) Abu Dhabi, Muscat, Baku, Tbilisi', value: '4' },
+	{ label: '(GMT +4:30) Kabul', value: '4:50' },
+	{
+		label: '(GMT +5) Ekaterinburg, Islamabad, Karachi, Tashkent',
+		value: '5',
+	},
+	{
+		label: '(GMT +5:30) Bombay, Calcutta, Madras, New Delhi',
+		value: '5:50',
+	},
+	{ label: '(GMT +5:45) Kathmandu, Pokhara', value: '5:75' },
+	{ label: '(GMT +6) Almaty, Dhaka, Colombo', value: '6' },
+	{ label: '(GMT +6:30) Yangon, Mandalay', value: '6:50' },
+	{ label: '(GMT +7) Bangkok, Hanoi, Jakarta', value: '7' },
+	{
+		label: '(GMT +8) Beijing, Perth, Singapore, Hong Kong',
+		value: '8',
+	},
+	{ label: '(GMT +8:45) Eucla', value: '8:75' },
+	{
+		label: '(GMT +9) Tokyo, Seoul, Osaka, Sapporo, Yakutsk',
+		value: '9',
+	},
+	{ label: '(GMT +9:30) Adelaide, Darwin', value: '9:50' },
+	{
+		label: '(GMT +10) Eastern Australia, Guam, Vladivostok',
+		value: '+10',
+	},
+	{ label: '(GMT +10:30) Lord Howe Island', value: '+10:50' },
+	{
+		label: '(GMT +11) Magadan, Solomon Islands, New Caledonia',
+		value: '+11',
+	},
+	{ label: '(GMT +11:30) Norfolk Island', value: '+11:50' },
+	{
+		label: '(GMT +12) Auckland, Wellington, Fiji, Kamchatka',
+		value: '+12',
+	},
+	{ label: '(GMT +12:45) Chatham Islands', value: '+12:75' },
+	{ label: '(GMT +13) Apia, Nukualofa', value: '+13' },
+	{ label: '(GMT +14) Line Islands, Tokelau', value: '+14' },
+];
