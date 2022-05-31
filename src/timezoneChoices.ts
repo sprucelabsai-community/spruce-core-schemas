@@ -1,7 +1,4 @@
 export const timezoneChoices = [
-	{ value: 'America/New_York', label: 'Eastern Time - New York' },
-	{ value: 'America/Denver', label: 'Mountain Time - Denver' },
-	{ value: 'America/Chicago', label: 'Central Time - Chicago' },
 	{ value: 'Pacific/Niue', label: 'Niue Time' },
 	{ value: 'Pacific/Pago_Pago', label: 'Samoa Standard Time' },
 	{ value: 'Pacific/Rarotonga', label: 'Cook Islands Standard Time' },
@@ -473,8 +470,7 @@ export const timezoneChoices = [
 	{ value: 'Pacific/Wallis', label: 'Wallis & Futuna Time' },
 	{ value: 'Pacific/Chatham', label: 'Chatham Time' },
 	{ value: 'Pacific/Apia', label: 'Apia Standard Time' },
-	{ value: 'Pacific/Kanton', label: 'Phoenix Islands Time' },
 	{ value: 'Pacific/Fakaofo', label: 'Tokelau Time' },
 	{ value: 'Pacific/Tongatapu', label: 'Tonga Standard Time' },
 	{ value: 'Pacific/Kiritimati', label: 'Line Islands Time' },
-]
+] as const
