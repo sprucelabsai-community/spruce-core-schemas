@@ -1,3 +1,10 @@
+# [33.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v32.0.0...v33.0.0) (2022-06-01)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([ac4d353](https://github.com/sprucelabsai/spruce-core-schemas/commit/ac4d353))
+
 # [32.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v31.0.1...v32.0.0) (2022-06-01)
 
 
