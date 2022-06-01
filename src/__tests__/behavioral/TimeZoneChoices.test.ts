@@ -1,9 +1,7 @@
-import { fake } from '@sprucelabs/spruce-test-fixtures'
 import AbstractSpruceTest, { test, assert } from '@sprucelabs/test'
 import { getTimezoneOffset } from 'date-fns-tz'
 import { timezoneChoices } from '../../timezoneChoices'
 
-@fake.login()
 export default class TimeZoneChoicesTest extends AbstractSpruceTest {
 	@test()
 	protected static async findsOffsetForAllTimezones() {

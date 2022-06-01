@@ -20,7 +20,8 @@
     },
     "upgradeIgnoreList": [
       "@sprucelabs/spruce-core-schemas",
-      "@sprucelabs/spruce-skill-utils"
+      "@sprucelabs/spruce-skill-utils",
+      "@sprucelabs/spruce-test-fixtures"
     ]
   },
   "description": "The schemas that Mercury and all skills use. 🤝",
@@ -70,9 +71,7 @@
     "@sprucelabs/jest-json-reporter": "^6.0.390",
     "@sprucelabs/resolve-path-aliases": "^1.1.50",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/spruce-test-fixtures": "^36.0.0",
     "@sprucelabs/test": "^7.7.318",
-    "@sprucelabs/test-utils": "^3.0.558",
     "@types/node": "^17.0.38",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.2.1",
