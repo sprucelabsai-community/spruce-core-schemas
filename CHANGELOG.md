@@ -1,3 +1,5 @@
+## [33.0.26](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.25...v33.0.26) (2022-06-14)
+
 ## [33.0.25](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.24...v33.0.25) (2022-06-11)
 
 ## [33.0.24](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.23...v33.0.24) (2022-06-11)
