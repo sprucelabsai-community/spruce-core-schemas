@@ -1,3 +1,10 @@
+# [33.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.29...v33.1.0) (2022-06-14)
+
+
+### Features
+
+* skill now has public flag to allow people to make their skills available ([f729aab](https://github.com/sprucelabsai/spruce-core-schemas/commit/f729aab))
+
 ## [33.0.29](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.28...v33.0.29) (2022-06-14)
 
 ## [33.0.28](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.27...v33.0.28) (2022-06-14)
