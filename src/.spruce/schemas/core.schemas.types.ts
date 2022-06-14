@@ -60,6 +60,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'description'?: string| undefined | null
 			/** Namespace. */
 			'slug': string
+			/** Public. */
+			'isPublic'?: boolean| undefined | null
 			/** Creators. The people or skills who created and own this skill. */
 			'creators': SpruceSchemas.Spruce.v2020_07_22.SkillCreator[]
 			
@@ -109,6 +111,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                label: 'Namespace',
 		                type: 'text',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Public. */
+		            'isPublic': {
+		                label: 'Public',
+		                type: 'boolean',
 		                options: undefined
 		            },
 		            /** Creators. The people or skills who created and own this skill. */

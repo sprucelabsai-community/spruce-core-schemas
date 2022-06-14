@@ -46,6 +46,12 @@ const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	                isRequired: true,
 	                options: undefined
 	            },
+	            /** Public. */
+	            'isPublic': {
+	                label: 'Public',
+	                type: 'boolean',
+	                options: undefined
+	            },
 	            /** Creators. The people or skills who created and own this skill. */
 	            'creators': {
 	                label: 'Creators',
