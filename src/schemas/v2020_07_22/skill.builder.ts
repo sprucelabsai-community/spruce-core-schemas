@@ -31,6 +31,10 @@ export default buildSchema({
 			type: 'text',
 			isRequired: true,
 		},
+		isPublic: {
+			type: 'boolean',
+			label: 'Public',
+		},
 		creators: {
 			label: 'Creators',
 			type: 'schema',
