@@ -1,3 +1,28 @@
+## [33.1.9](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.8...v33.1.9) (2022-06-16)
+
+## [33.1.8](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.7...v33.1.8) (2022-06-16)
+
+## [33.1.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.6...v33.1.7) (2022-06-16)
+
+## [33.1.6](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.5...v33.1.6) (2022-06-16)
+
+## [33.1.5](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.4...v33.1.5) (2022-06-16)
+
+## [33.1.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.3...v33.1.4) (2022-06-15)
+
+## [33.1.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.2...v33.1.3) (2022-06-15)
+
+## [33.1.2](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.1...v33.1.2) (2022-06-15)
+
+## [33.1.1](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.1.0...v33.1.1) (2022-06-15)
+
+# [33.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.29...v33.1.0) (2022-06-14)
+
+
+### Features
+
+* skill now has public flag to allow people to make their skills available ([f729aab](https://github.com/sprucelabsai/spruce-core-schemas/commit/f729aab))
+
 ## [33.0.29](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.28...v33.0.29) (2022-06-14)
 
 ## [33.0.28](https://github.com/sprucelabsai/spruce-core-schemas/compare/v33.0.27...v33.0.28) (2022-06-14)
