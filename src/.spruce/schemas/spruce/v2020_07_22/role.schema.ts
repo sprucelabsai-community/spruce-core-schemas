@@ -25,11 +25,11 @@ const roleSchema: SpruceSchemas.Spruce.v2020_07_22.RoleSchema  = {
 	                isRequired: true,
 	                options: undefined
 	            },
-	            /** Base. Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role. */
+	            /** Base. A best practices starting point for a role based on the generalized roles at a company. */
 	            'base': {
 	                label: 'Base',
 	                type: 'select',
-	                hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
+	                hint: 'A best practices starting point for a role based on the generalized roles at a company.',
 	                options: {choices: [{"label":"Owner","value":"owner"},{"label":"Group manager","value":"groupManager"},{"label":"Manager","value":"manager"},{"label":"Teammate","value":"teammate"},{"label":"Anonymous","value":"anonymous"},{"label":"Logged in","value":"loggedIn"},{"label":"Guest","value":"guest"}],}
 	            },
 	            /** Description. */

@@ -1,5 +1,5 @@
 import { buildSchema } from '@sprucelabs/schema'
-import { ROLE_CHOICES } from '../../constants'
+import { BASE_ROLE_CHOICES_WITH_META } from '../../constants'
 
 export default buildSchema({
 	id: 'role',
@@ -20,9 +20,9 @@ export default buildSchema({
 		base: {
 			label: 'Base',
 			type: 'select',
-			hint: 'Used to determine the default permissions when this role is created and the fallback for when a permission is not set on this role.',
+			hint: 'A best practices starting point for a role based on the generalized roles at a company.',
 			options: {
-				choices: ROLE_CHOICES as any,
+				choices: BASE_ROLE_CHOICES_WITH_META as any,
 			},
 		},
 		description: {
