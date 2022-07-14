@@ -1,3 +1,10 @@
+# [34.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.0.39...v34.1.0) (2022-07-14)
+
+
+### Features
+
+* skill publishing and install required fields! ([43288ac](https://github.com/sprucelabsai/spruce-core-schemas/commit/43288ac))
+
 ## [34.0.39](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.0.38...v34.0.39) (2022-07-14)
 
 ## [34.0.38](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.0.37...v34.0.38) (2022-07-14)
