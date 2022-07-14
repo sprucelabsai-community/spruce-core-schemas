@@ -46,13 +46,6 @@ const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	                isRequired: true,
 	                options: undefined
 	            },
-	            /** Public. deprecated ** use isPublished ** and ** isGlobal ** */
-	            'isPublic': {
-	                label: 'Public',
-	                type: 'boolean',
-	                hint: 'deprecated ** use isPublished ** and ** isGlobal **',
-	                options: undefined
-	            },
 	            /** Published. Does this skill show up in the marketplace and can other devs use it as a dependency? */
 	            'isPublished': {
 	                label: 'Published',
@@ -61,7 +54,7 @@ const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	                options: undefined
 	            },
 	            /** Global. Does this skill require needing to be installed anywhere. */
-	            'isInstallRequired': {
+	            'canBeInstalled': {
 	                label: 'Global',
 	                type: 'boolean',
 	                hint: 'Does this skill require needing to be installed anywhere.',
