@@ -46,10 +46,26 @@ const skillSchema: SpruceSchemas.Spruce.v2020_07_22.SkillSchema  = {
 	                isRequired: true,
 	                options: undefined
 	            },
-	            /** Public. */
+	            /** Public. deprecated ** use isPublished ** and ** isGlobal ** */
 	            'isPublic': {
 	                label: 'Public',
 	                type: 'boolean',
+	                hint: 'deprecated ** use isPublished ** and ** isGlobal **',
+	                options: undefined
+	            },
+	            /** Published. Does this skill show up in the marketplace and can other devs use it as a dependency? */
+	            'isPublished': {
+	                label: 'Published',
+	                type: 'boolean',
+	                hint: 'Does this skill show up in the marketplace and can other devs use it as a dependency?',
+	                options: undefined
+	            },
+	            /** Global. Does this skill require needing to be installed anywhere. */
+	            'isInstallRequired': {
+	                label: 'Global',
+	                type: 'boolean',
+	                hint: 'Does this skill require needing to be installed anywhere.',
+	                defaultValue: true,
 	                options: undefined
 	            },
 	            /** Creators. The people or skills who created and own this skill. */

@@ -34,6 +34,18 @@ export default buildSchema({
 		isPublic: {
 			type: 'boolean',
 			label: 'Public',
+			hint: 'deprecated ** use isPublished ** and ** isGlobal **',
+		},
+		isPublished: {
+			type: 'boolean',
+			label: 'Published',
+			hint: 'Does this skill show up in the marketplace and can other devs use it as a dependency?',
+		},
+		isInstallRequired: {
+			type: 'boolean',
+			label: 'Global',
+			hint: 'Does this skill require needing to be installed anywhere.',
+			defaultValue: true,
 		},
 		creators: {
 			label: 'Creators',

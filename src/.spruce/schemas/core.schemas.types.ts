@@ -60,8 +60,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'description'?: string| undefined | null
 			/** Namespace. */
 			'slug': string
-			/** Public. */
+			/** Public. deprecated ** use isPublished ** and ** isGlobal ** */
 			'isPublic'?: boolean| undefined | null
+			/** Published. Does this skill show up in the marketplace and can other devs use it as a dependency? */
+			'isPublished'?: boolean| undefined | null
+			/** Global. Does this skill require needing to be installed anywhere. */
+			'isInstallRequired'?: boolean| undefined | null
 			/** Creators. The people or skills who created and own this skill. */
 			'creators': SpruceSchemas.Spruce.v2020_07_22.SkillCreator[]
 			
@@ -113,10 +117,26 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isRequired: true,
 		                options: undefined
 		            },
-		            /** Public. */
+		            /** Public. deprecated ** use isPublished ** and ** isGlobal ** */
 		            'isPublic': {
 		                label: 'Public',
 		                type: 'boolean',
+		                hint: 'deprecated ** use isPublished ** and ** isGlobal **',
+		                options: undefined
+		            },
+		            /** Published. Does this skill show up in the marketplace and can other devs use it as a dependency? */
+		            'isPublished': {
+		                label: 'Published',
+		                type: 'boolean',
+		                hint: 'Does this skill show up in the marketplace and can other devs use it as a dependency?',
+		                options: undefined
+		            },
+		            /** Global. Does this skill require needing to be installed anywhere. */
+		            'isInstallRequired': {
+		                label: 'Global',
+		                type: 'boolean',
+		                hint: 'Does this skill require needing to be installed anywhere.',
+		                defaultValue: true,
 		                options: undefined
 		            },
 		            /** Creators. The people or skills who created and own this skill. */
