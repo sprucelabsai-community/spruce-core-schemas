@@ -1,3 +1,10 @@
+# [34.2.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.1.0...v34.2.0) (2022-07-14)
+
+
+### Features
+
+* skill install tweaks ([098c7cc](https://github.com/sprucelabsai/spruce-core-schemas/commit/098c7cc))
+
 # [34.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.0.39...v34.1.0) (2022-07-14)
 
 
