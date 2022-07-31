@@ -64,11 +64,11 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^28.3.19"
+    "@sprucelabs/schema": "^28.3.20"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^1.0.534",
-    "@sprucelabs/jest-json-reporter": "^6.0.432",
+    "@sprucelabs/esm-postbuild": "^1.0.535",
+    "@sprucelabs/jest-json-reporter": "^6.0.433",
     "@sprucelabs/resolve-path-aliases": "^1.1.76",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^7.7.339",
