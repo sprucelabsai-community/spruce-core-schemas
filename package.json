@@ -21,8 +21,7 @@
     "upgradeIgnoreList": [
       "@sprucelabs/spruce-core-schemas",
       "@sprucelabs/spruce-skill-utils",
-      "@sprucelabs/spruce-test-fixtures",
-      "typescript"
+      "@sprucelabs/spruce-test-fixtures"
     ]
   },
   "description": "The schemas that Mercury and all skills use. 🤝",
