@@ -52,5 +52,6 @@
 	},
 	"cSpell.words": [
 		"arkit"
-	]
+	],
+	"task.allowAutomaticTasks": "on"
 }
