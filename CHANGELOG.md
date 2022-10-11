@@ -1,3 +1,10 @@
+# [35.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.2.151...v35.0.0) (2022-10-11)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([2413081](https://github.com/sprucelabsai/spruce-core-schemas/commit/2413081))
+
 ## [34.2.151](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.2.150...v34.2.151) (2022-10-11)
 
 ## [34.2.150](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.2.149...v34.2.150) (2022-10-10)
