@@ -1,4 +1,5 @@
 import { buildSchema } from '@sprucelabs/schema'
+import { timezoneChoices } from '../../timezoneChoices'
 
 export default buildSchema({
 	id: 'person',
@@ -25,6 +26,13 @@ export default buildSchema({
 			type: 'text',
 			hint: 'The name you can use when talking to this person.',
 			isRequired: true,
+		},
+		timezone: {
+			label: 'Timezone',
+			type: 'select',
+			options: {
+				choices: timezoneChoices as any,
+			},
 		},
 		phone: {
 			label: 'Phone',
