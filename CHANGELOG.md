@@ -1,3 +1,10 @@
+# [35.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.0.0...v35.1.0) (2022-10-12)
+
+
+### Features
+
+* person has timezone ([bc76af6](https://github.com/sprucelabsai/spruce-core-schemas/commit/bc76af6))
+
 # [35.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v34.2.151...v35.0.0) (2022-10-11)
 
 
