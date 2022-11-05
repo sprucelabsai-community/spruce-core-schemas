@@ -11,7 +11,8 @@
   },
   "writer": {
     "skipped": [
-      ".eslintrc.js"
+      ".eslintrc.js",
+      ".nvmrc"
     ]
   }
 }
