@@ -18,11 +18,6 @@ const feedSchema: SpruceSchemas.Spruce.v2020_07_22.FeedSchema  = {
 	                minArrayLength: 0,
 	                options: {schema: feedItemSchema_v2020_07_22,}
 	            },
-	            /** . */
-	            'shouldEnableChat': {
-	                type: 'boolean',
-	                options: undefined
-	            },
 	    }
 }
 

@@ -72,6 +72,5 @@ export default buildSchema({
 				schema: feedItemSchema,
 			},
 		},
-		shouldEnableChat: { type: 'boolean' },
 	},
 })

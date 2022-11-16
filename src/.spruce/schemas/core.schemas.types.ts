@@ -1058,8 +1058,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		
 			
 			'items': SpruceSchemas.Spruce.v2020_07_22.FeedItem[]
-			
-			'shouldEnableChat'?: boolean| undefined | null
 	}
 
 	export interface FeedSchema extends SpruceSchema.Schema {
@@ -1076,11 +1074,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isArray: true,
 		                minArrayLength: 0,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema,}
-		            },
-		            /** . */
-		            'shouldEnableChat': {
-		                type: 'boolean',
-		                options: undefined
 		            },
 		    }
 	}
