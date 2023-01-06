@@ -71,7 +71,7 @@
     "@sprucelabs/jest-json-reporter": "^6.0.545",
     "@sprucelabs/resolve-path-aliases": "^1.1.150",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^7.7.403",
+    "@sprucelabs/test": "^7.7.404",
     "@sprucelabs/test-utils": "^3.2.82",
     "@types/node": "^18.11.18",
     "chokidar-cli": "^3.0.0",
