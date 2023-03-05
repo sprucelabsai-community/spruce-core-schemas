@@ -49,6 +49,10 @@ export default buildSchema({
 			type: 'id',
 			isRequired: true,
 		},
+		trackingId: {
+			type: 'id',
+			hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
+		},
 		dateCreated: {
 			type: 'number',
 			isRequired: true,

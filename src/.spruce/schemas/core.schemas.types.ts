@@ -705,6 +705,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	
 	export interface SendMessage {
 		
+			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
+			'trackingId'?: string| undefined | null
 			
 			'dateSent'?: number| undefined | null
 			
@@ -734,6 +736,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		name: '',
 		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
 		    fields: {
+		            /** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
+		            'trackingId': {
+		                type: 'id',
+		                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
+		                options: undefined
+		            },
 		            /** . */
 		            'dateSent': {
 		                type: 'number',
@@ -811,6 +819,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		
 			
 			'id': string
+			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
+			'trackingId'?: string| undefined | null
 			
 			'dateCreated': number
 			
@@ -849,6 +859,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'id': {
 		                type: 'id',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
+		            'trackingId': {
+		                type: 'id',
+		                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
 		                options: undefined
 		            },
 		            /** . */
