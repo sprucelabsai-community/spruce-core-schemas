@@ -1,3 +1,10 @@
+# [37.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v36.0.0...v37.0.0) (2023-03-05)
+
+
+### Breaking Changes
+
+* **auto-upgrade:** upgraded packages [upgrade-all] ([479937b](https://github.com/sprucelabsai/spruce-core-schemas/commit/479937b))
+
 # [36.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.2.0...v36.0.0) (2023-03-05)
 
 
