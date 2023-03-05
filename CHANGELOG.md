@@ -1,3 +1,10 @@
+# [36.0.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.2.0...v36.0.0) (2023-03-05)
+
+
+### Breaking Changes
+
+* feedItem re-design to use source and target to better follow conventions and be more transportable ([5cd2287](https://github.com/sprucelabsai/spruce-core-schemas/commit/5cd2287))
+
 # [35.2.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.1.192...v35.2.0) (2023-03-05)
 
 
