@@ -1,6 +1,7 @@
 import { SchemaRegistry } from '@sprucelabs/schema'
 import { SpruceSchemas } from '../../core.schemas.types'
 
+import feedItemTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/feedItemTarget.schema'
 import choiceSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choice.schema'
 import linkSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/link.schema'
 
@@ -15,11 +16,6 @@ const feedItemSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema  = {
 	            'id': {
 	                type: 'id',
 	                isRequired: true,
-	                options: undefined
-	            },
-	            /** . */
-	            'isMe': {
-	                type: 'boolean',
 	                options: undefined
 	            },
 	            /** . */
@@ -40,20 +36,16 @@ const feedItemSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema  = {
 	                options: undefined
 	            },
 	            /** . */
-	            'isSprucebot': {
-	                type: 'boolean',
-	                options: undefined
-	            },
-	            /** . */
 	            'source': {
-	                type: 'raw',
-	                options: {valueType: `Record<string, any>`,}
+	                type: 'schema',
+	                isRequired: true,
+	                options: {schema: feedItemTargetSchema_v2020_07_22,}
 	            },
 	            /** . */
-	            'fromCasualName': {
-	                type: 'text',
+	            'target': {
+	                type: 'schema',
 	                isRequired: true,
-	                options: undefined
+	                options: {schema: feedItemTargetSchema_v2020_07_22,}
 	            },
 	            /** . */
 	            'avatar': {

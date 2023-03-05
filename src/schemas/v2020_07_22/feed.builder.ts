@@ -2,15 +2,23 @@ import { buildSchema } from '@sprucelabs/schema'
 import choiceBuilder from './choice.builder'
 import linkBuilder from './link.builder'
 
+const feedItemTargetSchema = buildSchema({
+	id: 'feedItemTarget',
+	fields: {
+		personId: { type: 'id' },
+		personCasualName: { type: 'text' },
+		personAvatar: { type: 'image', options: { requiredSizes: ['*'] } },
+		skillId: { type: 'id' },
+		skillName: { type: 'text' },
+	},
+})
+
 const feedItemSchema = buildSchema({
 	id: 'feedItem',
 	fields: {
 		id: {
 			type: 'id',
 			isRequired: true,
-		},
-		isMe: {
-			type: 'boolean',
 		},
 		message: {
 			type: 'text',
@@ -23,18 +31,19 @@ const feedItemSchema = buildSchema({
 		note: {
 			type: 'text',
 		},
-		isSprucebot: {
-			type: 'boolean',
-		},
 		source: {
-			type: 'raw',
+			type: 'schema',
+			isRequired: true,
 			options: {
-				valueType: 'Record<string, any>',
+				schema: feedItemTargetSchema,
 			},
 		},
-		fromCasualName: {
-			type: 'text',
+		target: {
+			type: 'schema',
 			isRequired: true,
+			options: {
+				schema: feedItemTargetSchema,
+			},
 		},
 		avatar: {
 			type: 'image',
