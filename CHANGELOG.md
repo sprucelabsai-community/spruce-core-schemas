@@ -1,3 +1,10 @@
+# [35.2.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.1.192...v35.2.0) (2023-03-05)
+
+
+### Features
+
+* messages have "trackingId" so it can be matched against sent messages ([2cef61a](https://github.com/sprucelabsai/spruce-core-schemas/commit/2cef61a))
+
 ## [35.1.192](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.1.191...v35.1.192) (2023-03-04)
 
 ## [35.1.191](https://github.com/sprucelabsai/spruce-core-schemas/compare/v35.1.190...v35.1.191) (2023-03-03)
