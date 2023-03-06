@@ -12,6 +12,8 @@ const feedItemTargetSchema = buildSchema({
 			options: { requiredSizes: ['*'] },
 		},
 		skillId: { type: 'id' },
+		isMe: { type: 'boolean', isRequired: true },
+		isSprucebot: { type: 'boolean', isRequired: true },
 	},
 })
 
