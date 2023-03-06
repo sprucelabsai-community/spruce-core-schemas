@@ -1037,7 +1037,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'casualName': string
 			
-			'avatar': SpruceSchema.ImageFieldValue
+			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
 			
 			'skillId'?: string| undefined | null
 	}
@@ -1063,7 +1063,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'avatar': {
 		                type: 'image',
-		                isRequired: true,
 		                options: {requiredSizes: ["*"],}
 		            },
 		            /** . */

@@ -24,7 +24,6 @@ const feedItemTargetSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemTargetSchem
 	            /** . */
 	            'avatar': {
 	                type: 'image',
-	                isRequired: true,
 	                options: {requiredSizes: ["*"],}
 	            },
 	            /** . */

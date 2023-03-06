@@ -10,7 +10,6 @@ const feedItemTargetSchema = buildSchema({
 		avatar: {
 			type: 'image',
 			options: { requiredSizes: ['*'] },
-			isRequired: true,
 		},
 		skillId: { type: 'id' },
 	},
