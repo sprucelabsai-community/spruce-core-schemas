@@ -1,3 +1,10 @@
+# [37.1.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v37.0.7...v37.1.0) (2023-03-06)
+
+
+### Features
+
+* remove extra feed item field ([6842035](https://github.com/sprucelabsai/spruce-core-schemas/commit/6842035))
+
 ## [37.0.7](https://github.com/sprucelabsai/spruce-core-schemas/compare/v37.0.6...v37.0.7) (2023-03-06)
 
 ## [37.0.6](https://github.com/sprucelabsai/spruce-core-schemas/compare/v37.0.5...v37.0.6) (2023-03-06)
