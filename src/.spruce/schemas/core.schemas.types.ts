@@ -1264,8 +1264,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'target': SpruceSchemas.Spruce.v2020_07_22.FeedItemTarget
 			
-			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
-			
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[]| undefined | null
 			
 			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
@@ -1312,11 +1310,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'schema',
 		                isRequired: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.FeedItemTargetSchema,}
-		            },
-		            /** . */
-		            'avatar': {
-		                type: 'image',
-		                options: {requiredSizes: ["*"],}
 		            },
 		            /** . */
 		            'choices': {

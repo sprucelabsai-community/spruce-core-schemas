@@ -48,11 +48,6 @@ const feedItemSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema  = {
 	                options: {schema: feedItemTargetSchema_v2020_07_22,}
 	            },
 	            /** . */
-	            'avatar': {
-	                type: 'image',
-	                options: {requiredSizes: ["*"],}
-	            },
-	            /** . */
 	            'choices': {
 	                type: 'schema',
 	                isArray: true,
