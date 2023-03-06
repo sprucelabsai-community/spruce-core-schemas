@@ -6,10 +6,13 @@ const feedItemTargetSchema = buildSchema({
 	id: 'feedItemTarget',
 	fields: {
 		personId: { type: 'id' },
-		personCasualName: { type: 'text' },
-		personAvatar: { type: 'image', options: { requiredSizes: ['*'] } },
+		casualName: { type: 'text', isRequired: true },
+		avatar: {
+			type: 'image',
+			options: { requiredSizes: ['*'] },
+			isRequired: true,
+		},
 		skillId: { type: 'id' },
-		skillName: { type: 'text' },
 	},
 })
 

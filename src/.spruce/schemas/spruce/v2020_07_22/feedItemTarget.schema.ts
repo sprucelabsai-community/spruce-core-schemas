@@ -16,23 +16,20 @@ const feedItemTargetSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemTargetSchem
 	                options: undefined
 	            },
 	            /** . */
-	            'personCasualName': {
+	            'casualName': {
 	                type: 'text',
+	                isRequired: true,
 	                options: undefined
 	            },
 	            /** . */
-	            'personAvatar': {
+	            'avatar': {
 	                type: 'image',
+	                isRequired: true,
 	                options: {requiredSizes: ["*"],}
 	            },
 	            /** . */
 	            'skillId': {
 	                type: 'id',
-	                options: undefined
-	            },
-	            /** . */
-	            'skillName': {
-	                type: 'text',
 	                options: undefined
 	            },
 	    }

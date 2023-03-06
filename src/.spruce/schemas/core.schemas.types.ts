@@ -1035,13 +1035,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'personId'?: string| undefined | null
 			
-			'personCasualName'?: string| undefined | null
+			'casualName': string
 			
-			'personAvatar'?: SpruceSchema.ImageFieldValue| undefined | null
+			'avatar': SpruceSchema.ImageFieldValue
 			
 			'skillId'?: string| undefined | null
-			
-			'skillName'?: string| undefined | null
 	}
 
 	export interface FeedItemTargetSchema extends SpruceSchema.Schema {
@@ -1057,23 +1055,20 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                options: undefined
 		            },
 		            /** . */
-		            'personCasualName': {
+		            'casualName': {
 		                type: 'text',
+		                isRequired: true,
 		                options: undefined
 		            },
 		            /** . */
-		            'personAvatar': {
+		            'avatar': {
 		                type: 'image',
+		                isRequired: true,
 		                options: {requiredSizes: ["*"],}
 		            },
 		            /** . */
 		            'skillId': {
 		                type: 'id',
-		                options: undefined
-		            },
-		            /** . */
-		            'skillName': {
-		                type: 'text',
 		                options: undefined
 		            },
 		    }
