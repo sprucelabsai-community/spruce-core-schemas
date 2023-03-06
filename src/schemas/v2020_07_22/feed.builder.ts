@@ -49,12 +49,6 @@ const feedItemSchema = buildSchema({
 				schema: feedItemTargetSchema,
 			},
 		},
-		avatar: {
-			type: 'image',
-			options: {
-				requiredSizes: ['*'],
-			},
-		},
 		choices: {
 			type: 'schema',
 			isArray: true,
