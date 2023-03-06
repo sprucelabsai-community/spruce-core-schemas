@@ -31,6 +31,18 @@ const feedItemTargetSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemTargetSchem
 	                type: 'id',
 	                options: undefined
 	            },
+	            /** . */
+	            'isMe': {
+	                type: 'boolean',
+	                isRequired: true,
+	                options: undefined
+	            },
+	            /** . */
+	            'isSprucebot': {
+	                type: 'boolean',
+	                isRequired: true,
+	                options: undefined
+	            },
 	    }
 }
 

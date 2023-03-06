@@ -1040,6 +1040,10 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
 			
 			'skillId'?: string| undefined | null
+			
+			'isMe': boolean
+			
+			'isSprucebot': boolean
 	}
 
 	export interface FeedItemTargetSchema extends SpruceSchema.Schema {
@@ -1068,6 +1072,18 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'skillId': {
 		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'isMe': {
+		                type: 'boolean',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'isSprucebot': {
+		                type: 'boolean',
+		                isRequired: true,
 		                options: undefined
 		            },
 		    }
