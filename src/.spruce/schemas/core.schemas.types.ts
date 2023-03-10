@@ -1267,6 +1267,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[]| undefined | null
 			
 			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
+			
+			'context'?: (Record<string, any>)| undefined | null
 	}
 
 	export interface FeedItemSchema extends SpruceSchema.Schema {
@@ -1323,6 +1325,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isArray: true,
 		                minArrayLength: 0,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.LinkSchema,}
+		            },
+		            /** . */
+		            'context': {
+		                type: 'raw',
+		                options: {valueType: `Record<string, any>`,}
 		            },
 		    }
 	}

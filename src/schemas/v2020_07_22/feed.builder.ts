@@ -64,6 +64,12 @@ const feedItemSchema = buildSchema({
 				schema: linkBuilder,
 			},
 		},
+		context: {
+			type: 'raw',
+			options: {
+				valueType: 'Record<string, any>',
+			},
+		},
 	},
 })
 

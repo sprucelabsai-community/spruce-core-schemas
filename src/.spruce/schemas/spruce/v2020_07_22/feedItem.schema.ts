@@ -60,6 +60,11 @@ const feedItemSchema: SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema  = {
 	                minArrayLength: 0,
 	                options: {schema: linkSchema_v2020_07_22,}
 	            },
+	            /** . */
+	            'context': {
+	                type: 'raw',
+	                options: {valueType: `Record<string, any>`,}
+	            },
 	    }
 }
 
