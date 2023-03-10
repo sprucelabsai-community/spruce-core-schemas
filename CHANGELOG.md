@@ -1,3 +1,10 @@
+# [37.2.0](https://github.com/sprucelabsai/spruce-core-schemas/compare/v37.1.4...v37.2.0) (2023-03-10)
+
+
+### Features
+
+* feed items now have context! ([8b6fe7e](https://github.com/sprucelabsai/spruce-core-schemas/commit/8b6fe7e))
+
 ## [37.1.4](https://github.com/sprucelabsai/spruce-core-schemas/compare/v37.1.3...v37.1.4) (2023-03-09)
 
 ## [37.1.3](https://github.com/sprucelabsai/spruce-core-schemas/compare/v37.1.2...v37.1.3) (2023-03-09)
