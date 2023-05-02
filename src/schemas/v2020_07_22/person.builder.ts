@@ -51,6 +51,9 @@ export default buildSchema({
 			type: 'dateTime',
 			isRequired: true,
 		},
+		dateUpdated: {
+			type: 'dateTime',
+		},
 		dateScrambled: {
 			type: 'dateTime',
 		},

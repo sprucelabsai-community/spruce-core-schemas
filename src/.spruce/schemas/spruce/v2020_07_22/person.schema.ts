@@ -67,6 +67,11 @@ const personSchema: SpruceSchemas.Spruce.v2020_07_22.PersonSchema  = {
 	                options: undefined
 	            },
 	            /** . */
+	            'dateUpdated': {
+	                type: 'dateTime',
+	                options: undefined
+	            },
+	            /** . */
 	            'dateScrambled': {
 	                type: 'dateTime',
 	                options: undefined

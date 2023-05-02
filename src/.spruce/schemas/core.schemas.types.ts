@@ -406,6 +406,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
+			'dateUpdated'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			
 			'dateScrambled'?: SpruceSchema.DateTimeFieldValue| undefined | null
 	}
 
@@ -470,6 +472,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'dateCreated': {
 		                type: 'dateTime',
 		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'dateUpdated': {
+		                type: 'dateTime',
 		                options: undefined
 		            },
 		            /** . */
