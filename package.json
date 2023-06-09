@@ -64,7 +64,7 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^28.6.40"
+    "@sprucelabs/schema": "^28.6.41"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^5.0.20",
@@ -72,10 +72,10 @@
     "@sprucelabs/resolve-path-aliases": "^1.1.225",
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^7.7.452",
-    "@sprucelabs/test-utils": "^3.4.67",
+    "@sprucelabs/test-utils": "^3.4.68",
     "@types/node": "^20.2.5",
     "chokidar-cli": "^3.0.0",
-    "concurrently": "^8.1.0",
+    "concurrently": "^8.2.0",
     "date-fns-tz": "^2.0.0",
     "eslint": "^8.42.0",
     "eslint-config-spruce": "^10.12.0",
