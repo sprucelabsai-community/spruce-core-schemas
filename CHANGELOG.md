@@ -1,3 +1,10 @@
+# [39.0.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v38.1.54...v39.0.0) (2023-07-07)
+
+
+### Breaking Changes
+
+* upgarde ([80ae919](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/80ae919))
+
 ## [38.1.54](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v38.1.53...v38.1.54) (2023-07-07)
 
 ## [38.1.53](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v38.1.52...v38.1.53) (2023-06-22)
