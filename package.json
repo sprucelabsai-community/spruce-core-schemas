@@ -64,15 +64,15 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^29.0.73"
+    "@sprucelabs/schema": "^29.0.74"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^5.0.85",
     "@sprucelabs/jest-json-reporter": "^7.0.112",
     "@sprucelabs/resolve-path-aliases": "^1.1.254",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^8.0.22",
-    "@sprucelabs/test-utils": "^4.0.62",
+    "@sprucelabs/test": "^8.0.23",
+    "@sprucelabs/test-utils": "^4.0.63",
     "@types/node": "^20.8.9",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
