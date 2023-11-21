@@ -64,16 +64,16 @@
     "watch.rebuild": "yarn clean.all && yarn && yarn watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^29.0.87"
+    "@sprucelabs/schema": "^29.0.88"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^5.0.96",
     "@sprucelabs/jest-json-reporter": "^7.0.123",
     "@sprucelabs/resolve-path-aliases": "^1.1.262",
     "@sprucelabs/semantic-release": "^4.0.8",
-    "@sprucelabs/test": "^8.0.29",
-    "@sprucelabs/test-utils": "^4.0.75",
-    "@types/node": "^20.9.2",
+    "@sprucelabs/test": "^8.0.30",
+    "@sprucelabs/test-utils": "^4.0.77",
+    "@types/node": "^20.9.3",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
     "date-fns-tz": "^2.0.0",
@@ -85,7 +85,7 @@
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.4",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "yarn-upgrade-all": "^0.7.2"
   },
   "jest": {
