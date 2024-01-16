@@ -73,7 +73,7 @@
     "@sprucelabs/semantic-release": "^4.0.8",
     "@sprucelabs/test": "^8.0.39",
     "@sprucelabs/test-utils": "^4.0.97",
-    "@types/node": "^20.11.3",
+    "@types/node": "^20.11.4",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
     "date-fns-tz": "^2.0.0",
