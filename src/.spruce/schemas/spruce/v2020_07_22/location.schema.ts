@@ -25,9 +25,9 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.LocationSchema  = {
 	                isRequired: true,
 	                options: undefined
 	            },
-	            /** Store number. You can use other symbols, like # or dashes. #123 or 32-US-5 */
+	            /** Location number. You can use other symbols, like # or dashes. #123 or 32-US-5 */
 	            'num': {
-	                label: 'Store number',
+	                label: 'Location number',
 	                type: 'text',
 	                hint: 'You can use other symbols, like # or dashes. #123 or 32-US-5',
 	                options: undefined

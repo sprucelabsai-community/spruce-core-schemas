@@ -10,7 +10,7 @@ export default buildSchema({
 		id: {
 			label: 'Id',
 			type: 'id',
-			isRequired: true,
+			isRequired: true
 		},
 		name: {
 			label: 'Name',
@@ -18,7 +18,7 @@ export default buildSchema({
 			isRequired: true,
 		},
 		num: {
-			label: 'Store number',
+			label: 'Location number',
 			type: 'text',
 			hint: 'You can use other symbols, like # or dashes. #123 or 32-US-5',
 		},
