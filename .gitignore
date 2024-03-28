@@ -24,3 +24,5 @@ tmp/
 
 !src/templates/directories/skill/.spruce
 !src/templates/directories/skill/.spruce/settings.json
+
+**/.spruce/*cache.json
