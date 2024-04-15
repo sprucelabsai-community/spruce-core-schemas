@@ -1,3 +1,10 @@
+# [40.0.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v39.0.294...v40.0.0) (2024-04-15)
+
+
+### Breaking Changes
+
+* upgrade ([424399e](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/424399e))
+
 ## [39.0.294](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v39.0.293...v39.0.294) (2024-04-05)
 
 ## [39.0.293](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v39.0.292...v39.0.293) (2024-04-04)
