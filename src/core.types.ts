@@ -6,7 +6,7 @@ export type SkillCreator = SpruceSchemas.Spruce.v2020_07_22.SkillCreator
 export type Location = SpruceSchemas.Spruce.v2020_07_22.Location
 export type Organization = SpruceSchemas.Spruce.v2020_07_22.Organization
 export type PersonOrganization =
-	SpruceSchemas.Spruce.v2020_07_22.PersonOrganization
+    SpruceSchemas.Spruce.v2020_07_22.PersonOrganization
 export type PersonLocation = SpruceSchemas.Spruce.v2020_07_22.PersonLocation
 export type Role = SpruceSchemas.Spruce.v2020_07_22.Role
 export type Message = SpruceSchemas.Spruce.v2020_07_22.Message
