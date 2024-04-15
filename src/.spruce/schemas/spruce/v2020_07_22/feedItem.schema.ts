@@ -1,4 +1,5 @@
 import { SchemaRegistry } from '@sprucelabs/schema'
+
 import choiceSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/choice.schema'
 import feedItemTargetSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/feedItemTarget.schema'
 import linkSchema_v2020_07_22 from '#spruce/schemas/spruce/v2020_07_22/link.schema'
