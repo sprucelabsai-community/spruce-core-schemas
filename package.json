@@ -55,7 +55,6 @@
     "upgrade.packages.all": "yarn install && yarn upgrade.packages",
     "upgrade.packages.test": "yarn upgrade.packages.all && yarn lint && yarn build.dev && yarn test",
     "watch.build.dev": "tsc-watch --sourceMap --onCompilationComplete 'yarn run post.watch.build'",
-    "watch.lint": "concurrently 'yarn run lint' \"chokidar 'src/**/*' -c 'yarn run lint.tsc'\"",
     "lint.tsc": "tsc -p . --noEmit",
     "post.watch.build": "yarn run build.copy-files && yarn run build.resolve-paths",
     "resolve-paths.lint": "yarn run build.resolve-paths ; yarn run lint",
@@ -64,18 +63,17 @@
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^30.0.13"
+    "@sprucelabs/schema": "^30.0.14"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.9",
-    "@sprucelabs/jest-json-reporter": "^8.0.8",
-    "@sprucelabs/resolve-path-aliases": "^2.0.11",
+    "@sprucelabs/esm-postbuild": "^6.0.10",
+    "@sprucelabs/jest-json-reporter": "^8.0.10",
+    "@sprucelabs/resolve-path-aliases": "^2.0.12",
     "@sprucelabs/semantic-release": "^5.0.1",
-    "@sprucelabs/test": "^9.0.8",
+    "@sprucelabs/test": "^9.0.9",
     "@sprucelabs/test-utils": "^5.0.10",
     "@types/node": "^20.12.7",
     "chokidar-cli": "^3.0.0",
-    "concurrently": "^8.2.2",
     "date-fns-tz": "^3.1.3",
     "eslint": "^9.1.1",
     "eslint-config-spruce": "^11.2.13",
