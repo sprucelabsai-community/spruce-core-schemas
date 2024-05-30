@@ -1,3 +1,10 @@
+# [40.1.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.0.56...v40.1.0) (2024-05-30)
+
+
+### Features
+
+* username field on person ([264aeb9](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/264aeb9))
+
 ## [40.0.56](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.0.55...v40.0.56) (2024-05-24)
 
 ## [40.0.55](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.0.54...v40.0.55) (2024-05-23)
