@@ -40,6 +40,12 @@ export default buildSchema({
             hint: 'A number that can be texted',
             isPrivate: true,
         },
+        username: {
+            label: 'Username',
+            type: 'text',
+            hint: 'An optional username if the person does not want to login using their phone',
+            isPrivate: true,
+        },
         avatar: {
             label: 'Avatar src',
             type: 'image',

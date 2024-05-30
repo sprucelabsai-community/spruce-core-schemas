@@ -54,6 +54,14 @@ const personSchema: SpruceSchemas.Spruce.v2020_07_22.PersonSchema  = {
 	                hint: 'A number that can be texted',
 	                options: undefined
 	            },
+	            /** Username. An optional username if the person does not want to login using their phone */
+	            'username': {
+	                label: 'Username',
+	                type: 'text',
+	                isPrivate: true,
+	                hint: 'An optional username if the person does not want to login using their phone',
+	                options: undefined
+	            },
 	            /** Avatar src. */
 	            'avatar': {
 	                label: 'Avatar src',
