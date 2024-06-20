@@ -66,9 +66,9 @@
     "@sprucelabs/schema": "^30.0.109"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.47",
+    "@sprucelabs/esm-postbuild": "^6.0.48",
     "@sprucelabs/jest-json-reporter": "^8.0.66",
-    "@sprucelabs/resolve-path-aliases": "^2.0.42",
+    "@sprucelabs/resolve-path-aliases": "^2.0.43",
     "@sprucelabs/semantic-release": "^5.0.1",
     "@sprucelabs/test": "^9.0.29",
     "@sprucelabs/test-utils": "^5.1.2",
@@ -84,7 +84,7 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.0",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.2",
     "yarn-upgrade-all": "^0.7.2"
   },
   "jest": {
