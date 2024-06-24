@@ -63,11 +63,11 @@
     "@sprucelabs/schema": "^30.0.109"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.50",
-    "@sprucelabs/jest-json-reporter": "^8.0.69",
-    "@sprucelabs/resolve-path-aliases": "^2.0.45",
+    "@sprucelabs/esm-postbuild": "^6.0.51",
+    "@sprucelabs/jest-json-reporter": "^8.0.70",
+    "@sprucelabs/resolve-path-aliases": "^2.0.46",
     "@sprucelabs/semantic-release": "^5.0.1",
-    "@sprucelabs/test": "^9.0.32",
+    "@sprucelabs/test": "^9.0.33",
     "@sprucelabs/test-utils": "^5.1.2",
     "@types/node": "^20.14.8",
     "chokidar-cli": "^3.0.0",
