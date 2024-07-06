@@ -1,3 +1,5 @@
+## [40.1.101](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.1.100...v40.1.101) (2024-07-06)
+
 ## [40.1.100](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.1.99...v40.1.100) (2024-07-06)
 
 ## [40.1.99](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.1.98...v40.1.99) (2024-07-05)
