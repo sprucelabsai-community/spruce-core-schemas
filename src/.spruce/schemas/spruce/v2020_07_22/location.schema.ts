@@ -78,6 +78,11 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.LocationSchema  = {
 	                options: undefined
 	            },
 	            /** . */
+	            'dateUpdated': {
+	                type: 'dateTime',
+	                options: undefined
+	            },
+	            /** . */
 	            'organizationId': {
 	                type: 'id',
 	                isRequired: true,

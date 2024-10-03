@@ -883,6 +883,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
 			
+			'dateUpdated'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			
 			'organizationId': string
 	}
 
@@ -957,6 +959,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            },
 		            /** . */
 		            'dateDeleted': {
+		                type: 'dateTime',
+		                options: undefined
+		            },
+		            /** . */
+		            'dateUpdated': {
 		                type: 'dateTime',
 		                options: undefined
 		            },
