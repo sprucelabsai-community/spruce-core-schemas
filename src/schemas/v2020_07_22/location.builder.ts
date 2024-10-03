@@ -56,6 +56,9 @@ export default buildSchema({
         dateDeleted: {
             type: 'dateTime',
         },
+        dateUpdated: {
+            type: 'dateTime',
+        },
         organizationId: {
             type: 'id',
             isRequired: true,
