@@ -27,9 +27,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface SkillCreator {
 		
 			
-			'skillId'?: string| undefined | null
+			'skillId'?: string | undefined | null
 			
-			'personId'?: string| undefined | null
+			'personId'?: string | undefined | null
 	}
 
 	export interface SkillCreatorSchema extends SpruceSchema.Schema {
@@ -69,19 +69,19 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Name. */
 			'name': string
 			/** Description. */
-			'description'?: string| undefined | null
+			'description'?: string | undefined | null
 			/** Namespace. */
 			'slug': string
 			/** Published. Does this skill show up in the marketplace and can other devs use it as a dependency? */
-			'isPublished'?: boolean| undefined | null
+			'isPublished'?: boolean | undefined | null
 			/** Global. Does this skill require needing to be installed anywhere. */
-			'canBeInstalled'?: boolean| undefined | null
+			'canBeInstalled'?: boolean | undefined | null
 			/** Creators. The people or skills who created and own this skill. */
 			'creators': SpruceSchemas.Spruce.v2020_07_22.SkillCreator[]
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue | undefined | null
 	}
 
 	export interface SkillSchema extends SpruceSchema.Schema {
@@ -181,17 +181,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Name. */
 			'name': string
 			/** Base. A best practices starting point for a role based on the generalized roles at a company. */
-			'base'?: ("owner" | "groupManager" | "manager" | "teammate" | "anonymous" | "loggedIn" | "guest")| undefined | null
+			'base'?: ("owner" | "groupManager" | "manager" | "teammate" | "anonymous" | "loggedIn" | "guest") | undefined | null
 			/** Description. */
-			'description'?: string| undefined | null
+			'description'?: string | undefined | null
 			
 			'dateCreated': number
 			
-			'dateDeleted'?: number| undefined | null
+			'dateDeleted'?: number | undefined | null
 			
-			'organizationId'?: string| undefined | null
+			'organizationId'?: string | undefined | null
 			/** Public. Should I let people that are not part of this organization this role? */
-			'isPublic'?: boolean| undefined | null
+			'isPublic'?: boolean | undefined | null
 	}
 
 	export interface RoleSchema extends SpruceSchema.Schema {
@@ -274,7 +274,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Date created. */
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			/** Date deleted. */
-			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue | undefined | null
 	}
 
 	export interface PersonOrganizationSchema extends SpruceSchema.Schema {
@@ -340,7 +340,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Date created. */
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			/** Date deleted. */
-			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue | undefined | null
 	}
 
 	export interface PersonLocationSchema extends SpruceSchema.Schema {
@@ -400,25 +400,25 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Id. */
 			'id': string
 			/** First name. */
-			'firstName'?: string| undefined | null
+			'firstName'?: string | undefined | null
 			/** Last name. */
-			'lastName'?: string| undefined | null
+			'lastName'?: string | undefined | null
 			/** Casual name. The name you can use when talking to this person. */
 			'casualName': string
 			/** Timezone. */
-			'timezone'?: ("Pacific/Niue" | "Pacific/Pago_Pago" | "Pacific/Rarotonga" | "Pacific/Honolulu" | "Pacific/Tahiti" | "Pacific/Marquesas" | "Pacific/Gambier" | "America/Adak" | "America/Anchorage" | "America/Juneau" | "America/Metlakatla" | "America/Nome" | "America/Sitka" | "America/Yakutat" | "Pacific/Pitcairn" | "America/Hermosillo" | "America/Dawson_Creek" | "America/Fort_Nelson" | "America/Phoenix" | "America/Los_Angeles" | "America/Tijuana" | "America/Vancouver" | "America/Dawson" | "America/Whitehorse" | "America/Belize" | "America/Costa_Rica" | "America/El_Salvador" | "America/Guatemala" | "America/Managua" | "America/Regina" | "America/Swift_Current" | "America/Tegucigalpa" | "Pacific/Easter" | "Pacific/Galapagos" | "America/Chihuahua" | "America/Mazatlan" | "America/Boise" | "America/Cambridge_Bay" | "America/Denver" | "America/Edmonton" | "America/Inuvik" | "America/Ojinaga" | "America/Yellowknife" | "America/Eirunepe" | "America/Rio_Branco" | "America/Bahia_Banderas" | "America/North_Dakota/Beulah" | "America/North_Dakota/Center" | "America/Chicago" | "America/Indiana/Knox" | "America/Matamoros" | "America/Menominee" | "America/Merida" | "America/Mexico_City" | "America/Monterrey" | "America/North_Dakota/New_Salem" | "America/Rainy_River" | "America/Rankin_Inlet" | "America/Resolute" | "America/Indiana/Tell_City" | "America/Winnipeg" | "America/Bogota" | "America/Cancun" | "America/Jamaica" | "America/Panama" | "America/Guayaquil" | "America/Lima" | "America/Boa_Vista" | "America/Campo_Grande" | "America/Cuiaba" | "America/Manaus" | "America/Porto_Velho" | "America/Barbados" | "America/Martinique" | "America/Puerto_Rico" | "America/Santo_Domingo" | "America/La_Paz" | "America/Santiago" | "America/Havana" | "America/Detroit" | "America/Grand_Turk" | "America/Indiana/Indianapolis" | "America/Iqaluit" | "America/Kentucky/Louisville" | "America/Indiana/Marengo" | "America/Kentucky/Monticello" | "America/New_York" | "America/Nipigon" | "America/Pangnirtung" | "America/Indiana/Petersburg" | "America/Port-au-Prince" | "America/Thunder_Bay" | "America/Toronto" | "America/Indiana/Vevay" | "America/Indiana/Vincennes" | "America/Indiana/Winamac" | "America/Guyana" | "America/Asuncion" | "America/Caracas" | "America/Argentina/Buenos_Aires" | "America/Argentina/Catamarca" | "America/Argentina/Cordoba" | "America/Argentina/Jujuy" | "America/Argentina/La_Rioja" | "America/Argentina/Mendoza" | "America/Argentina/Rio_Gallegos" | "America/Argentina/Salta" | "America/Argentina/San_Juan" | "America/Argentina/San_Luis" | "America/Argentina/Tucuman" | "America/Argentina/Ushuaia" | "Atlantic/Bermuda" | "America/Glace_Bay" | "America/Goose_Bay" | "America/Halifax" | "America/Moncton" | "America/Thule" | "America/Araguaina" | "America/Bahia" | "America/Belem" | "America/Fortaleza" | "America/Maceio" | "America/Recife" | "America/Santarem" | "America/Sao_Paulo" | "Atlantic/Stanley" | "America/Cayenne" | "Antarctica/Palmer" | "America/Punta_Arenas" | "Antarctica/Rothera" | "America/Paramaribo" | "America/Montevideo" | "America/St_Johns" | "America/Noronha" | "Atlantic/South_Georgia" | "America/Miquelon" | "America/Nuuk" | "Atlantic/Cape_Verde" | "Atlantic/Azores" | "UTC" | "America/Scoresbysund" | "Etc/GMT" | "Africa/Abidjan" | "Africa/Bissau" | "America/Danmarkshavn" | "Africa/Monrovia" | "Atlantic/Reykjavik" | "Africa/Sao_Tome" | "Africa/Algiers" | "Africa/Tunis" | "Europe/Dublin" | "Africa/Casablanca" | "Europe/London" | "Africa/Lagos" | "Africa/Ndjamena" | "Atlantic/Canary" | "Atlantic/Faroe" | "Europe/Lisbon" | "Atlantic/Madeira" | "Africa/El_Aaiun" | "Africa/Juba" | "Africa/Khartoum" | "Africa/Maputo" | "Africa/Windhoek" | "Europe/Amsterdam" | "Europe/Andorra" | "Europe/Belgrade" | "Europe/Berlin" | "Europe/Brussels" | "Europe/Budapest" | "Africa/Ceuta" | "Europe/Copenhagen" | "Europe/Gibraltar" | "Europe/Luxembourg" | "Europe/Madrid" | "Europe/Malta" | "Europe/Monaco" | "Europe/Oslo" | "Europe/Paris" | "Europe/Prague" | "Europe/Rome" | "Europe/Stockholm" | "Europe/Tirane" | "Europe/Vienna" | "Europe/Warsaw" | "Europe/Zurich" | "Africa/Cairo" | "Europe/Kaliningrad" | "Africa/Tripoli" | "Africa/Johannesburg" | "Antarctica/Troll" | "Asia/Baghdad" | "Asia/Qatar" | "Asia/Riyadh" | "Africa/Nairobi" | "Asia/Amman" | "Europe/Athens" | "Asia/Beirut" | "Europe/Bucharest" | "Europe/Chisinau" | "Asia/Damascus" | "Asia/Gaza" | "Asia/Hebron" | "Europe/Helsinki" | "Europe/Kiev" | "Asia/Nicosia" | "Europe/Riga" | "Europe/Sofia" | "Europe/Tallinn" | "Europe/Uzhgorod" | "Europe/Vilnius" | "Europe/Zaporozhye" | "Asia/Famagusta" | "Asia/Jerusalem" | "Europe/Kirov" | "Europe/Minsk" | "Europe/Moscow" | "Europe/Simferopol" | "Europe/Istanbul" | "Europe/Volgograd" | "Asia/Yerevan" | "Europe/Astrakhan" | "Asia/Baku" | "Asia/Tbilisi" | "Asia/Dubai" | "Indian/Mauritius" | "Indian/Reunion" | "Europe/Samara" | "Europe/Saratov" | "Indian/Mahe" | "Europe/Ulyanovsk" | "Asia/Kabul" | "Asia/Tehran" | "Indian/Kerguelen" | "Indian/Maldives" | "Antarctica/Mawson" | "Asia/Karachi" | "Asia/Dushanbe" | "Asia/Ashgabat" | "Asia/Samarkand" | "Asia/Tashkent" | "Asia/Aqtau" | "Asia/Aqtobe" | "Asia/Atyrau" | "Asia/Oral" | "Asia/Qyzylorda" | "Asia/Yekaterinburg" | "Asia/Colombo" | "Asia/Kolkata" | "Asia/Kathmandu" | "Asia/Dhaka" | "Asia/Thimphu" | "Asia/Almaty" | "Asia/Qostanay" | "Indian/Chagos" | "Asia/Bishkek" | "Asia/Omsk" | "Asia/Urumqi" | "Antarctica/Vostok" | "Indian/Cocos" | "Asia/Yangon" | "Asia/Barnaul" | "Indian/Christmas" | "Antarctica/Davis" | "Asia/Hovd" | "Asia/Bangkok" | "Asia/Ho_Chi_Minh" | "Asia/Krasnoyarsk" | "Asia/Novokuznetsk" | "Asia/Novosibirsk" | "Asia/Tomsk" | "Asia/Jakarta" | "Asia/Pontianak" | "Australia/Perth" | "Asia/Brunei" | "Asia/Makassar" | "Asia/Macau" | "Asia/Shanghai" | "Asia/Hong_Kong" | "Asia/Irkutsk" | "Asia/Kuala_Lumpur" | "Asia/Kuching" | "Asia/Manila" | "Asia/Singapore" | "Asia/Taipei" | "Asia/Choibalsan" | "Asia/Ulaanbaatar" | "Australia/Eucla" | "Asia/Dili" | "Asia/Jayapura" | "Asia/Tokyo" | "Asia/Pyongyang" | "Asia/Seoul" | "Pacific/Palau" | "Asia/Chita" | "Asia/Khandyga" | "Asia/Yakutsk" | "Australia/Darwin" | "Australia/Adelaide" | "Australia/Broken_Hill" | "Australia/Brisbane" | "Australia/Lindeman" | "Pacific/Guam" | "Pacific/Chuuk" | "Australia/Hobart" | "Antarctica/Macquarie" | "Australia/Melbourne" | "Australia/Sydney" | "Pacific/Port_Moresby" | "Asia/Ust-Nera" | "Asia/Vladivostok" | "Australia/Lord_Howe" | "Pacific/Bougainville" | "Antarctica/Casey" | "Pacific/Kosrae" | "Asia/Magadan" | "Pacific/Noumea" | "Pacific/Norfolk" | "Pacific/Pohnpei" | "Asia/Sakhalin" | "Pacific/Guadalcanal" | "Asia/Srednekolymsk" | "Pacific/Efate" | "Asia/Anadyr" | "Pacific/Fiji" | "Pacific/Tarawa" | "Pacific/Kwajalein" | "Pacific/Majuro" | "Pacific/Nauru" | "Pacific/Auckland" | "Asia/Kamchatka" | "Pacific/Funafuti" | "Pacific/Wake" | "Pacific/Wallis" | "Pacific/Chatham" | "Pacific/Apia" | "Pacific/Fakaofo" | "Pacific/Tongatapu" | "Pacific/Kiritimati")| undefined | null
+			'timezone'?: ("Pacific/Niue" | "Pacific/Pago_Pago" | "Pacific/Rarotonga" | "Pacific/Honolulu" | "Pacific/Tahiti" | "Pacific/Marquesas" | "Pacific/Gambier" | "America/Adak" | "America/Anchorage" | "America/Juneau" | "America/Metlakatla" | "America/Nome" | "America/Sitka" | "America/Yakutat" | "Pacific/Pitcairn" | "America/Hermosillo" | "America/Dawson_Creek" | "America/Fort_Nelson" | "America/Phoenix" | "America/Los_Angeles" | "America/Tijuana" | "America/Vancouver" | "America/Dawson" | "America/Whitehorse" | "America/Belize" | "America/Costa_Rica" | "America/El_Salvador" | "America/Guatemala" | "America/Managua" | "America/Regina" | "America/Swift_Current" | "America/Tegucigalpa" | "Pacific/Easter" | "Pacific/Galapagos" | "America/Chihuahua" | "America/Mazatlan" | "America/Boise" | "America/Cambridge_Bay" | "America/Denver" | "America/Edmonton" | "America/Inuvik" | "America/Ojinaga" | "America/Yellowknife" | "America/Eirunepe" | "America/Rio_Branco" | "America/Bahia_Banderas" | "America/North_Dakota/Beulah" | "America/North_Dakota/Center" | "America/Chicago" | "America/Indiana/Knox" | "America/Matamoros" | "America/Menominee" | "America/Merida" | "America/Mexico_City" | "America/Monterrey" | "America/North_Dakota/New_Salem" | "America/Rainy_River" | "America/Rankin_Inlet" | "America/Resolute" | "America/Indiana/Tell_City" | "America/Winnipeg" | "America/Bogota" | "America/Cancun" | "America/Jamaica" | "America/Panama" | "America/Guayaquil" | "America/Lima" | "America/Boa_Vista" | "America/Campo_Grande" | "America/Cuiaba" | "America/Manaus" | "America/Porto_Velho" | "America/Barbados" | "America/Martinique" | "America/Puerto_Rico" | "America/Santo_Domingo" | "America/La_Paz" | "America/Santiago" | "America/Havana" | "America/Detroit" | "America/Grand_Turk" | "America/Indiana/Indianapolis" | "America/Iqaluit" | "America/Kentucky/Louisville" | "America/Indiana/Marengo" | "America/Kentucky/Monticello" | "America/New_York" | "America/Nipigon" | "America/Pangnirtung" | "America/Indiana/Petersburg" | "America/Port-au-Prince" | "America/Thunder_Bay" | "America/Toronto" | "America/Indiana/Vevay" | "America/Indiana/Vincennes" | "America/Indiana/Winamac" | "America/Guyana" | "America/Asuncion" | "America/Caracas" | "America/Argentina/Buenos_Aires" | "America/Argentina/Catamarca" | "America/Argentina/Cordoba" | "America/Argentina/Jujuy" | "America/Argentina/La_Rioja" | "America/Argentina/Mendoza" | "America/Argentina/Rio_Gallegos" | "America/Argentina/Salta" | "America/Argentina/San_Juan" | "America/Argentina/San_Luis" | "America/Argentina/Tucuman" | "America/Argentina/Ushuaia" | "Atlantic/Bermuda" | "America/Glace_Bay" | "America/Goose_Bay" | "America/Halifax" | "America/Moncton" | "America/Thule" | "America/Araguaina" | "America/Bahia" | "America/Belem" | "America/Fortaleza" | "America/Maceio" | "America/Recife" | "America/Santarem" | "America/Sao_Paulo" | "Atlantic/Stanley" | "America/Cayenne" | "Antarctica/Palmer" | "America/Punta_Arenas" | "Antarctica/Rothera" | "America/Paramaribo" | "America/Montevideo" | "America/St_Johns" | "America/Noronha" | "Atlantic/South_Georgia" | "America/Miquelon" | "America/Nuuk" | "Atlantic/Cape_Verde" | "Atlantic/Azores" | "UTC" | "America/Scoresbysund" | "Etc/GMT" | "Africa/Abidjan" | "Africa/Bissau" | "America/Danmarkshavn" | "Africa/Monrovia" | "Atlantic/Reykjavik" | "Africa/Sao_Tome" | "Africa/Algiers" | "Africa/Tunis" | "Europe/Dublin" | "Africa/Casablanca" | "Europe/London" | "Africa/Lagos" | "Africa/Ndjamena" | "Atlantic/Canary" | "Atlantic/Faroe" | "Europe/Lisbon" | "Atlantic/Madeira" | "Africa/El_Aaiun" | "Africa/Juba" | "Africa/Khartoum" | "Africa/Maputo" | "Africa/Windhoek" | "Europe/Amsterdam" | "Europe/Andorra" | "Europe/Belgrade" | "Europe/Berlin" | "Europe/Brussels" | "Europe/Budapest" | "Africa/Ceuta" | "Europe/Copenhagen" | "Europe/Gibraltar" | "Europe/Luxembourg" | "Europe/Madrid" | "Europe/Malta" | "Europe/Monaco" | "Europe/Oslo" | "Europe/Paris" | "Europe/Prague" | "Europe/Rome" | "Europe/Stockholm" | "Europe/Tirane" | "Europe/Vienna" | "Europe/Warsaw" | "Europe/Zurich" | "Africa/Cairo" | "Europe/Kaliningrad" | "Africa/Tripoli" | "Africa/Johannesburg" | "Antarctica/Troll" | "Asia/Baghdad" | "Asia/Qatar" | "Asia/Riyadh" | "Africa/Nairobi" | "Asia/Amman" | "Europe/Athens" | "Asia/Beirut" | "Europe/Bucharest" | "Europe/Chisinau" | "Asia/Damascus" | "Asia/Gaza" | "Asia/Hebron" | "Europe/Helsinki" | "Europe/Kiev" | "Asia/Nicosia" | "Europe/Riga" | "Europe/Sofia" | "Europe/Tallinn" | "Europe/Uzhgorod" | "Europe/Vilnius" | "Europe/Zaporozhye" | "Asia/Famagusta" | "Asia/Jerusalem" | "Europe/Kirov" | "Europe/Minsk" | "Europe/Moscow" | "Europe/Simferopol" | "Europe/Istanbul" | "Europe/Volgograd" | "Asia/Yerevan" | "Europe/Astrakhan" | "Asia/Baku" | "Asia/Tbilisi" | "Asia/Dubai" | "Indian/Mauritius" | "Indian/Reunion" | "Europe/Samara" | "Europe/Saratov" | "Indian/Mahe" | "Europe/Ulyanovsk" | "Asia/Kabul" | "Asia/Tehran" | "Indian/Kerguelen" | "Indian/Maldives" | "Antarctica/Mawson" | "Asia/Karachi" | "Asia/Dushanbe" | "Asia/Ashgabat" | "Asia/Samarkand" | "Asia/Tashkent" | "Asia/Aqtau" | "Asia/Aqtobe" | "Asia/Atyrau" | "Asia/Oral" | "Asia/Qyzylorda" | "Asia/Yekaterinburg" | "Asia/Colombo" | "Asia/Kolkata" | "Asia/Kathmandu" | "Asia/Dhaka" | "Asia/Thimphu" | "Asia/Almaty" | "Asia/Qostanay" | "Indian/Chagos" | "Asia/Bishkek" | "Asia/Omsk" | "Asia/Urumqi" | "Antarctica/Vostok" | "Indian/Cocos" | "Asia/Yangon" | "Asia/Barnaul" | "Indian/Christmas" | "Antarctica/Davis" | "Asia/Hovd" | "Asia/Bangkok" | "Asia/Ho_Chi_Minh" | "Asia/Krasnoyarsk" | "Asia/Novokuznetsk" | "Asia/Novosibirsk" | "Asia/Tomsk" | "Asia/Jakarta" | "Asia/Pontianak" | "Australia/Perth" | "Asia/Brunei" | "Asia/Makassar" | "Asia/Macau" | "Asia/Shanghai" | "Asia/Hong_Kong" | "Asia/Irkutsk" | "Asia/Kuala_Lumpur" | "Asia/Kuching" | "Asia/Manila" | "Asia/Singapore" | "Asia/Taipei" | "Asia/Choibalsan" | "Asia/Ulaanbaatar" | "Australia/Eucla" | "Asia/Dili" | "Asia/Jayapura" | "Asia/Tokyo" | "Asia/Pyongyang" | "Asia/Seoul" | "Pacific/Palau" | "Asia/Chita" | "Asia/Khandyga" | "Asia/Yakutsk" | "Australia/Darwin" | "Australia/Adelaide" | "Australia/Broken_Hill" | "Australia/Brisbane" | "Australia/Lindeman" | "Pacific/Guam" | "Pacific/Chuuk" | "Australia/Hobart" | "Antarctica/Macquarie" | "Australia/Melbourne" | "Australia/Sydney" | "Pacific/Port_Moresby" | "Asia/Ust-Nera" | "Asia/Vladivostok" | "Australia/Lord_Howe" | "Pacific/Bougainville" | "Antarctica/Casey" | "Pacific/Kosrae" | "Asia/Magadan" | "Pacific/Noumea" | "Pacific/Norfolk" | "Pacific/Pohnpei" | "Asia/Sakhalin" | "Pacific/Guadalcanal" | "Asia/Srednekolymsk" | "Pacific/Efate" | "Asia/Anadyr" | "Pacific/Fiji" | "Pacific/Tarawa" | "Pacific/Kwajalein" | "Pacific/Majuro" | "Pacific/Nauru" | "Pacific/Auckland" | "Asia/Kamchatka" | "Pacific/Funafuti" | "Pacific/Wake" | "Pacific/Wallis" | "Pacific/Chatham" | "Pacific/Apia" | "Pacific/Fakaofo" | "Pacific/Tongatapu" | "Pacific/Kiritimati") | undefined | null
 			/** Phone. A number that can be texted */
-			'phone'?: string| undefined | null
+			'phone'?: string | undefined | null
 			/** Username. An optional username if the person does not want to login using their phone */
-			'username'?: string| undefined | null
+			'username'?: string | undefined | null
 			/** Avatar src. */
-			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
+			'avatar'?: SpruceSchema.ImageFieldValue | undefined | null
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateUpdated'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateUpdated'?: SpruceSchema.DateTimeFieldValue | undefined | null
 			
-			'dateScrambled'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateScrambled'?: SpruceSchema.DateTimeFieldValue | undefined | null
 	}
 
 	export interface PersonSchema extends SpruceSchema.Schema {
@@ -520,15 +520,15 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Name. */
 			'name': string
 			/** Address. */
-			'address'?: SpruceSchema.AddressFieldValue| undefined | null
+			'address'?: SpruceSchema.AddressFieldValue | undefined | null
 			/** Slug. */
 			'slug': string
 			/** Public. Is this organization viewable by guests? */
-			'isPublic'?: boolean| undefined | null
+			'isPublic'?: boolean | undefined | null
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue | undefined | null
 	}
 
 	export interface OrganizationSchema extends SpruceSchema.Schema {
@@ -599,17 +599,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface MessageSource {
 		
 			
-			'locationId'?: string| undefined | null
+			'locationId'?: string | undefined | null
 			
-			'personId'?: string| undefined | null
+			'personId'?: string | undefined | null
 			
-			'organizationId'?: string| undefined | null
+			'organizationId'?: string | undefined | null
 			
-			'skillId'?: string| undefined | null
+			'skillId'?: string | undefined | null
 			
-			'roleId'?: string| undefined | null
+			'roleId'?: string | undefined | null
 			
-			'isCore'?: boolean| undefined | null
+			'isCore'?: boolean | undefined | null
 	}
 
 	export interface MessageSourceSchema extends SpruceSchema.Schema {
@@ -663,17 +663,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface MessageTarget {
 		
 			
-			'locationId'?: string| undefined | null
+			'locationId'?: string | undefined | null
 			
-			'personId'?: string| undefined | null
+			'personId'?: string | undefined | null
 			
-			'organizationId'?: string| undefined | null
+			'organizationId'?: string | undefined | null
 			
-			'skillId'?: string| undefined | null
+			'skillId'?: string | undefined | null
 			
-			'roleId'?: string| undefined | null
+			'roleId'?: string | undefined | null
 			
-			'phone'?: string| undefined | null
+			'phone'?: string | undefined | null
 	}
 
 	export interface MessageTargetSchema extends SpruceSchema.Schema {
@@ -729,31 +729,31 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'id': string
 			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
-			'trackingId'?: string| undefined | null
+			'trackingId'?: string | undefined | null
 			
 			'dateCreated': number
 			
-			'dateSent'?: number| undefined | null
+			'dateSent'?: number | undefined | null
 			
 			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
 			
 			'source': SpruceSchemas.Spruce.v2020_07_22.MessageSource
 			
-			'errors'?: string[]| undefined | null
+			'errors'?: string[] | undefined | null
 			
 			'classification': ("auth" | "transactional" | "promotional" | "incoming")
 			
-			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored")| undefined | null
+			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
 			
 			'body': string
 			
-			'context'?: (Record<string, any>)| undefined | null
+			'context'?: (Record<string, any>) | undefined | null
 			
-			'topicId'?: string| undefined | null
+			'topicId'?: string | undefined | null
 			
-			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
 			
-			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[]| undefined | null
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
 	}
 
 	export interface MessageSchema extends SpruceSchema.Schema {
@@ -867,23 +867,23 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Name. */
 			'name': string
 			/** Location number. You can use other symbols, like # or dashes. #123 or 32-US-5 */
-			'num'?: string| undefined | null
+			'num'?: string | undefined | null
 			/** Slug. */
 			'slug': string
 			/** Public. Is this location viewable by guests? */
-			'isPublic'?: boolean| undefined | null
+			'isPublic'?: boolean | undefined | null
 			/** Main Phone. */
-			'phone'?: string| undefined | null
+			'phone'?: string | undefined | null
 			/** Timezone. */
-			'timezone'?: ("Pacific/Niue" | "Pacific/Pago_Pago" | "Pacific/Rarotonga" | "Pacific/Honolulu" | "Pacific/Tahiti" | "Pacific/Marquesas" | "Pacific/Gambier" | "America/Adak" | "America/Anchorage" | "America/Juneau" | "America/Metlakatla" | "America/Nome" | "America/Sitka" | "America/Yakutat" | "Pacific/Pitcairn" | "America/Hermosillo" | "America/Dawson_Creek" | "America/Fort_Nelson" | "America/Phoenix" | "America/Los_Angeles" | "America/Tijuana" | "America/Vancouver" | "America/Dawson" | "America/Whitehorse" | "America/Belize" | "America/Costa_Rica" | "America/El_Salvador" | "America/Guatemala" | "America/Managua" | "America/Regina" | "America/Swift_Current" | "America/Tegucigalpa" | "Pacific/Easter" | "Pacific/Galapagos" | "America/Chihuahua" | "America/Mazatlan" | "America/Boise" | "America/Cambridge_Bay" | "America/Denver" | "America/Edmonton" | "America/Inuvik" | "America/Ojinaga" | "America/Yellowknife" | "America/Eirunepe" | "America/Rio_Branco" | "America/Bahia_Banderas" | "America/North_Dakota/Beulah" | "America/North_Dakota/Center" | "America/Chicago" | "America/Indiana/Knox" | "America/Matamoros" | "America/Menominee" | "America/Merida" | "America/Mexico_City" | "America/Monterrey" | "America/North_Dakota/New_Salem" | "America/Rainy_River" | "America/Rankin_Inlet" | "America/Resolute" | "America/Indiana/Tell_City" | "America/Winnipeg" | "America/Bogota" | "America/Cancun" | "America/Jamaica" | "America/Panama" | "America/Guayaquil" | "America/Lima" | "America/Boa_Vista" | "America/Campo_Grande" | "America/Cuiaba" | "America/Manaus" | "America/Porto_Velho" | "America/Barbados" | "America/Martinique" | "America/Puerto_Rico" | "America/Santo_Domingo" | "America/La_Paz" | "America/Santiago" | "America/Havana" | "America/Detroit" | "America/Grand_Turk" | "America/Indiana/Indianapolis" | "America/Iqaluit" | "America/Kentucky/Louisville" | "America/Indiana/Marengo" | "America/Kentucky/Monticello" | "America/New_York" | "America/Nipigon" | "America/Pangnirtung" | "America/Indiana/Petersburg" | "America/Port-au-Prince" | "America/Thunder_Bay" | "America/Toronto" | "America/Indiana/Vevay" | "America/Indiana/Vincennes" | "America/Indiana/Winamac" | "America/Guyana" | "America/Asuncion" | "America/Caracas" | "America/Argentina/Buenos_Aires" | "America/Argentina/Catamarca" | "America/Argentina/Cordoba" | "America/Argentina/Jujuy" | "America/Argentina/La_Rioja" | "America/Argentina/Mendoza" | "America/Argentina/Rio_Gallegos" | "America/Argentina/Salta" | "America/Argentina/San_Juan" | "America/Argentina/San_Luis" | "America/Argentina/Tucuman" | "America/Argentina/Ushuaia" | "Atlantic/Bermuda" | "America/Glace_Bay" | "America/Goose_Bay" | "America/Halifax" | "America/Moncton" | "America/Thule" | "America/Araguaina" | "America/Bahia" | "America/Belem" | "America/Fortaleza" | "America/Maceio" | "America/Recife" | "America/Santarem" | "America/Sao_Paulo" | "Atlantic/Stanley" | "America/Cayenne" | "Antarctica/Palmer" | "America/Punta_Arenas" | "Antarctica/Rothera" | "America/Paramaribo" | "America/Montevideo" | "America/St_Johns" | "America/Noronha" | "Atlantic/South_Georgia" | "America/Miquelon" | "America/Nuuk" | "Atlantic/Cape_Verde" | "Atlantic/Azores" | "UTC" | "America/Scoresbysund" | "Etc/GMT" | "Africa/Abidjan" | "Africa/Bissau" | "America/Danmarkshavn" | "Africa/Monrovia" | "Atlantic/Reykjavik" | "Africa/Sao_Tome" | "Africa/Algiers" | "Africa/Tunis" | "Europe/Dublin" | "Africa/Casablanca" | "Europe/London" | "Africa/Lagos" | "Africa/Ndjamena" | "Atlantic/Canary" | "Atlantic/Faroe" | "Europe/Lisbon" | "Atlantic/Madeira" | "Africa/El_Aaiun" | "Africa/Juba" | "Africa/Khartoum" | "Africa/Maputo" | "Africa/Windhoek" | "Europe/Amsterdam" | "Europe/Andorra" | "Europe/Belgrade" | "Europe/Berlin" | "Europe/Brussels" | "Europe/Budapest" | "Africa/Ceuta" | "Europe/Copenhagen" | "Europe/Gibraltar" | "Europe/Luxembourg" | "Europe/Madrid" | "Europe/Malta" | "Europe/Monaco" | "Europe/Oslo" | "Europe/Paris" | "Europe/Prague" | "Europe/Rome" | "Europe/Stockholm" | "Europe/Tirane" | "Europe/Vienna" | "Europe/Warsaw" | "Europe/Zurich" | "Africa/Cairo" | "Europe/Kaliningrad" | "Africa/Tripoli" | "Africa/Johannesburg" | "Antarctica/Troll" | "Asia/Baghdad" | "Asia/Qatar" | "Asia/Riyadh" | "Africa/Nairobi" | "Asia/Amman" | "Europe/Athens" | "Asia/Beirut" | "Europe/Bucharest" | "Europe/Chisinau" | "Asia/Damascus" | "Asia/Gaza" | "Asia/Hebron" | "Europe/Helsinki" | "Europe/Kiev" | "Asia/Nicosia" | "Europe/Riga" | "Europe/Sofia" | "Europe/Tallinn" | "Europe/Uzhgorod" | "Europe/Vilnius" | "Europe/Zaporozhye" | "Asia/Famagusta" | "Asia/Jerusalem" | "Europe/Kirov" | "Europe/Minsk" | "Europe/Moscow" | "Europe/Simferopol" | "Europe/Istanbul" | "Europe/Volgograd" | "Asia/Yerevan" | "Europe/Astrakhan" | "Asia/Baku" | "Asia/Tbilisi" | "Asia/Dubai" | "Indian/Mauritius" | "Indian/Reunion" | "Europe/Samara" | "Europe/Saratov" | "Indian/Mahe" | "Europe/Ulyanovsk" | "Asia/Kabul" | "Asia/Tehran" | "Indian/Kerguelen" | "Indian/Maldives" | "Antarctica/Mawson" | "Asia/Karachi" | "Asia/Dushanbe" | "Asia/Ashgabat" | "Asia/Samarkand" | "Asia/Tashkent" | "Asia/Aqtau" | "Asia/Aqtobe" | "Asia/Atyrau" | "Asia/Oral" | "Asia/Qyzylorda" | "Asia/Yekaterinburg" | "Asia/Colombo" | "Asia/Kolkata" | "Asia/Kathmandu" | "Asia/Dhaka" | "Asia/Thimphu" | "Asia/Almaty" | "Asia/Qostanay" | "Indian/Chagos" | "Asia/Bishkek" | "Asia/Omsk" | "Asia/Urumqi" | "Antarctica/Vostok" | "Indian/Cocos" | "Asia/Yangon" | "Asia/Barnaul" | "Indian/Christmas" | "Antarctica/Davis" | "Asia/Hovd" | "Asia/Bangkok" | "Asia/Ho_Chi_Minh" | "Asia/Krasnoyarsk" | "Asia/Novokuznetsk" | "Asia/Novosibirsk" | "Asia/Tomsk" | "Asia/Jakarta" | "Asia/Pontianak" | "Australia/Perth" | "Asia/Brunei" | "Asia/Makassar" | "Asia/Macau" | "Asia/Shanghai" | "Asia/Hong_Kong" | "Asia/Irkutsk" | "Asia/Kuala_Lumpur" | "Asia/Kuching" | "Asia/Manila" | "Asia/Singapore" | "Asia/Taipei" | "Asia/Choibalsan" | "Asia/Ulaanbaatar" | "Australia/Eucla" | "Asia/Dili" | "Asia/Jayapura" | "Asia/Tokyo" | "Asia/Pyongyang" | "Asia/Seoul" | "Pacific/Palau" | "Asia/Chita" | "Asia/Khandyga" | "Asia/Yakutsk" | "Australia/Darwin" | "Australia/Adelaide" | "Australia/Broken_Hill" | "Australia/Brisbane" | "Australia/Lindeman" | "Pacific/Guam" | "Pacific/Chuuk" | "Australia/Hobart" | "Antarctica/Macquarie" | "Australia/Melbourne" | "Australia/Sydney" | "Pacific/Port_Moresby" | "Asia/Ust-Nera" | "Asia/Vladivostok" | "Australia/Lord_Howe" | "Pacific/Bougainville" | "Antarctica/Casey" | "Pacific/Kosrae" | "Asia/Magadan" | "Pacific/Noumea" | "Pacific/Norfolk" | "Pacific/Pohnpei" | "Asia/Sakhalin" | "Pacific/Guadalcanal" | "Asia/Srednekolymsk" | "Pacific/Efate" | "Asia/Anadyr" | "Pacific/Fiji" | "Pacific/Tarawa" | "Pacific/Kwajalein" | "Pacific/Majuro" | "Pacific/Nauru" | "Pacific/Auckland" | "Asia/Kamchatka" | "Pacific/Funafuti" | "Pacific/Wake" | "Pacific/Wallis" | "Pacific/Chatham" | "Pacific/Apia" | "Pacific/Fakaofo" | "Pacific/Tongatapu" | "Pacific/Kiritimati")| undefined | null
+			'timezone'?: ("Pacific/Niue" | "Pacific/Pago_Pago" | "Pacific/Rarotonga" | "Pacific/Honolulu" | "Pacific/Tahiti" | "Pacific/Marquesas" | "Pacific/Gambier" | "America/Adak" | "America/Anchorage" | "America/Juneau" | "America/Metlakatla" | "America/Nome" | "America/Sitka" | "America/Yakutat" | "Pacific/Pitcairn" | "America/Hermosillo" | "America/Dawson_Creek" | "America/Fort_Nelson" | "America/Phoenix" | "America/Los_Angeles" | "America/Tijuana" | "America/Vancouver" | "America/Dawson" | "America/Whitehorse" | "America/Belize" | "America/Costa_Rica" | "America/El_Salvador" | "America/Guatemala" | "America/Managua" | "America/Regina" | "America/Swift_Current" | "America/Tegucigalpa" | "Pacific/Easter" | "Pacific/Galapagos" | "America/Chihuahua" | "America/Mazatlan" | "America/Boise" | "America/Cambridge_Bay" | "America/Denver" | "America/Edmonton" | "America/Inuvik" | "America/Ojinaga" | "America/Yellowknife" | "America/Eirunepe" | "America/Rio_Branco" | "America/Bahia_Banderas" | "America/North_Dakota/Beulah" | "America/North_Dakota/Center" | "America/Chicago" | "America/Indiana/Knox" | "America/Matamoros" | "America/Menominee" | "America/Merida" | "America/Mexico_City" | "America/Monterrey" | "America/North_Dakota/New_Salem" | "America/Rainy_River" | "America/Rankin_Inlet" | "America/Resolute" | "America/Indiana/Tell_City" | "America/Winnipeg" | "America/Bogota" | "America/Cancun" | "America/Jamaica" | "America/Panama" | "America/Guayaquil" | "America/Lima" | "America/Boa_Vista" | "America/Campo_Grande" | "America/Cuiaba" | "America/Manaus" | "America/Porto_Velho" | "America/Barbados" | "America/Martinique" | "America/Puerto_Rico" | "America/Santo_Domingo" | "America/La_Paz" | "America/Santiago" | "America/Havana" | "America/Detroit" | "America/Grand_Turk" | "America/Indiana/Indianapolis" | "America/Iqaluit" | "America/Kentucky/Louisville" | "America/Indiana/Marengo" | "America/Kentucky/Monticello" | "America/New_York" | "America/Nipigon" | "America/Pangnirtung" | "America/Indiana/Petersburg" | "America/Port-au-Prince" | "America/Thunder_Bay" | "America/Toronto" | "America/Indiana/Vevay" | "America/Indiana/Vincennes" | "America/Indiana/Winamac" | "America/Guyana" | "America/Asuncion" | "America/Caracas" | "America/Argentina/Buenos_Aires" | "America/Argentina/Catamarca" | "America/Argentina/Cordoba" | "America/Argentina/Jujuy" | "America/Argentina/La_Rioja" | "America/Argentina/Mendoza" | "America/Argentina/Rio_Gallegos" | "America/Argentina/Salta" | "America/Argentina/San_Juan" | "America/Argentina/San_Luis" | "America/Argentina/Tucuman" | "America/Argentina/Ushuaia" | "Atlantic/Bermuda" | "America/Glace_Bay" | "America/Goose_Bay" | "America/Halifax" | "America/Moncton" | "America/Thule" | "America/Araguaina" | "America/Bahia" | "America/Belem" | "America/Fortaleza" | "America/Maceio" | "America/Recife" | "America/Santarem" | "America/Sao_Paulo" | "Atlantic/Stanley" | "America/Cayenne" | "Antarctica/Palmer" | "America/Punta_Arenas" | "Antarctica/Rothera" | "America/Paramaribo" | "America/Montevideo" | "America/St_Johns" | "America/Noronha" | "Atlantic/South_Georgia" | "America/Miquelon" | "America/Nuuk" | "Atlantic/Cape_Verde" | "Atlantic/Azores" | "UTC" | "America/Scoresbysund" | "Etc/GMT" | "Africa/Abidjan" | "Africa/Bissau" | "America/Danmarkshavn" | "Africa/Monrovia" | "Atlantic/Reykjavik" | "Africa/Sao_Tome" | "Africa/Algiers" | "Africa/Tunis" | "Europe/Dublin" | "Africa/Casablanca" | "Europe/London" | "Africa/Lagos" | "Africa/Ndjamena" | "Atlantic/Canary" | "Atlantic/Faroe" | "Europe/Lisbon" | "Atlantic/Madeira" | "Africa/El_Aaiun" | "Africa/Juba" | "Africa/Khartoum" | "Africa/Maputo" | "Africa/Windhoek" | "Europe/Amsterdam" | "Europe/Andorra" | "Europe/Belgrade" | "Europe/Berlin" | "Europe/Brussels" | "Europe/Budapest" | "Africa/Ceuta" | "Europe/Copenhagen" | "Europe/Gibraltar" | "Europe/Luxembourg" | "Europe/Madrid" | "Europe/Malta" | "Europe/Monaco" | "Europe/Oslo" | "Europe/Paris" | "Europe/Prague" | "Europe/Rome" | "Europe/Stockholm" | "Europe/Tirane" | "Europe/Vienna" | "Europe/Warsaw" | "Europe/Zurich" | "Africa/Cairo" | "Europe/Kaliningrad" | "Africa/Tripoli" | "Africa/Johannesburg" | "Antarctica/Troll" | "Asia/Baghdad" | "Asia/Qatar" | "Asia/Riyadh" | "Africa/Nairobi" | "Asia/Amman" | "Europe/Athens" | "Asia/Beirut" | "Europe/Bucharest" | "Europe/Chisinau" | "Asia/Damascus" | "Asia/Gaza" | "Asia/Hebron" | "Europe/Helsinki" | "Europe/Kiev" | "Asia/Nicosia" | "Europe/Riga" | "Europe/Sofia" | "Europe/Tallinn" | "Europe/Uzhgorod" | "Europe/Vilnius" | "Europe/Zaporozhye" | "Asia/Famagusta" | "Asia/Jerusalem" | "Europe/Kirov" | "Europe/Minsk" | "Europe/Moscow" | "Europe/Simferopol" | "Europe/Istanbul" | "Europe/Volgograd" | "Asia/Yerevan" | "Europe/Astrakhan" | "Asia/Baku" | "Asia/Tbilisi" | "Asia/Dubai" | "Indian/Mauritius" | "Indian/Reunion" | "Europe/Samara" | "Europe/Saratov" | "Indian/Mahe" | "Europe/Ulyanovsk" | "Asia/Kabul" | "Asia/Tehran" | "Indian/Kerguelen" | "Indian/Maldives" | "Antarctica/Mawson" | "Asia/Karachi" | "Asia/Dushanbe" | "Asia/Ashgabat" | "Asia/Samarkand" | "Asia/Tashkent" | "Asia/Aqtau" | "Asia/Aqtobe" | "Asia/Atyrau" | "Asia/Oral" | "Asia/Qyzylorda" | "Asia/Yekaterinburg" | "Asia/Colombo" | "Asia/Kolkata" | "Asia/Kathmandu" | "Asia/Dhaka" | "Asia/Thimphu" | "Asia/Almaty" | "Asia/Qostanay" | "Indian/Chagos" | "Asia/Bishkek" | "Asia/Omsk" | "Asia/Urumqi" | "Antarctica/Vostok" | "Indian/Cocos" | "Asia/Yangon" | "Asia/Barnaul" | "Indian/Christmas" | "Antarctica/Davis" | "Asia/Hovd" | "Asia/Bangkok" | "Asia/Ho_Chi_Minh" | "Asia/Krasnoyarsk" | "Asia/Novokuznetsk" | "Asia/Novosibirsk" | "Asia/Tomsk" | "Asia/Jakarta" | "Asia/Pontianak" | "Australia/Perth" | "Asia/Brunei" | "Asia/Makassar" | "Asia/Macau" | "Asia/Shanghai" | "Asia/Hong_Kong" | "Asia/Irkutsk" | "Asia/Kuala_Lumpur" | "Asia/Kuching" | "Asia/Manila" | "Asia/Singapore" | "Asia/Taipei" | "Asia/Choibalsan" | "Asia/Ulaanbaatar" | "Australia/Eucla" | "Asia/Dili" | "Asia/Jayapura" | "Asia/Tokyo" | "Asia/Pyongyang" | "Asia/Seoul" | "Pacific/Palau" | "Asia/Chita" | "Asia/Khandyga" | "Asia/Yakutsk" | "Australia/Darwin" | "Australia/Adelaide" | "Australia/Broken_Hill" | "Australia/Brisbane" | "Australia/Lindeman" | "Pacific/Guam" | "Pacific/Chuuk" | "Australia/Hobart" | "Antarctica/Macquarie" | "Australia/Melbourne" | "Australia/Sydney" | "Pacific/Port_Moresby" | "Asia/Ust-Nera" | "Asia/Vladivostok" | "Australia/Lord_Howe" | "Pacific/Bougainville" | "Antarctica/Casey" | "Pacific/Kosrae" | "Asia/Magadan" | "Pacific/Noumea" | "Pacific/Norfolk" | "Pacific/Pohnpei" | "Asia/Sakhalin" | "Pacific/Guadalcanal" | "Asia/Srednekolymsk" | "Pacific/Efate" | "Asia/Anadyr" | "Pacific/Fiji" | "Pacific/Tarawa" | "Pacific/Kwajalein" | "Pacific/Majuro" | "Pacific/Nauru" | "Pacific/Auckland" | "Asia/Kamchatka" | "Pacific/Funafuti" | "Pacific/Wake" | "Pacific/Wallis" | "Pacific/Chatham" | "Pacific/Apia" | "Pacific/Fakaofo" | "Pacific/Tongatapu" | "Pacific/Kiritimati") | undefined | null
 			/** Address. */
 			'address': SpruceSchema.AddressFieldValue
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'dateDeleted'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateDeleted'?: SpruceSchema.DateTimeFieldValue | undefined | null
 			
-			'dateUpdated'?: SpruceSchema.DateTimeFieldValue| undefined | null
+			'dateUpdated'?: SpruceSchema.DateTimeFieldValue | undefined | null
 			
 			'organizationId': string
 	}
@@ -1057,13 +1057,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface FeedItemTarget {
 		
 			
-			'personId'?: string| undefined | null
+			'personId'?: string | undefined | null
 			
 			'casualName': string
 			
-			'avatar'?: SpruceSchema.ImageFieldValue| undefined | null
+			'avatar'?: SpruceSchema.ImageFieldValue | undefined | null
 			
-			'skillId'?: string| undefined | null
+			'skillId'?: string | undefined | null
 			
 			'isMe': boolean
 			
@@ -1162,27 +1162,27 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface SendMessage {
 		
 			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
-			'trackingId'?: string| undefined | null
+			'trackingId'?: string | undefined | null
 			
-			'dateSent'?: number| undefined | null
+			'dateSent'?: number | undefined | null
 			
 			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
 			
-			'errors'?: string[]| undefined | null
+			'errors'?: string[] | undefined | null
 			
 			'classification': ("auth" | "transactional" | "promotional" | "incoming")
 			
-			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored")| undefined | null
+			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
 			
 			'body': string
 			
-			'context'?: (Record<string, any>)| undefined | null
+			'context'?: (Record<string, any>) | undefined | null
 			
-			'topicId'?: string| undefined | null
+			'topicId'?: string | undefined | null
 			
-			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
 			
-			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[]| undefined | null
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
 	}
 
 	export interface SendMessageSchema extends SpruceSchema.Schema {
@@ -1279,17 +1279,17 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
-			'note'?: string| undefined | null
+			'note'?: string | undefined | null
 			
 			'source': SpruceSchemas.Spruce.v2020_07_22.FeedItemTarget
 			
 			'target': SpruceSchemas.Spruce.v2020_07_22.FeedItemTarget
 			
-			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[]| undefined | null
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
 			
-			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[]| undefined | null
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
 			
-			'context'?: (Record<string, any>)| undefined | null
+			'context'?: (Record<string, any>) | undefined | null
 	}
 
 	export interface FeedItemSchema extends SpruceSchema.Schema {
