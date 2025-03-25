@@ -68,7 +68,7 @@
     "@sprucelabs/resolve-path-aliases": "^2.0.538",
     "@sprucelabs/semantic-release": "^5.0.2",
     "@sprucelabs/test": "^9.0.77",
-    "@sprucelabs/test-utils": "^5.5.29",
+    "@sprucelabs/test-utils": "^5.5.30",
     "@types/node": "^22.13.13",
     "chokidar-cli": "^3.0.0",
     "date-fns": "^4.1.0",
