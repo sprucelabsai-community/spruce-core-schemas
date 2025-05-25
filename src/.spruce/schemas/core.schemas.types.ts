@@ -1124,7 +1124,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface Choice {
 		
 			
-			'value': string
+			'value': (string | number)
 			
 			'label': string
 	}
@@ -1138,9 +1138,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    fields: {
 		            /** . */
 		            'value': {
-		                type: 'text',
+		                type: 'raw',
 		                isRequired: true,
-		                options: undefined
+		                options: {valueType: `string | number`,}
 		            },
 		            /** . */
 		            'label': {

@@ -12,9 +12,9 @@ const choiceSchema: SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema  = {
 	    fields: {
 	            /** . */
 	            'value': {
-	                type: 'text',
+	                type: 'raw',
 	                isRequired: true,
-	                options: undefined
+	                options: {valueType: `string | number`,}
 	            },
 	            /** . */
 	            'label': {
