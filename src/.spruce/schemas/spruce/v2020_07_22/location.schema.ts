@@ -63,7 +63,13 @@ const locationSchema: SpruceSchemas.Spruce.v2020_07_22.LocationSchema  = {
 	            'address': {
 	                label: 'Address',
 	                type: 'address',
-	                isRequired: true,
+	                options: undefined
+	            },
+	            /** Virtual. Is this a virtual location? */
+	            'isVirtual': {
+	                label: 'Virtual',
+	                type: 'boolean',
+	                hint: 'Is this a virtual location?',
 	                options: undefined
 	            },
 	            /** . */

@@ -47,7 +47,11 @@ export default buildSchema({
         address: {
             label: 'Address',
             type: 'address',
-            isRequired: true,
+        },
+        isVirtual: {
+            label: 'Virtual',
+            type: 'boolean',
+            hint: 'Is this a virtual location?',
         },
         dateCreated: {
             type: 'dateTime',

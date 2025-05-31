@@ -877,7 +877,9 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			/** Timezone. */
 			'timezone'?: ("UTC" | "Pacific/Honolulu" | "America/Anchorage" | "America/Los_Angeles" | "America/Denver" | "America/Phoenix" | "America/Chicago" | "America/Guatemala" | "America/New_York" | "America/Panama" | "America/Sao_Paulo" | "America/Argentina/Buenos_Aires" | "Europe/London" | "Europe/Berlin" | "Europe/Athens" | "Europe/Moscow" | "Africa/Lagos" | "Africa/Cairo" | "Africa/Johannesburg" | "Asia/Dubai" | "Asia/Karachi" | "Asia/Kolkata" | "Asia/Shanghai" | "Asia/Tokyo" | "Asia/Seoul" | "Australia/Perth" | "Australia/Adelaide" | "Australia/Sydney" | "Pacific/Auckland" | "Pacific/Port_Moresby") | undefined | null
 			/** Address. */
-			'address': SpruceSchema.AddressFieldValue
+			'address'?: SpruceSchema.AddressFieldValue | undefined | null
+			/** Virtual. Is this a virtual location? */
+			'isVirtual'?: boolean | undefined | null
 			
 			'dateCreated': SpruceSchema.DateTimeFieldValue
 			
@@ -948,7 +950,13 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'address': {
 		                label: 'Address',
 		                type: 'address',
-		                isRequired: true,
+		                options: undefined
+		            },
+		            /** Virtual. Is this a virtual location? */
+		            'isVirtual': {
+		                label: 'Virtual',
+		                type: 'boolean',
+		                hint: 'Is this a virtual location?',
 		                options: undefined
 		            },
 		            /** . */
