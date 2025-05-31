@@ -1,3 +1,10 @@
+# [40.2.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.1.694...v40.2.0) (2025-05-31)
+
+
+### Features
+
+* virtual location support ([d28629a](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/d28629a))
+
 ## [40.1.694](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.1.693...v40.1.694) (2025-05-26)
 
 ## [40.1.693](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.1.692...v40.1.693) (2025-05-25)
