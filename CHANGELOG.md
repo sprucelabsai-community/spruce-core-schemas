@@ -1,3 +1,10 @@
+# [41.0.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.2.6...v41.0.0) (2025-06-10)
+
+
+### Breaking Changes
+
+* jest update ([3a3e77a](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/3a3e77a))
+
 ## [40.2.6](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.2.5...v40.2.6) (2025-06-06)
 
 ## [40.2.5](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v40.2.4...v40.2.5) (2025-06-05)
