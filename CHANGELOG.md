@@ -1,3 +1,10 @@
+# [41.1.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.0.80...v41.1.0) (2025-09-09)
+
+
+### Features
+
+* email in message target ([dbf13c9](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/dbf13c9))
+
 ## [41.0.80](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.0.79...v41.0.80) (2025-09-06)
 
 ## [41.0.79](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.0.78...v41.0.79) (2025-09-05)
