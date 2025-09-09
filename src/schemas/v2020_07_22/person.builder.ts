@@ -46,6 +46,12 @@ export default buildSchema({
             hint: 'An optional username if the person does not want to login using their phone',
             isPrivate: true,
         },
+        email: {
+            label: 'Email',
+            type: 'email',
+            hint: 'An optional email if the person does not want to login using their phone',
+            isPrivate: true,
+        },
         avatar: {
             label: 'Avatar src',
             type: 'image',

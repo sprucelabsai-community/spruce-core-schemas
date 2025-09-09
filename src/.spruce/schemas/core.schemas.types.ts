@@ -411,6 +411,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'phone'?: string | undefined | null
 			/** Username. An optional username if the person does not want to login using their phone */
 			'username'?: string | undefined | null
+			/** Email. An optional email if the person does not want to login using their phone */
+			'email'?: string | undefined | null
 			/** Avatar src. */
 			'avatar'?: SpruceSchema.ImageFieldValue | undefined | null
 			
@@ -478,6 +480,14 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'text',
 		                isPrivate: true,
 		                hint: 'An optional username if the person does not want to login using their phone',
+		                options: undefined
+		            },
+		            /** Email. An optional email if the person does not want to login using their phone */
+		            'email': {
+		                label: 'Email',
+		                type: 'email',
+		                isPrivate: true,
+		                hint: 'An optional email if the person does not want to login using their phone',
 		                options: undefined
 		            },
 		            /** Avatar src. */

@@ -62,6 +62,14 @@ const personSchema: SpruceSchemas.Spruce.v2020_07_22.PersonSchema  = {
 	                hint: 'An optional username if the person does not want to login using their phone',
 	                options: undefined
 	            },
+	            /** Email. An optional email if the person does not want to login using their phone */
+	            'email': {
+	                label: 'Email',
+	                type: 'email',
+	                isPrivate: true,
+	                hint: 'An optional email if the person does not want to login using their phone',
+	                options: undefined
+	            },
 	            /** Avatar src. */
 	            'avatar': {
 	                label: 'Avatar src',
