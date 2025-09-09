@@ -27,6 +27,9 @@ export const messageTargetSchema = buildSchema({
         phone: {
             type: 'phone',
         },
+        email: {
+            type: 'email',
+        },
     },
 })
 

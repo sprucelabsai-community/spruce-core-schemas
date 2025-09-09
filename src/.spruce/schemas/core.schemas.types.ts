@@ -674,6 +674,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'roleId'?: string | undefined | null
 			
 			'phone'?: string | undefined | null
+			
+			'email'?: string | undefined | null
 	}
 
 	export interface MessageTargetSchema extends SpruceSchema.Schema {
@@ -711,6 +713,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'phone': {
 		                type: 'phone',
+		                options: undefined
+		            },
+		            /** . */
+		            'email': {
+		                type: 'email',
 		                options: undefined
 		            },
 		    }

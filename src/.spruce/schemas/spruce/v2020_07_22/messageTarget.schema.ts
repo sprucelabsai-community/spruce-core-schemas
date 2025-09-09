@@ -40,6 +40,11 @@ const messageTargetSchema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema 
 	                type: 'phone',
 	                options: undefined
 	            },
+	            /** . */
+	            'email': {
+	                type: 'email',
+	                options: undefined
+	            },
 	    }
 }
 
