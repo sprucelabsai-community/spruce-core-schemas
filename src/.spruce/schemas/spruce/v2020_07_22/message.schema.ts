@@ -26,6 +26,12 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
 	                options: undefined
 	            },
+	            /** . If this message is a reply to another message, this is the id of that original message. */
+	            'inReplyToMessageId': {
+	                type: 'id',
+	                hint: 'If this message is a reply to another message, this is the id of that original message.',
+	                options: undefined
+	            },
 	            /** . */
 	            'dateCreated': {
 	                type: 'number',

@@ -56,6 +56,10 @@ export default buildSchema({
             type: 'id',
             hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
         },
+        inReplyToMessageId: {
+            type: 'id',
+            hint: 'If this message is a reply to another message, this is the id of that original message.',
+        },
         dateCreated: {
             type: 'number',
             isRequired: true,

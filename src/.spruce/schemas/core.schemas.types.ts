@@ -747,6 +747,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'id': string
 			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
 			'trackingId'?: string | undefined | null
+			/** . If this message is a reply to another message, this is the id of that original message. */
+			'inReplyToMessageId'?: string | undefined | null
 			
 			'dateCreated': number
 			
@@ -791,6 +793,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'trackingId': {
 		                type: 'id',
 		                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
+		                options: undefined
+		            },
+		            /** . If this message is a reply to another message, this is the id of that original message. */
+		            'inReplyToMessageId': {
+		                type: 'id',
+		                hint: 'If this message is a reply to another message, this is the id of that original message.',
 		                options: undefined
 		            },
 		            /** . */
@@ -1188,6 +1196,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		
 			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
 			'trackingId'?: string | undefined | null
+			/** . If this message is a reply to another message, this is the id of that original message. */
+			'inReplyToMessageId'?: string | undefined | null
 			
 			'dateSent'?: number | undefined | null
 			
@@ -1221,6 +1231,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            'trackingId': {
 		                type: 'id',
 		                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
+		                options: undefined
+		            },
+		            /** . If this message is a reply to another message, this is the id of that original message. */
+		            'inReplyToMessageId': {
+		                type: 'id',
+		                hint: 'If this message is a reply to another message, this is the id of that original message.',
 		                options: undefined
 		            },
 		            /** . */
