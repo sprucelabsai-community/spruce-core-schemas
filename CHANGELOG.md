@@ -1,3 +1,10 @@
+# [41.2.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.1.21...v41.2.0) (2025-10-01)
+
+
+### Features
+
+* inReplyToMessageId in message for conversation tracking ([696d726](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/696d726))
+
 ## [41.1.21](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.1.20...v41.1.21) (2025-09-30)
 
 ## [41.1.20](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.1.19...v41.1.20) (2025-09-30)
