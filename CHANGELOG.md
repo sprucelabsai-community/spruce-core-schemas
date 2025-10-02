@@ -1,3 +1,10 @@
+# [41.3.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.2.1...v41.3.0) (2025-10-02)
+
+
+### Features
+
+* agent schema ([e2934de](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/e2934de))
+
 ## [41.2.1](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.2.0...v41.2.1) (2025-10-02)
 
 # [41.2.0](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.1.21...v41.2.0) (2025-10-01)
