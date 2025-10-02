@@ -18,6 +18,7 @@ export default buildSchema({
         },
         source: {
             type: 'schema',
+            isPrivate: true,
             options: {
                 schema: buildSchema({
                     id: 'agentSource',

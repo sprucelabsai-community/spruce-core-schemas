@@ -1482,6 +1482,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		            /** . */
 		            'source': {
 		                type: 'schema',
+		                isPrivate: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.AgentSourceSchema,}
 		            },
 		    }

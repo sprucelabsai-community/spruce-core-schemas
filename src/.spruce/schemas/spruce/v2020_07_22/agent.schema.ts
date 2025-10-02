@@ -31,6 +31,7 @@ const agentSchema: SpruceSchemas.Spruce.v2020_07_22.AgentSchema  = {
 	            /** . */
 	            'source': {
 	                type: 'schema',
+	                isPrivate: true,
 	                options: {schema: agentSourceSchema_v2020_07_22,}
 	            },
 	    }
