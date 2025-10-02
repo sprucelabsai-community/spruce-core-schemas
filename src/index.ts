@@ -16,6 +16,7 @@ export { default as feedItemTargetSchema } from '#spruce/schemas/spruce/v2020_07
 export { default as linkSchema } from '#spruce/schemas/spruce/v2020_07_22/link.schema'
 export { default as feedItemSchema } from '#spruce/schemas/spruce/v2020_07_22/feedItem.schema'
 export { default as choiceSchema } from '#spruce/schemas/spruce/v2020_07_22/choice.schema'
+export { default as agentSchema } from '#spruce/schemas/spruce/v2020_07_22/agent.schema'
 export { timezoneChoices } from './timezoneChoices'
 
 export * from './constants'
