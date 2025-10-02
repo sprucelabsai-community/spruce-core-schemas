@@ -17,3 +17,4 @@ export type Feed = SpruceSchemas.Spruce.v2020_07_22.Feed
 export type Link = SpruceSchemas.Spruce.v2020_07_22.Link
 export type FeedItem = SpruceSchemas.Spruce.v2020_07_22.FeedItem
 export type SelectChoice = SpruceSchemas.Spruce.v2020_07_22.Choice
+export type Agent = SpruceSchemas.Spruce.v2020_07_22.Agent
