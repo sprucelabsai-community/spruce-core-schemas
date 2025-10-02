@@ -193,6 +193,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
 			
+			'subject'?: string | undefined | null
+			
 			'body': string
 			
 			'context'?: (Record<string, any>) | undefined | null
@@ -253,6 +255,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isPrivate: true,
 		                defaultValue: "pending",
 		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
+		            },
+		            /** . */
+		            'subject': {
+		                type: 'text',
+		                options: undefined
 		            },
 		            /** . */
 		            'body': {
@@ -1087,6 +1094,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
 			
+			'subject'?: string | undefined | null
+			
 			'body': string
 			
 			'context'?: (Record<string, any>) | undefined | null
@@ -1166,6 +1175,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                isPrivate: true,
 		                defaultValue: "pending",
 		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
+		            },
+		            /** . */
+		            'subject': {
+		                type: 'text',
+		                options: undefined
 		            },
 		            /** . */
 		            'body': {

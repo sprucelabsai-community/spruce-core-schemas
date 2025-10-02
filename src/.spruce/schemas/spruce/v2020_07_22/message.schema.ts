@@ -76,6 +76,11 @@ const messageSchema: SpruceSchemas.Spruce.v2020_07_22.MessageSchema  = {
 	                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
 	            },
 	            /** . */
+	            'subject': {
+	                type: 'text',
+	                options: undefined
+	            },
+	            /** . */
 	            'body': {
 	                type: 'text',
 	                isRequired: true,

@@ -139,6 +139,9 @@ export default buildSchema({
                 ],
             },
         },
+        subject: {
+            type: 'text',
+        },
         body: {
             type: 'text',
             isRequired: true,
