@@ -21,6 +21,7 @@ import * as SpruceSchema from '@sprucelabs/schema'
 
 
 
+
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
@@ -167,6 +168,125 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	}
 
 	export type SkillEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SkillSchema>
+
+}
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
+	export interface SendMessage {
+		
+			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
+			'trackingId'?: string | undefined | null
+			/** . If this message is a reply to another message, this is the id of that original message. */
+			'inReplyToMessageId'?: string | undefined | null
+			
+			'dateSent'?: number | undefined | null
+			
+			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
+			
+			'errors'?: string[] | undefined | null
+			
+			'classification': ("auth" | "transactional" | "promotional" | "incoming")
+			
+			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
+			
+			'body': string
+			
+			'context'?: (Record<string, any>) | undefined | null
+			
+			'topicId'?: string | undefined | null
+			
+			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
+			
+			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
+	}
+
+	export interface SendMessageSchema extends SpruceSchema.Schema {
+		id: 'sendMessage',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
+		            'trackingId': {
+		                type: 'id',
+		                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
+		                options: undefined
+		            },
+		            /** . If this message is a reply to another message, this is the id of that original message. */
+		            'inReplyToMessageId': {
+		                type: 'id',
+		                hint: 'If this message is a reply to another message, this is the id of that original message.',
+		                options: undefined
+		            },
+		            /** . */
+		            'dateSent': {
+		                type: 'number',
+		                options: undefined
+		            },
+		            /** . */
+		            'target': {
+		                type: 'schema',
+		                isRequired: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
+		            },
+		            /** . */
+		            'errors': {
+		                type: 'text',
+		                isPrivate: true,
+		                isArray: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'classification': {
+		                type: 'select',
+		                isRequired: true,
+		                options: {choices: [{"value":"auth","label":"Auth"},{"value":"transactional","label":"transactional"},{"value":"promotional","label":"Promotional"},{"value":"incoming","label":"incoming"}],}
+		            },
+		            /** . */
+		            'status': {
+		                type: 'select',
+		                isPrivate: true,
+		                defaultValue: "pending",
+		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
+		            },
+		            /** . */
+		            'body': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'context': {
+		                type: 'raw',
+		                isPrivate: true,
+		                options: {valueType: `Record<string, any>`,}
+		            },
+		            /** . */
+		            'topicId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'links': {
+		                type: 'schema',
+		                isArray: true,
+		                minArrayLength: 0,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.LinkSchema,}
+		            },
+		            /** . */
+		            'choices': {
+		                type: 'schema',
+		                isArray: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema,}
+		            },
+		    }
+	}
+
+	export type SendMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema>
 
 }
 
@@ -740,150 +860,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	/** A discrete communication between two humans or a human and a machine. */
-	export interface Message {
-		
-			
-			'id': string
-			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
-			'trackingId'?: string | undefined | null
-			/** . If this message is a reply to another message, this is the id of that original message. */
-			'inReplyToMessageId'?: string | undefined | null
-			
-			'dateCreated': number
-			
-			'dateSent'?: number | undefined | null
-			
-			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
-			
-			'source': SpruceSchemas.Spruce.v2020_07_22.MessageSource
-			
-			'errors'?: string[] | undefined | null
-			
-			'classification': ("auth" | "transactional" | "promotional" | "incoming")
-			
-			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
-			
-			'body': string
-			
-			'context'?: (Record<string, any>) | undefined | null
-			
-			'topicId'?: string | undefined | null
-			
-			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
-			
-			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
-	}
-
-	export interface MessageSchema extends SpruceSchema.Schema {
-		id: 'message',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: '',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		description: 'A discrete communication between two humans or a human and a machine.',
-		    fields: {
-		            /** . */
-		            'id': {
-		                type: 'id',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
-		            'trackingId': {
-		                type: 'id',
-		                hint: 'An arbitrary id that can be used to track this message when being sent and not yet assigned an Id.',
-		                options: undefined
-		            },
-		            /** . If this message is a reply to another message, this is the id of that original message. */
-		            'inReplyToMessageId': {
-		                type: 'id',
-		                hint: 'If this message is a reply to another message, this is the id of that original message.',
-		                options: undefined
-		            },
-		            /** . */
-		            'dateCreated': {
-		                type: 'number',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'dateSent': {
-		                type: 'number',
-		                options: undefined
-		            },
-		            /** . */
-		            'target': {
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
-		            },
-		            /** . */
-		            'source': {
-		                type: 'schema',
-		                isRequired: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageSourceSchema,}
-		            },
-		            /** . */
-		            'errors': {
-		                type: 'text',
-		                isPrivate: true,
-		                isArray: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'classification': {
-		                type: 'select',
-		                isRequired: true,
-		                options: {choices: [{"value":"auth","label":"Auth"},{"value":"transactional","label":"transactional"},{"value":"promotional","label":"Promotional"},{"value":"incoming","label":"incoming"}],}
-		            },
-		            /** . */
-		            'status': {
-		                type: 'select',
-		                isPrivate: true,
-		                defaultValue: "pending",
-		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
-		            },
-		            /** . */
-		            'body': {
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'context': {
-		                type: 'raw',
-		                isPrivate: true,
-		                options: {valueType: `Record<string, any>`,}
-		            },
-		            /** . */
-		            'topicId': {
-		                type: 'id',
-		                options: undefined
-		            },
-		            /** . */
-		            'links': {
-		                type: 'schema',
-		                isArray: true,
-		                minArrayLength: 0,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.LinkSchema,}
-		            },
-		            /** . */
-		            'choices': {
-		                type: 'schema',
-		                isArray: true,
-		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema,}
-		            },
-		    }
-	}
-
-	export type MessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.MessageSchema>
-
-}
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
 	/** A physical location where people meet. An organization has at least one of them. */
 	export interface Location {
 		
@@ -1191,17 +1167,23 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	
-	export interface SendMessage {
+	/** A discrete communication between two humans or a human and a machine. */
+	export interface Message {
 		
+			
+			'id': string
 			/** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
 			'trackingId'?: string | undefined | null
 			/** . If this message is a reply to another message, this is the id of that original message. */
 			'inReplyToMessageId'?: string | undefined | null
 			
+			'dateCreated': number
+			
 			'dateSent'?: number | undefined | null
 			
 			'target': SpruceSchemas.Spruce.v2020_07_22.MessageTarget
+			
+			'source': SpruceSchemas.Spruce.v2020_07_22.MessageSource
 			
 			'errors'?: string[] | undefined | null
 			
@@ -1220,13 +1202,20 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
 	}
 
-	export interface SendMessageSchema extends SpruceSchema.Schema {
-		id: 'sendMessage',
+	export interface MessageSchema extends SpruceSchema.Schema {
+		id: 'message',
 		version: 'v2020_07_22',
 		namespace: 'Spruce',
 		name: '',
 		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		description: 'A discrete communication between two humans or a human and a machine.',
 		    fields: {
+		            /** . */
+		            'id': {
+		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
 		            /** . An arbitrary id that can be used to track this message when being sent and not yet assigned an Id. */
 		            'trackingId': {
 		                type: 'id',
@@ -1240,6 +1229,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                options: undefined
 		            },
 		            /** . */
+		            'dateCreated': {
+		                type: 'number',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
 		            'dateSent': {
 		                type: 'number',
 		                options: undefined
@@ -1249,6 +1244,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'schema',
 		                isRequired: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageTargetSchema,}
+		            },
+		            /** . */
+		            'source': {
+		                type: 'schema',
+		                isRequired: true,
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.MessageSourceSchema,}
 		            },
 		            /** . */
 		            'errors': {
@@ -1303,7 +1304,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		    }
 	}
 
-	export type SendMessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema>
+	export type MessageEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.MessageSchema>
 
 }
 
@@ -1397,6 +1398,52 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	}
 
 	export type FeedItemEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FeedItemSchema>
+
+}
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
+	export interface Agent {
+		
+			
+			'id': string
+			
+			'name': string
+			
+			'systemPrompt': string
+	}
+
+	export interface AgentSchema extends SpruceSchema.Schema {
+		id: 'agent',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: 'Agent',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'id': {
+		                type: 'id',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'name': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'systemPrompt': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type AgentEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.AgentSchema>
 
 }
 

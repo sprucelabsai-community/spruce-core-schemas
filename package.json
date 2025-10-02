@@ -22,7 +22,8 @@
       "@sprucelabs/spruce-core-schemas",
       "@sprucelabs/spruce-skill-utils",
       "@sprucelabs/spruce-test-fixtures"
-    ]
+    ],
+    "version": "v2020_07_22"
   },
   "description": "The schemas that Mercury and all skills use. 🤝",
   "keywords": [
