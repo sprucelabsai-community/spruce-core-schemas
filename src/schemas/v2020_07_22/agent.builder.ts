@@ -16,5 +16,21 @@ export default buildSchema({
             type: 'text',
             isRequired: true,
         },
+        source: {
+            type: 'schema',
+            options: {
+                schema: buildSchema({
+                    id: 'agentSource',
+                    fields: {
+                        personId: {
+                            type: 'id',
+                        },
+                        skillId: {
+                            type: 'id',
+                        },
+                    },
+                }),
+            },
+        },
     },
 })

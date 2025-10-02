@@ -22,6 +22,7 @@ import * as SpruceSchema from '@sprucelabs/schema'
 
 
 
+
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
@@ -1062,111 +1063,6 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
-	
-	export interface FeedItemTarget {
-		
-			
-			'personId'?: string | undefined | null
-			
-			'casualName': string
-			
-			'avatar'?: SpruceSchema.ImageFieldValue | undefined | null
-			
-			'skillId'?: string | undefined | null
-			
-			'isMe': boolean
-			
-			'isSprucebot': boolean
-	}
-
-	export interface FeedItemTargetSchema extends SpruceSchema.Schema {
-		id: 'feedItemTarget',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: '',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		    fields: {
-		            /** . */
-		            'personId': {
-		                type: 'id',
-		                options: undefined
-		            },
-		            /** . */
-		            'casualName': {
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'avatar': {
-		                type: 'image',
-		                options: {requiredSizes: ["*"],}
-		            },
-		            /** . */
-		            'skillId': {
-		                type: 'id',
-		                options: undefined
-		            },
-		            /** . */
-		            'isMe': {
-		                type: 'boolean',
-		                isRequired: true,
-		                options: undefined
-		            },
-		            /** . */
-		            'isSprucebot': {
-		                type: 'boolean',
-		                isRequired: true,
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type FeedItemTargetEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FeedItemTargetSchema>
-
-}
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
-	
-	export interface Choice {
-		
-			
-			'value': (string | number)
-			
-			'label': string
-	}
-
-	export interface ChoiceSchema extends SpruceSchema.Schema {
-		id: 'choice',
-		version: 'v2020_07_22',
-		namespace: 'Spruce',
-		name: '',
-		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
-		    fields: {
-		            /** . */
-		            'value': {
-		                type: 'raw',
-		                isRequired: true,
-		                options: {valueType: `string | number`,}
-		            },
-		            /** . */
-		            'label': {
-		                type: 'text',
-		                isRequired: true,
-		                options: undefined
-		            },
-		    }
-	}
-
-	export type ChoiceEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema>
-
-}
-
-
-export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
-
 	/** A discrete communication between two humans or a human and a machine. */
 	export interface Message {
 		
@@ -1312,6 +1208,111 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
+	export interface FeedItemTarget {
+		
+			
+			'personId'?: string | undefined | null
+			
+			'casualName': string
+			
+			'avatar'?: SpruceSchema.ImageFieldValue | undefined | null
+			
+			'skillId'?: string | undefined | null
+			
+			'isMe': boolean
+			
+			'isSprucebot': boolean
+	}
+
+	export interface FeedItemTargetSchema extends SpruceSchema.Schema {
+		id: 'feedItemTarget',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'personId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'casualName': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'avatar': {
+		                type: 'image',
+		                options: {requiredSizes: ["*"],}
+		            },
+		            /** . */
+		            'skillId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'isMe': {
+		                type: 'boolean',
+		                isRequired: true,
+		                options: undefined
+		            },
+		            /** . */
+		            'isSprucebot': {
+		                type: 'boolean',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type FeedItemTargetEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.FeedItemTargetSchema>
+
+}
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
+	export interface Choice {
+		
+			
+			'value': (string | number)
+			
+			'label': string
+	}
+
+	export interface ChoiceSchema extends SpruceSchema.Schema {
+		id: 'choice',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'value': {
+		                type: 'raw',
+		                isRequired: true,
+		                options: {valueType: `string | number`,}
+		            },
+		            /** . */
+		            'label': {
+		                type: 'text',
+		                isRequired: true,
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type ChoiceEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema>
+
+}
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
 	export interface FeedItem {
 		
 			
@@ -1405,6 +1406,42 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 
 	
+	export interface AgentSource {
+		
+			
+			'personId'?: string | undefined | null
+			
+			'skillId'?: string | undefined | null
+	}
+
+	export interface AgentSourceSchema extends SpruceSchema.Schema {
+		id: 'agentSource',
+		version: 'v2020_07_22',
+		namespace: 'Spruce',
+		name: '',
+		moduleToImportFromWhenRemote: '@sprucelabs/spruce-core-schemas',
+		    fields: {
+		            /** . */
+		            'personId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		            /** . */
+		            'skillId': {
+		                type: 'id',
+		                options: undefined
+		            },
+		    }
+	}
+
+	export type AgentSourceEntity = SchemaEntity<SpruceSchemas.Spruce.v2020_07_22.AgentSourceSchema>
+
+}
+
+
+export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
+
+	
 	export interface Agent {
 		
 			
@@ -1413,6 +1450,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'name': string
 			
 			'systemPrompt': string
+			
+			'source'?: SpruceSchemas.Spruce.v2020_07_22.AgentSource | undefined | null
 	}
 
 	export interface AgentSchema extends SpruceSchema.Schema {
@@ -1439,6 +1478,11 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'text',
 		                isRequired: true,
 		                options: undefined
+		            },
+		            /** . */
+		            'source': {
+		                type: 'schema',
+		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.AgentSourceSchema,}
 		            },
 		    }
 	}
