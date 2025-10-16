@@ -1,0 +1,5 @@
+{
+	"commandOverrides": {
+		"sync.schemas": "--shouldGenerateCoreSchemaTypes true --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
+	}
+}

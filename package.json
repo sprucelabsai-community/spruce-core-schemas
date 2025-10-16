@@ -16,7 +16,7 @@
   "skill": {
     "namespace": "spruce-core-schema",
     "commandOverrides": {
-      "sync.schemas": "--shouldFetchCoreSchemas false --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
+      "sync.schemas": "--shouldGenerateCoreSchemaTypes true --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
     },
     "upgradeIgnoreList": [
       "@sprucelabs/spruce-core-schemas",
