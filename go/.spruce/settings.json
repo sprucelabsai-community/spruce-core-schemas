@@ -1,5 +1,5 @@
 {
 	"commandOverrides": {
-		"sync.schemas": "--shouldGenerateCoreSchemaTypes true --moduleToImportFromWhenRemote @sprucelabs/spruce-core-schemas"
+		"sync.schemas": "--shouldGenerateCoreSchemaTypes true --schemaLookupDir ../src/"
 	}
 }
