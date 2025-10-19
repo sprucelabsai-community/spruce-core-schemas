@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "41.3.30",
+  "version": "41.3.31",
   "files": [
     "build/**/*",
     "tsconfig.json"
@@ -61,15 +61,15 @@
     "watch.rebuild": "yarn run clean.all && yarn install && yarn run watch.build.dev"
   },
   "dependencies": {
-    "@sprucelabs/schema": "^32.3.2"
+    "@sprucelabs/schema": "^32.3.8"
   },
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^7.0.47",
-    "@sprucelabs/jest-json-reporter": "^9.0.68",
+    "@sprucelabs/jest-json-reporter": "^9.0.69",
     "@sprucelabs/resolve-path-aliases": "^3.0.29",
     "@sprucelabs/semantic-release": "^5.0.2",
     "@sprucelabs/test": "^10.0.25",
-    "@sprucelabs/test-utils": "^6.0.111",
+    "@sprucelabs/test-utils": "^6.0.113",
     "@types/node": "^24.8.1",
     "chokidar-cli": "^3.0.0",
     "date-fns": "^4.1.0",

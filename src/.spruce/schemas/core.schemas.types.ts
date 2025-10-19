@@ -197,7 +197,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'body': string
 			
-			'context'?: (Record<string, any>) | undefined | null
+			'context'?: Record<string, any> | undefined | null
 			
 			'topicId'?: string | undefined | null
 			
@@ -1098,7 +1098,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'body': string
 			
-			'context'?: (Record<string, any>) | undefined | null
+			'context'?: Record<string, any> | undefined | null
 			
 			'topicId'?: string | undefined | null
 			
@@ -1292,7 +1292,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 	export interface Choice {
 		
 			
-			'value': (string | number)
+			'value': string | number
 			
 			'label': string
 	}
@@ -1346,7 +1346,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
 			
-			'context'?: (Record<string, any>) | undefined | null
+			'context'?: Record<string, any> | undefined | null
 	}
 
 	export interface FeedItemSchema extends SpruceSchema.Schema {
