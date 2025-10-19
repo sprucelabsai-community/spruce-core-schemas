@@ -1,0 +1,8 @@
+{
+  "commandOverrides": {
+    "sync.schemas": "--shouldGenerateCoreSchemaTypes true --schemaLookupDir ../src/"
+  },
+  "installed": [
+    "schema"
+  ]
+}
