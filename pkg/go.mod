@@ -1,4 +1,4 @@
-module github.com/sprucelabs/spruce-core-schemas/pkg/v41
+module github.com/sprucelabs/spruce-core-schemas/v41
 
 go 1.24.3
 
