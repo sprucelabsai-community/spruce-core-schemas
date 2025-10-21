@@ -1,11 +1,13 @@
 package v2020_07_22
 
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT.
+
 import (
     "encoding/json"
-    "github.com/sprucelabsai-community/spruce-core-schemas/v41/schemas"
+    "github.com/sprucelabsai-community/spruce-core-schemas/v41/pkg/schemas"
 )
 
-func MakeSkill(data map[string]interface{}) (*schemas.Skill, error) {
+func MakeSkill(data map[string]any) (*schemas.Skill, error) {
     var skill schemas.Skill
 
     jsonData, err := json.Marshal(data)

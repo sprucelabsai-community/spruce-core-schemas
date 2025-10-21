@@ -1,11 +1,13 @@
 package v2020_07_22
 
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT.
+
 import (
     "encoding/json"
-    "github.com/sprucelabsai-community/spruce-core-schemas/v41/schemas"
+    "github.com/sprucelabsai-community/spruce-core-schemas/v41/pkg/schemas"
 )
 
-func MakeMessage(data map[string]interface{}) (*schemas.Message, error) {
+func MakeMessage(data map[string]any) (*schemas.Message, error) {
     var message schemas.Message
 
     jsonData, err := json.Marshal(data)

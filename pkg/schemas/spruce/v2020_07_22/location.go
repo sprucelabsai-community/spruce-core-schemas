@@ -1,11 +1,13 @@
 package v2020_07_22
 
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT.
+
 import (
     "encoding/json"
-    "github.com/sprucelabsai-community/spruce-core-schemas/v41/schemas"
+    "github.com/sprucelabsai-community/spruce-core-schemas/v41/pkg/schemas"
 )
 
-func MakeLocation(data map[string]interface{}) (*schemas.Location, error) {
+func MakeLocation(data map[string]any) (*schemas.Location, error) {
     var location schemas.Location
 
     jsonData, err := json.Marshal(data)

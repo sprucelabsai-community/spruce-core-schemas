@@ -1,11 +1,13 @@
 package v2020_07_22
 
+// THIS FILE IS AUTO-GENERATED. DO NOT EDIT.
+
 import (
     "encoding/json"
-    "github.com/sprucelabsai-community/spruce-core-schemas/v41/schemas"
+    "github.com/sprucelabsai-community/spruce-core-schemas/v41/pkg/schemas"
 )
 
-func MakeFeed(data map[string]interface{}) (*schemas.Feed, error) {
+func MakeFeed(data map[string]any) (*schemas.Feed, error) {
     var feed schemas.Feed
 
     jsonData, err := json.Marshal(data)
