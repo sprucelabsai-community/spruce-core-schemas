@@ -5,8 +5,7 @@
   },
   "version": "41.3.39",
   "files": [
-    "build/**/*",
-    "tsconfig.json"
+    "build/**/*"
   ],
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
