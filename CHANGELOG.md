@@ -1,3 +1,17 @@
+## [41.3.46](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.45...v41.3.46) (2025-10-31)
+
+## [41.3.45](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.44...v41.3.45) (2025-10-29)
+
+## [41.3.44](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.43...v41.3.44) (2025-10-28)
+
+## [41.3.43](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.42...v41.3.43) (2025-10-28)
+
+## [41.3.42](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.41...v41.3.42) (2025-10-26)
+
+## [41.3.41](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.40...v41.3.41) (2025-10-25)
+
+## [41.3.40](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.39...v41.3.40) (2025-10-21)
+
 ## [41.3.39](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.38...v41.3.39) (2025-10-21)
 
 ## [41.3.38](https://github.com/sprucelabsai-community/spruce-core-schemas/compare/v41.3.37...v41.3.38) (2025-10-21)
