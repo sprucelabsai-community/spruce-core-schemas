@@ -1,3 +1,7 @@
+## 42.0.0 (2025-11-09)
+
+* major: upgrade ([24ea5cb](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/24ea5cb))
+
 ## <small>41.3.49 (2025-11-08)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([b189e33](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/b189e33))
