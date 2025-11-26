@@ -1,3 +1,7 @@
+## <small>42.0.12 (2025-11-26)</small>
+
+* patch: messages now have logs ([bb3c64b](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/bb3c64b))
+
 ## <small>42.0.11 (2025-11-17)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([86bc886](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/86bc886))
