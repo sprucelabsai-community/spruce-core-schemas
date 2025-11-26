@@ -171,5 +171,9 @@ export default buildSchema({
                 schema: choiceBuilder,
             },
         },
+        log: {
+            type: 'text',
+            hint: 'An arbitrary log associated with the message. Is used for debugging purposes.',
+        },
     },
 })

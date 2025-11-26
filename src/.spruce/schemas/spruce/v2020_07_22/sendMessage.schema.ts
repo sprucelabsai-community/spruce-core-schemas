@@ -90,6 +90,12 @@ const sendMessageSchema: SpruceSchemas.Spruce.v2020_07_22.SendMessageSchema  = {
 	                isArray: true,
 	                options: {schema: choiceSchema_v2020_07_22,}
 	            },
+	            /** . An arbitrary log associated with the message. Is used for debugging purposes. */
+	            'log': {
+	                type: 'text',
+	                hint: 'An arbitrary log associated with the message. Is used for debugging purposes.',
+	                options: undefined
+	            },
 	    }
 }
 

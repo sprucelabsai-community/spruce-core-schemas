@@ -204,6 +204,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
 			
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
+			/** . An arbitrary log associated with the message. Is used for debugging purposes. */
+			'log'?: string | undefined | null
 	}
 
 	export interface SendMessageSchema extends SpruceSchema.Schema {
@@ -290,6 +292,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'schema',
 		                isArray: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema,}
+		            },
+		            /** . An arbitrary log associated with the message. Is used for debugging purposes. */
+		            'log': {
+		                type: 'text',
+		                hint: 'An arbitrary log associated with the message. Is used for debugging purposes.',
+		                options: undefined
 		            },
 		    }
 	}
@@ -1105,6 +1113,8 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			'links'?: SpruceSchemas.Spruce.v2020_07_22.Link[] | undefined | null
 			
 			'choices'?: SpruceSchemas.Spruce.v2020_07_22.Choice[] | undefined | null
+			/** . An arbitrary log associated with the message. Is used for debugging purposes. */
+			'log'?: string | undefined | null
 	}
 
 	export interface MessageSchema extends SpruceSchema.Schema {
@@ -1210,6 +1220,12 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'schema',
 		                isArray: true,
 		                options: {schema: SpruceSchemas.Spruce.v2020_07_22.ChoiceSchema,}
+		            },
+		            /** . An arbitrary log associated with the message. Is used for debugging purposes. */
+		            'log': {
+		                type: 'text',
+		                hint: 'An arbitrary log associated with the message. Is used for debugging purposes.',
+		                options: undefined
 		            },
 		    }
 	}
