@@ -1,3 +1,8 @@
+## <small>42.0.14 (2025-11-27)</small>
+
+* Merge branch 'master' of github.com:sprucelabsai/spruce-core-schemas ([714de91](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/714de91))
+* patch: message new status processed-internally ([287f226](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/287f226))
+
 ## <small>42.0.13 (2025-11-27)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([d29f99f](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/d29f99f))
