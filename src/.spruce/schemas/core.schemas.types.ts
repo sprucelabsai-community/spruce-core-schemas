@@ -191,7 +191,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'classification': ("auth" | "transactional" | "promotional" | "incoming")
 			
-			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
+			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored" | "processed-internally") | undefined | null
 			
 			'subject'?: string | undefined | null
 			
@@ -256,7 +256,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'select',
 		                isPrivate: true,
 		                defaultValue: "pending",
-		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
+		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"},{"value":"processed-internally","label":"Processed Internally"}],}
 		            },
 		            /** . */
 		            'subject': {
@@ -1100,7 +1100,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 			
 			'classification': ("auth" | "transactional" | "promotional" | "incoming")
 			
-			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored") | undefined | null
+			'status'?: ("pending" | "processing" | "sent" | "failed" | "ignored" | "processed-internally") | undefined | null
 			
 			'subject'?: string | undefined | null
 			
@@ -1184,7 +1184,7 @@ export declare namespace SpruceSchemas.Spruce.v2020_07_22 {
 		                type: 'select',
 		                isPrivate: true,
 		                defaultValue: "pending",
-		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"}],}
+		                options: {choices: [{"value":"pending","label":"Pending"},{"value":"processing","label":"Processing"},{"value":"sent","label":"Sent"},{"value":"failed","label":"Failed"},{"value":"ignored","label":"Ignored"},{"value":"processed-internally","label":"Processed Internally"}],}
 		            },
 		            /** . */
 		            'subject': {

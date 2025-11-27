@@ -136,6 +136,10 @@ export default buildSchema({
                         value: 'ignored',
                         label: 'Ignored',
                     } as const,
+                    {
+                        value: 'processed-internally',
+                        label: 'Processed Internally',
+                    } as const,
                 ],
             },
         },
