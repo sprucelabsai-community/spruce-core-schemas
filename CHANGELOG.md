@@ -1,3 +1,7 @@
+## <small>42.1.6 (2026-02-17)</small>
+
+* patch: upgrade dependencies ([eeef2ad](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/eeef2ad))
+
 ## <small>42.1.5 (2026-01-27)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([22d4da8](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/22d4da8))
