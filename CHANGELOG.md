@@ -1,3 +1,8 @@
+## <small>42.1.14 (2026-02-23)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([91a79bb](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/91a79bb))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([7b561f1](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/7b561f1))
+
 ## <small>42.1.13 (2026-02-23)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([a819ee0](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/a819ee0))
