@@ -1,3 +1,7 @@
+## <small>42.1.21 (2026-04-07)</small>
+
+* Upgrade dependencies and fix TypeScript 6.0 tsconfig deprecations ([e324411](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/e324411))
+
 ## <small>42.1.20 (2026-03-13)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([c98c44f](https://github.com/sprucelabsai-community/spruce-core-schemas/commit/c98c44f))
